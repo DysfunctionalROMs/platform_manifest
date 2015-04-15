@@ -1,48 +1,23 @@
-Submitting Patches
-------------------
-Our ROM is open source, and patches are always welcome!
-You can send patches by using these commands:
-
-    cd <project>
-    <make edits>
-    git add -A
-    git commit -m "commit message"
-    git push ssh://<username>@gerrit.omnirom.org:29418/<project> HEAD:refs/for/android-5.1
-
-Register at gerrit.omnirom.org and use the username that you registered there in the above command
-
-Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
-
-If you are going to make extra additions, just repeat steps (Don't start a new patch), but instead of git commit -m
-use git commit --amend. Gerrit will recognize it as a new patchset.
-
-To view the status of your and others patches, visit [OMNI ROM Code Review](https://gerrit.omnirom.org)
-
-
 Getting Started
----------------
 
-To get started with OMNI ROM, you'll need to get
-familiar with [Git and Repo](http://source.android.com/download/using-repo).
+To get started with BrokenRoms, you'll need to get familiar with Git and Repo.
 
-To initialize your local repository using the OMNIROM trees, use a command like this:
+To initialize your local repository using the AOSP/CAF based BrokenRoms source, use this command:
 
-    repo init -u git://github.com/omnirom/android.git -b android-5.1
+repo init -u git://github.com/BrokenROM/platform_manifest.git -b lp5.1
 
-Then to sync up:
+Sync up with this command:
 
-    repo sync
+repo sync -f -jX (-f being for force and replace the X in -jX with the number of cpus/threads your box contains (WARNING: Going too high can severely drag performance)
 
-Then to build:
+Initiate the build with:
 
-     cd <source-dir>; . build/envsetup.sh; brunch <device_name>
+. build/envsetup.sh
 
+Prepare your device with:
 
-If you need more information or a more detailed guide, click [here to see our wiki.](http://docs.omnirom.org)
+lunch (pick your devices number from the list)
 
-Our official IRC Channels are hosted on Freenode:
+Then fire it off with:
 
-[#omnirom - USERS](http://webchat.freenode.net/?channels=omnirom/)
-
-[#omni - DEVELOPERS](http://webchat.freenode.net/?channels=omni/)
-
+time make broken -jX (x being the amount of cores/threads your build box contains...Adjust accordingly, but going too high for your box can cause complications..Be warned)
