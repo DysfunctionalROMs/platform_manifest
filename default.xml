@@ -146,7 +146,7 @@
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs" />
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="omnirom" revision="android-5.1" groups="pdk" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="cm" revision="cm-12.1" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,tradefed" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs" />
@@ -542,7 +542,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
-  <project path="system/core" name="android_system_core" remote="omnirom" revision="android-5.1" groups="pdk" />
+  <project path="system/core" name="system_core" groups="pdk" remote="broken" revision="lp5.1" />
   <project path="system/extras" name="android_system_extras" remote="omnirom" revision="android-5.1" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="omnirom" revision="android-5.1" />
