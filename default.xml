@@ -313,7 +313,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
-  <project path="frameworks/av" name="frameworks_av" remote="broken" revision="lp5.1" groups="pdk" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-5.1-caf" groups="pdk" />
   <project path="frameworks/base" name="frameworks_base" remote="broken" revision="lp5.1" groups="pdk-cw-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
@@ -571,10 +571,6 @@
   <project path="vendor/broken" name="vendor_broken" remote="broken" revision="lp5.1" >
   <copyfile src="tools/build-broken.sh" dest="build-broken.sh" />
   </project>
-  
-  <!-- ffmpeg -->
-  <project path="external/ffmpeg" name="SlimRoms/android_external_ffmpeg" remote="github" revision="lp5.1" />
-  <project path="external/stagefright-plugins" name="SlimRoms/android_external_stagefright-plugins" remote="github" revision="lp5.1" />
   
   <!-- Google play services -->
   <project path="external/google" name="android_external_google" remote="cm" revision="cm-12.1" />
