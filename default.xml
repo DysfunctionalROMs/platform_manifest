@@ -572,6 +572,9 @@
   <copyfile src="tools/build-broken.sh" dest="build-broken.sh" />
   </project>
   
+  <!-- Google play services -->
+  <project path="external/google/google_play_services" name="android_external_google_google_play_services" remote="slim" revision="lp5.1" />
+  
   <!-- ROM TOOLCHAINS -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="arm-linux-androideabi-4.8" remote="tv" revision="lp" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="tv" revision="lp" />
