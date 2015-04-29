@@ -550,7 +550,6 @@
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
   <project path="system/core" name="system_core" remote="broken" revision="lp5.1" />
   <project path="system/extras" name="system_extras" remote="broken" revision="lp5.1" />
-  <project path="system/extras/su" name="SlimRoms/android_system_extras_su" remote="github" revision="lp5.1" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="lp5.1" />
