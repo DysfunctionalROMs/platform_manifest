@@ -27,7 +27,7 @@
           fetch="https://github.com/SlimRoms/" />
            
   <remote name="tv"
-          fetch="git://github.com/Team-Validus/" />
+          fetch="https://github.com/Team-Validus/" />
            
   <remote name="vanir"
           fetch="https://github.com/VanirAOSP/" />
