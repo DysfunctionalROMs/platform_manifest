@@ -56,6 +56,7 @@
   </project>
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="broken" revision="lp5.1" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="broken" revision="lp5.1" />
+  <project path="frameworks/av" name="frameworks_av" remote="broken" revision="lp5.1" />
   <project path="frameworks/base" name="frameworks_base" remote="broken" revision="lp5.1" />
   <project path="frameworks/native" name="frameworks_native" remote="broken" revision="lp5.1" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="broken" revision="lp5.1" />
@@ -349,7 +350,6 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
-  <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="lp5.1" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
