@@ -607,9 +607,8 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="arm-eabi-4.8" remote="tv" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="arm-eabi-4.9" remote="tv" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-sm" name="arm-eabi-4.10" remote="tv" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/sabermod-arm-linux-gnueabi-5.1" name="sabermod-arm-linux-gnueabi-5.1" remote="BrokenTC" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/sabermod-arm-linux-gnueabi-5.1" name="arm-linux-gnueabi-5.1" remote="BrokenTC" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/sabermod-arm-linux-gnueabi-6.0" name="sabermod-arm-linux-gnueabi-6.0" remote="BrokenTC" revision="master" />
   <project path="prebuilts/gcc/linux-x86/aarch64/sabermod-aarch64-linux-gnu-5.1" name="sabermod-aarch64-linux-gnu-5.1" remote="BrokenTC" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/sabermod-aarch64-linux-gnu-6.0" name="sabermod-aarch64-linux-gnu-6.0" remote="BrokenTC" revision="master" />
 
 </manifest>
