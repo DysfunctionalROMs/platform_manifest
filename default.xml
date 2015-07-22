@@ -42,7 +42,7 @@
           fetch="https://github.com/omnirom" />
 
   <remote name="BrokenTC"
-	  fetch="https://bitbucket.org/BrokenTC" />
+	      fetch="https://bitbucket.org/BrokenTC" />
 
   <default revision="refs/tags/android-5.1.1_r6"
            remote="aosp"
@@ -84,6 +84,9 @@
   <project path="vendor/broken" name="vendor_broken" remote="broken" revision="lp5.1" >
     <copyfile src="tools/build-broken.sh" dest="build-broken.sh" />
   </project>
+
+  <!-- Anti-piracy support -->
+  <project path="packages/services/AntiPiracy" name="AlmightyMegadeth00/AntiPiracySupport" remote="github" revision="master" />
   
   <!-- Everyone else -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
