@@ -395,7 +395,7 @@
   <project path="hardware/intel/common/omx-components" name="CM-zenfone2/android_hardware_intel_common_omx-components" remote="github" revision="cm-12.1" />
   <project path="hardware/intel/common/utils" name="CM-zenfone2/android_hardware_intel_common_utils" remote="github" revision="cm-12.1" />
   <project path="hardware/intel/common/wrs_omxil_core" name="CM-zenfone2/android_hardware_intel_common_wrs_omxil_core" remote="github" revision="cm-12.1" />
-  <project path="hardware/intel/img/hwcomposer" name=name="CM-zenfone2/android_hardware_intel_img_hwcomposer" remote="github" revision="cm-12.1" />
+  <project path="hardware/intel/img/hwcomposer" name="CM-zenfone2/android_hardware_intel_img_hwcomposer" remote="github" revision="cm-12.1" />
   <project path="hardware/intel/img/libdrm" name="CM-zenfone2/android_hardware_intel_img_libdrm" remote="github" revision="cm-12.1" />
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
   <project path="hardware/intel/img/psb_video" name="CM-zenfone2/android_hardware_intel_img_psb_video" remote="github" revision="cm-12.1" />
