@@ -76,6 +76,7 @@
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="broken" revision="lp5.1" />
   <project path="packages/apps/ScreenRecorder" name="packages_apps_ScreenRecorder" remote="broken" revision="lp5.1" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="broken" revision="lp5.1" />
+  <project path="packages/apps/WallpaperPicker" name="packages_apps_WallpaperPicker" remote="broken" revision="lp5.1" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="broken" revision="lp5.1" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="broken" revision="lp5.1" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="broken" revision="lp5.1" />
