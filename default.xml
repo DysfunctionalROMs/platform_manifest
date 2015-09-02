@@ -65,7 +65,6 @@
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="broken" revision="lp5.1" groups="frameworks_ims,pdk-cw-fs" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="broken" revision="lp5.1" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="broken" revision="lp5.1" />
-  <project path="packages/apps/BrokenCenter" name="packages_apps_BrokenCenter" remote="broken" revision="lp5.1" />
   <project path="packages/apps/BrokenOsWalls" name="packages_apps_BrokenOsWalls" remote="broken" revision="lp5.1" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="broken" revision="lp5.1" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="broken" revision="lp5.1" />
