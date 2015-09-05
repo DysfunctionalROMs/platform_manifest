@@ -10,6 +10,9 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
+  <remote  name="gs"
+           fetch="https://git.sphere.ly" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
@@ -609,5 +612,6 @@
   <project path="prebuilts/gcc/linux-x86/arm/sabermod-arm-linux-gnueabi-6.0" name="sabermod-arm-linux-gnueabi-6.0" remote="BrokenTC" revision="master" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-5.2" name="aarch64-linux-gnu-5.2" remote="BrokenTC" revision="master" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-gnu-5.2" name="x86_64-linux-gnu-5.2" remote="BrokenTC" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-candy-linux-gnueabi" name="mugenman1111/arm-candy-linux-gnueabi.git" remote="gs" revision="c5-z" />
 
 </manifest>
