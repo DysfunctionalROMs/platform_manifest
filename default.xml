@@ -605,7 +605,7 @@
   
   <!-- CUSTOM TOOLCHAINS -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERTC/arm-eabi-4.9" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1" name="UBERTC/arm-eabi-5.1" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1" name="UBERTC/arm-eabi-5.2" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0" name="UBERTC/arm-eabi-6.0" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-4.9" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/sabermod-arm-linux-gnueabi-5.1" name="arm-linux-gnueabi-5.1" remote="BrokenTC" revision="master" />
