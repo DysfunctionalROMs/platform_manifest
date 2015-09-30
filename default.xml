@@ -59,6 +59,7 @@
   </project>
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="broken" revision="lp5.1" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="broken" revision="lp5.1" />
+  <project path="external/tinyalsa" name="external_tinyalsa" remote="broken" revision="lp5.1" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="broken" revision="lp5.1" />
   <project path="frameworks/av" name="frameworks_av" remote="broken" revision="lp5.1" />
   <project path="frameworks/base" name="frameworks_base" remote="broken" revision="lp5.1" />
@@ -68,6 +69,7 @@
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="broken" revision="lp5.1" groups="frameworks_ims,pdk-cw-fs" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="broken" revision="lp5.1" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="broken" revision="lp5.1" />
+  <project path="hardware/ril" name="hardware_ril" remote="broken" revision="lp5.1" />
   <project path="packages/apps/BrokenWalls" name="packages_apps_BrokenWalls" remote="broken" revision="lp5.1" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="broken" revision="lp5.1" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="broken" revision="lp5.1" />
@@ -344,7 +346,6 @@
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,tradefed" />
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs" />
-  <project path="external/tinyalsa" name="external_tinyalsa" remote="broken" revision="lp5.1" />
   <project path="external/tinycompress" name="SlimRoms/android_external_tinycompress" remote="github" revision="lp5.1" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
@@ -444,7 +445,6 @@
   <project path="hardware/qcom/power" name="SlimRoms/hardware_qcom_power" remote="github" revision="lp5.1" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="SlimRoms/hardware_qcom_wlan" remote="github" revision="lp5.1" />
-  <project path="hardware/ril" name="hardware_ril" remote="broken" revision="lp5.1" />
   <project path="hardware/ril-caf" name="SlimRoms/hardware_ril" remote="github" revision="lp5.1-caf" />
   <project path="hardware/ti/omap3" name="SlimRoms/hardware_ti_omap3" remote="github" revision="lp5.1" />
   <project path="hardware/ti/omap4" name="SlimRoms/hardware_ti_omap4" remote="github" revision="lp5.1" />
