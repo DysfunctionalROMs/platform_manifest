@@ -613,5 +613,6 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-5.2" name="aarch64-linux-gnu-5.2" remote="BrokenTC" revision="master" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-gnu-5.2" name="x86_64-linux-gnu-5.2" remote="BrokenTC" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-candy-linux-gnueabi" name="mugenman1111/arm-candy-linux-gnueabi.git" remote="gs" revision="c5-z" />
+  <project path="prebuilts/gcc/linux-x86/arm/linaro-lto" name="arter97/linaro-lto" remote="github" revision="master" />
 
 </manifest>
