@@ -18,7 +18,8 @@
            review="android-review.googlesource.com" />
 
   <remote name="broken"
-          fetch="https://github.com/BrokenROM/" />
+          fetch="https://github.com/BrokenROM/"
+          revision="lp5.1" />
 
   <remote name="aicp"
           fetch="https://github.com/AICP/" />
@@ -52,43 +53,43 @@
            sync-j="4" />
 
   <!-- Broken Repos -->
-  <project path="art" name="android_art" remote="broken" revision="lp5.1"  />
-  <project path="bionic" name="bionic" remote="broken" revision="lp5.1" />
-  <project path="build" name="android_build" remote="broken" revision="lp5.1" groups="pdk,tradefed" >
+  <project path="art" name="android_art" remote="broken"  />
+  <project path="bionic" name="bionic" remote="broken" />
+  <project path="build" name="android_build" remote="broken" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="broken" revision="lp5.1" />
-  <project path="external/sepolicy" name="android_external_sepolicy" remote="broken" revision="lp5.1" />
-  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="broken" revision="lp5.1" />
-  <project path="frameworks/av" name="frameworks_av" remote="broken" revision="lp5.1" />
-  <project path="frameworks/base" name="frameworks_base" remote="broken" revision="lp5.1" />
-  <project path="frameworks/native" name="frameworks_native" remote="broken" revision="lp5.1" />
-  <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="broken" revision="lp5.1" />
-  <project path="frameworks/opt/hardware" name="frameworks_opt_hardware" remote="broken" revision="lp5.1" />
-  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="broken" revision="lp5.1" groups="frameworks_ims,pdk-cw-fs" />
-  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="broken" revision="lp5.1" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="broken" revision="lp5.1" />
-  <project path="packages/apps/BrokenWalls" name="packages_apps_BrokenWalls" remote="broken" revision="lp5.1" />
-  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="broken" revision="lp5.1" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="broken" revision="lp5.1" />
-  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="broken" revision="lp5.1" />
-  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="broken" revision="lp5.1" />
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="broken" revision="lp5.1" />
-  <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="broken" revision="lp5.1" />
-  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="broken" revision="lp5.1" />
-  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="broken" revision="lp5.1" />
-  <project path="packages/apps/ScreenRecorder" name="packages_apps_ScreenRecorder" remote="broken" revision="lp5.1" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="broken" revision="lp5.1" />
-  <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="broken" revision="lp5.1" >
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="broken" />
+  <project path="external/sepolicy" name="android_external_sepolicy" remote="broken" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="broken" />
+  <project path="frameworks/av" name="frameworks_av" remote="broken" />
+  <project path="frameworks/base" name="frameworks_base" remote="broken" />
+  <project path="frameworks/native" name="frameworks_native" remote="broken" />
+  <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="broken" />
+  <project path="frameworks/opt/hardware" name="frameworks_opt_hardware" remote="broken" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="broken" groups="frameworks_ims,pdk-cw-fs" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="broken" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="broken" />
+  <project path="packages/apps/BrokenWalls" name="packages_apps_BrokenWalls" remote="broken" />
+  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="broken" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="broken" />
+  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="broken" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="broken" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="broken" />
+  <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="broken" />
+  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="broken" />
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="broken" />
+  <project path="packages/apps/ScreenRecorder" name="packages_apps_ScreenRecorder" remote="broken" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="broken" />
+  <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="broken" >
 	<copyfile src="ota_conf" dest="ota_conf" />
   </project>
-  <project path="packages/apps/WallpaperPicker" name="packages_apps_WallpaperPicker" remote="broken" revision="lp5.1" />
-  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="broken" revision="lp5.1" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="broken" revision="lp5.1" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="broken" revision="lp5.1" />
-  <project path="system/core" name="system_core" remote="broken" revision="lp5.1" />
-  <project path="platform_manifest" name="platform_manifest" remote="broken" revision="lp5.1" />
-  <project path="vendor/broken" name="vendor_broken" remote="broken" revision="lp5.1" >
+  <project path="packages/apps/WallpaperPicker" name="packages_apps_WallpaperPicker" remote="broken" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="broken" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="broken" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="broken" />
+  <project path="system/core" name="system_core" remote="broken" />
+  <project path="platform_manifest" name="platform_manifest" remote="broken" />
+  <project path="vendor/broken" name="vendor_broken" remote="broken" >
     <copyfile src="tools/build-broken.sh" dest="build-broken.sh" />
   </project>
 
@@ -343,7 +344,7 @@
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,tradefed" />
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs" />
-  <project path="external/tinyalsa" name="external_tinyalsa" remote="broken" revision="lp5.1" />
+  <project path="external/tinyalsa" name="external_tinyalsa" remote="broken" />
   <project path="external/tinycompress" name="SlimRoms/android_external_tinycompress" remote="github" revision="lp5.1" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
@@ -443,7 +444,7 @@
   <project path="hardware/qcom/power" name="SlimRoms/hardware_qcom_power" remote="github" revision="lp5.1" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="SlimRoms/hardware_qcom_wlan" remote="github" revision="lp5.1" />
-  <project path="hardware/ril" name="hardware_ril" remote="broken" revision="lp5.1" />
+  <project path="hardware/ril" name="hardware_ril" remote="broken" />
   <project path="hardware/ril-caf" name="SlimRoms/hardware_ril" remote="github" revision="lp5.1-caf" />
   <project path="hardware/ti/omap3" name="SlimRoms/hardware_ti_omap3" remote="github" revision="lp5.1" />
   <project path="hardware/ti/omap4" name="SlimRoms/hardware_ti_omap4" remote="github" revision="lp5.1" />
