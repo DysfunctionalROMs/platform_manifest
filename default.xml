@@ -60,6 +60,7 @@
   <project path="device/qcom/common" name="device_qcom_common" remote="broken" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="broken" />
   <project path="external/busybox" name="external_busybox" remote="broken" />
+  <project path="external/chromium-webview" name="external_chromium-webview" groups="pdk" remote="broken" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" groups="pdk" remote="broken" />
   <project path="external/sepolicy" name="external_sepolicy" remote="broken" />
   <project path="external/tinyalsa" name="external_tinyalsa" remote="broken" />
@@ -147,7 +148,6 @@
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk-fs" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
