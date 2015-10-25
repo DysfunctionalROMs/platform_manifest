@@ -75,8 +75,8 @@
   <project path="hardware/libhardware" name="hardware_libhardware" remote="broken" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="broken" />
   <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" remote="broken" />
-  <project path="hardware/qcom/bt" name="BrokenROM/hardware_qcom_bt" remote="github" revision="m6.0" />
-  <project path="hardware/qcom/bt-caf" name="BrokenROM/hardware_qcom_bt" remote="github" revision="m6.0-caf" />
+  <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="broken" />
+  <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" remote="broken" revision="m6.0-caf" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="broken" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="broken" />
   <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="broken" />
