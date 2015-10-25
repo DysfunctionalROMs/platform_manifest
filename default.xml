@@ -63,6 +63,7 @@
   <project path="external/chromium-webview" name="external_chromium-webview" groups="pdk" remote="broken" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" groups="pdk" remote="broken" />
   <project path="external/sepolicy" name="external_sepolicy" remote="broken" />
+  <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="broken" />
   <project path="external/tinyalsa" name="external_tinyalsa" remote="broken" />
   <project path="external/tinycompress" name="external_tinycompress" remote="broken" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="broken" />
@@ -570,7 +571,6 @@
 
   <!-- ffmpeg -->
   <project path="external/ffmpeg" name="SlimRoms/android_external_ffmpeg" remote="github" revision="mm6.0-staging" />
-  <project path="external/stagefright-plugins" name="SlimRoms/android_external_stagefright-plugins" remote="github" revision="mm6.0-staging" />
 
   <!-- qcom display-frameworks -->
   <project path="vendor/qcom/opensource/display-frameworks" name="SlimRoms/vendor_qcom_opensource_display-frameworks" remote="github" revision="mm6.0-staging" />
