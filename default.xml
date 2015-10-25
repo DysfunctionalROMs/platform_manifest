@@ -69,10 +69,14 @@
   <project path="frameworks/av" name="frameworks_av" remote="broken" />
   <project path="frameworks/base" name="frameworks_base" remote="broken" />
   <project path="frameworks/native" name="frameworks_native" remote="broken" />
+  <project path="frameworks/opt/bluetooth" name="frameworks_opt_bluetooth" remote="broken" groups="pdk-cw-fs" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="broken" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
+  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="broken" revision="m6.0" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="broken" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="broken" />
   <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" remote="broken" />
+  <project path="hardware/qcom/bt" name="BrokenROM/hardware_qcom_bt" remote="github" revision="m6.0" />
+  <project path="hardware/qcom/bt-caf" name="BrokenROM/hardware_qcom_bt" remote="github" revision="m6.0-caf" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="broken" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="broken" />
   <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="broken" />
@@ -80,6 +84,7 @@
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="broken" />
   <project path="hardware/ril" name="hardware_ril" remote="broken" revision="m6.0" />
   <project path="hardware/ril-caf" name="hardware_ril" remote="broken" revision="m6.0-caf" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="broken" revision="m6.0" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="broken" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="broken" />
   <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="broken" >
@@ -343,7 +348,6 @@
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
-  <project path="frameworks/opt/bluetooth" name="SlimRoms/frameworks_opt_bluetooth" remote="github" revision="mm6.0-staging" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" remote="github" revision="mm6.0-staging" />
@@ -370,7 +374,6 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="SlimRoms/hardware_broadcom_libbt" remote="github" revision="mm6.0-staging" />
   <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" remote="github" revision="mm6.0-staging" />
   <project path="hardware/cyanogen" name="SlimRoms/hardware_cyanogen" remote="github" revision="mm6.0-staging" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
@@ -396,7 +399,6 @@
   <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-13.0-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-13.0-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-13.0-caf-8994" />
-  <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" remote="github" revision="mm6.0-staging" />
   <project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" remote="github" revision="mm6.0-staging" />
   <project path="hardware/qcom/display-caf/apq8084" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="cm" revision="cm-13.0-caf-8084" />
   <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="cm" revision="cm-13.0-caf-8916" />
@@ -427,7 +429,6 @@
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/AudioFX" name="SlimRoms/packages_apps_AudioFX" remote="github" revision="mm6.0-staging" />
   <project path="packages/apps/BasicSmsReceiver" name="SlimRoms/packages_apps_BasicSmsReceiver" remote="github" revision="mm6.0-staging" />
-  <project path="packages/apps/Bluetooth" name="SlimRoms/packages_apps_Bluetooth" remote="github" revision="mm6.0-staging" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="SlimRoms/packages_apps_Calendar" remote="github" revision="mm6.0-staging" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" />
