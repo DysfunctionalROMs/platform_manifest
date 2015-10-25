@@ -94,6 +94,7 @@
   <project path="system/bt" name="system_bt" remote="broken" />
   <project path="system/core" name="system_core" remote="broken" />
   <project path="system/media" name="system_media" remote="broken" />
+  <project path="system/qcom" name="system_qcom" remote="broken" />
   <project path="system/vold" name="system_vold" remote="broken" />
   <project path="vendor/broken" name="vendor_broken" remote="broken" >
     <copyfile src="tools/build-broken.sh" dest="build-broken.sh" />
@@ -536,7 +537,6 @@
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="SlimRoms/android_system_keymaster" remote="github" revision="mm6.0-staging" />
   <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="mm6.0-staging" />
-  <project path="system/qcom" name="SlimRoms/android_system_qcom" remote="github" revision="mm6.0-staging" />
   <project path="system/security" name="SlimRoms/android_system_security" remote="github" revision="mm6.0-staging" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
