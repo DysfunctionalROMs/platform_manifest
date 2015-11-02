@@ -59,9 +59,11 @@
   </project>
   <project path="device/qcom/common" name="device_qcom_common" remote="broken" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="broken" />
+  <project path="external/boringssl" name="external_boringssl" remote="broken" groups="pdk" />
   <project path="external/busybox" name="external_busybox" remote="broken" />
-  <project path="external/chromium-webview" name="external_chromium-webview" groups="pdk" remote="broken" />
+  <project path="external/chromium-webview" name="external_chromium-webview" remote="broken" groups="pdk" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" groups="pdk" remote="broken" />
+  <project path="external/jpeg" name="external_jpeg" remote="broken" groups="pdk" />
   <project path="external/sepolicy" name="external_sepolicy" remote="broken" />
   <project path="external/skia" name="external_skia" remote="broken" />
   <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="broken" />
@@ -79,6 +81,7 @@
   <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" remote="broken" />
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="broken" />
   <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" remote="broken" revision="m6.0-caf" />
+  <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="broken" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="broken" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="broken" />
   <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="broken" />
@@ -88,6 +91,7 @@
   <project path="hardware/ril-caf" name="hardware_ril" remote="broken" revision="m6.0-caf" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="broken" revision="m6.0" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="broken" />
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="broken" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="broken" />
   <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="broken" >
 	<copyfile src="ota_conf" dest="ota_conf" />
@@ -148,7 +152,6 @@
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/boringssl" name="platform/external/boringssl" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
@@ -220,7 +223,6 @@
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" />
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs,pdk-fs" />
@@ -401,7 +403,6 @@
   <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-13.0-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-13.0-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-13.0-caf-8994" />
-  <project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" remote="github" revision="mm6.0-staging" />
   <project path="hardware/qcom/display-caf/apq8084" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="cm" revision="cm-13.0-caf-8084" />
   <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="cm" revision="cm-13.0-caf-8916" />
   <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="cm" revision="cm-13.0-caf-8960" />
@@ -435,8 +436,7 @@
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="SlimRoms/packages_apps_Calendar" remote="github" revision="mm6.0-staging" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" />
-  <project path="packages/apps/Camera2" name="SlimRoms/packages_apps_Camera2" remote="github" revision="mm6.0-staging" />
-   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
+  <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="SlimRoms/packages_apps_CellBroadcastReceiver" remote="github" revision="mm6.0-staging" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Contacts" name="SlimRoms/packages_apps_Contacts" remote="github" revision="mm6.0-staging" />
