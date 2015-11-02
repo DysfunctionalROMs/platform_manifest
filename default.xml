@@ -98,6 +98,8 @@
 	<copyfile src="ota_conf" dest="ota_conf" />
   </project>
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="broken" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="broken" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="broken" />
   <project path="platform_manifest" name="platform_manifest" remote="broken" />
   <project path="system/bt" name="system_bt" remote="broken" />
   <project path="system/core" name="system_core" remote="broken" />
@@ -489,8 +491,6 @@
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" groups="pdk-fs" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" groups="pdk-fs" />
   <project path="packages/services/Mms" name="SlimRoms/packages_services_Mms" remote="github" revision="mm6.0" />
-  <project path="packages/services/Telecomm" name="SlimRoms/packages_services_Telecomm" remote="github" revision="mm6.0" />
-  <project path="packages/services/Telephony" name="SlimRoms/packages_services_Telephony" remote="github" revision="mm6.0" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" groups="pdk-fs" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" groups="pdk-fs" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" groups="pdk-fs" />
