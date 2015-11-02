@@ -97,6 +97,7 @@
   <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="broken" >
 	<copyfile src="ota_conf" dest="ota_conf" />
   </project>
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="broken" />
   <project path="platform_manifest" name="platform_manifest" remote="broken" />
   <project path="system/bt" name="system_bt" remote="broken" />
   <project path="system/core" name="system_core" remote="broken" />
@@ -482,7 +483,6 @@
   <project path="packages/providers/DownloadProvider" name="SlimRoms/packages_providers_DownloadProvider" remote="github" revision="mm6.0" />
   <project path="packages/providers/MediaProvider" name="SlimRoms/packages_providers_MediaProvider" remote="github" revision="mm6.0" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="SlimRoms/packages_providers_TelephonyProvider" remote="github" revision="mm6.0" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" groups="pdk-fs" />
