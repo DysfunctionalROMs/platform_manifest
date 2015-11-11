@@ -98,6 +98,7 @@
   <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="broken" >
 	<copyfile src="ota_conf" dest="ota_conf" />
   </project>
+  <project path="packages/apps/WallpaperPicker" name="packages_apps_WallpaperPicker" remote="broken" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="broken" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="broken" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="broken" />
@@ -199,6 +200,7 @@
   <project path="external/fuse" name="SlimRoms/android_external_fuse" remote="github" revision="mm6.0" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk,qcom_msm8x26" />
   <project path="external/glide" name="platform/external/glide" groups="pdk-fs" />
+  <project path="external/google" name="android_external_google" remote="cm" revision="cm-13.0" />
   <project path="external/google-breakpad" name="platform/external/google-breakpad" groups="dragon" />
   <project path="external/google-fonts/carrois-gothic-sc" name="platform/external/google-fonts/carrois-gothic-sc" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/google-fonts/coming-soon" name="platform/external/google-fonts/coming-soon" groups="pdk-cw-fs,pdk-fs" />
@@ -456,6 +458,7 @@
   <project path="packages/apps/InCallUI" name="SlimRoms/packages_apps_InCallUI" remote="github" revision="mm6.0" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
+  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-13.0" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="SlimRoms/packages_apps_Messaging" remote="github" revision="mm6.0" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
