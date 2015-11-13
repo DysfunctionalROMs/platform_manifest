@@ -76,6 +76,7 @@
   <project path="frameworks/native" name="frameworks_native" remote="broken" />
   <project path="frameworks/opt/bluetooth" name="frameworks_opt_bluetooth" remote="broken" groups="pdk-cw-fs" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="broken" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="broken" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="broken" />
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="broken" revision="m6.0" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="broken" />
@@ -370,7 +371,6 @@
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/net/wifi" name="SlimRoms/frameworks_opt_net_wifi" remote="github" revision="mm6.0" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/timezonepicker" name="SlimRoms/frameworks_opt_timezonepicker" remote="github" revision="mm6.0" />
