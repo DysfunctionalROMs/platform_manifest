@@ -99,6 +99,8 @@
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="broken" revision="m6.0" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="broken" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="broken" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="broken" />
+  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="broken" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="broken" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="broken" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="broken" />
@@ -447,8 +449,6 @@
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="SlimRoms/packages_apps_CellBroadcastReceiver" remote="github" revision="mm6.0" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Contacts" name="SlimRoms/packages_apps_Contacts" remote="github" revision="mm6.0" />
-  <project path="packages/apps/ContactsCommon" name="SlimRoms/packages_apps_ContactsCommon" remote="github" revision="mm6.0" />
   <project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" remote="github" revision="mm6.0" />
   <project path="packages/apps/Email" name="SlimRoms/packages_apps_Email" remote="github" revision="mm6.0" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
