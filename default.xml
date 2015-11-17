@@ -67,6 +67,8 @@
   <project path="external/e2fsprogs" name="external_e2fsprogs" groups="pdk" remote="broken" />
   <project path="external/ffmpeg" name="external_ffmpeg" remote="broken" />
   <project path="external/jpeg" name="external_jpeg" remote="broken" groups="pdk" />
+  <project path="external/libnfc-nci" name="external_libnfc-nci" remote="broken" />
+  <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="broken" />
   <project path="external/sepolicy" name="external_sepolicy" remote="broken" />
   <project path="external/skia" name="external_skia" remote="broken" />
   <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="broken" />
@@ -252,8 +254,6 @@
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libnfc-nci" name="SlimRoms/android_external_libnfc-nci" remote="github" revision="mm6.0" />
-  <project path="external/libnfc-nxp" name="SlimRoms/android_external_libnfc-nxp" remote="github" revision="mm6.0" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
