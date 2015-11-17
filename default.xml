@@ -53,6 +53,7 @@
            sync-j="4" />
 
   <!-- Broken repos -->
+  <project path="art" name="android_art" remote="broken" />
   <project path="bionic" name="bionic" remote="broken" />
   <project path="bootable/recovery" name="bootable_recovery" remote="broken" />
   <project path="build" name="android_build" remote="broken" >
@@ -119,7 +120,6 @@
   
   <!-- Everyone else -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="SlimRoms/android_art" remote="github" revision="mm6.0"  />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" />
