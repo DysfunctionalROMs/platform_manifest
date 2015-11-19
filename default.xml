@@ -67,6 +67,7 @@
   <project path="external/e2fsprogs" name="external_e2fsprogs" groups="pdk" remote="broken" />
   <project path="external/ffmpeg" name="external_ffmpeg" remote="broken" />
   <project path="external/jpeg" name="external_jpeg" remote="broken" groups="pdk" />
+  <project path="external/libavc" name="external_libavc" remote="broken" />
   <project path="external/libnfc-nci" name="external_libnfc-nci" remote="broken" />
   <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="broken" />
   <project path="external/sepolicy" name="external_sepolicy" remote="broken" />
@@ -82,6 +83,7 @@
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="broken" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="broken" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="broken" />
+  <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="broken" />
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="broken" revision="m6.0" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="broken" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="broken" />
@@ -244,7 +246,6 @@
   <project path="external/junit" name="platform/external/junit" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libavc" name="platform/external/libavc" groups="pdk" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
@@ -386,7 +387,6 @@
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" remote="github" revision="mm6.0" />
   <project path="hardware/cyanogen" name="SlimRoms/hardware_cyanogen" remote="github" revision="mm6.0" />
