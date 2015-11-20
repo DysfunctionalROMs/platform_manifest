@@ -84,7 +84,7 @@
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="broken" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="broken" />
   <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="broken" />
-  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="broken" revision="m6.0" />
+  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="broken" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="broken" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="broken" />
   <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" remote="broken" />
@@ -98,7 +98,8 @@
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="broken" />
   <project path="hardware/ril" name="hardware_ril" remote="broken" revision="m6.0" />
   <project path="hardware/ril-caf" name="hardware_ril" remote="broken" revision="m6.0-caf" />
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="broken" revision="m6.0" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="broken" />
+  <project path="packages/apps/BrokenWalls" name="packages_apps_BrokenWalls" remote="broken" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="broken" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="broken" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="broken" />
