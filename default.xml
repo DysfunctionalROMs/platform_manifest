@@ -61,6 +61,7 @@
   </project>
   <project path="device/qcom/common" name="device_qcom_common" remote="broken" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="broken" />
+  <project path="external/apache-http" name="external_apache-http" remote="broken" />
   <project path="external/boringssl" name="external_boringssl" remote="broken" groups="pdk" />
   <project path="external/busybox" name="external_busybox" remote="broken" />
   <project path="external/chromium-webview" name="external_chromium-webview" remote="broken" groups="pdk" />
@@ -170,7 +171,6 @@
   <project path="external/ant-wireless/antradio-library" name="SlimRoms/android_external_ant-wireless_antradio-library" remote="github" revision="mm6.0" />
   <project path="external/apache-commons-math" name="platform/external/apache-commons-math" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/apache-http" name="SlimRoms/android_external_apache-http" remote="github" revision="mm6.0" />
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs,pdk-fs" />
