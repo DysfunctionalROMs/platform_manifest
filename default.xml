@@ -576,7 +576,7 @@
   <project path="external/qrngd" name="SlimRoms/android_external_qrngd" remote="github" revision="mm6.0" />
 
   <!-- qcom display-frameworks -->
-  <project path="vendor/qcom/opensource/display-frameworks" name="SlimRoms/vendor_qcom_opensource_display-frameworks" remote="github" revision="mm6.0" />
-  <project path="vendor/qcom/opensource/dpm" name="SlimRoms/vendor_qcom_opensource_dpm" remote="github" revision="mm6.0" />
+  <project path="vendor/qcom/opensource/display-frameworks" name="android_vendor_qcom_opensource_display-frameworks" remote="cm" revision="cm-13.0" />
+  <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="cm" revision="cm-13.0" />
   
 </manifest>
