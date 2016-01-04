@@ -123,6 +123,7 @@
   <project path="platform_manifest" name="platform_manifest" remote="broken" />
   <project path="system/bt" name="system_bt" remote="broken" />
   <project path="system/core" name="system_core" remote="broken" />
+  <project path="system/extras" name="system_extras" remote="broken" />
   <project path="system/keymaster" name="system_keymaster" remote="broken" />
   <project path="system/media" name="system_media" remote="broken" />
   <project path="system/qcom" name="system_qcom" remote="broken" />
@@ -540,7 +541,6 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
-  <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="mm6.0" />
   <project path="system/extras/su" name="SlimRoms/android_system_extras_su" remote="github" revision="mm6.0" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="mm6.0" />
