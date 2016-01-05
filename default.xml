@@ -115,6 +115,7 @@
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="broken" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="broken" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="broken" />
+  <project path="packages/apps/TvSettings" name="packages_apps_TvSettings" remote="broken" />
   <project path="packages/apps/WallpaperPicker" name="packages_apps_WallpaperPicker" remote="broken" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="broken" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="broken" />
