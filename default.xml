@@ -58,6 +58,7 @@
   </project>
   <project path="device/qcom/sepolicy" name="BrokenROM/device_qcom_sepolicy" remote="github" revision="m6.0.1" />
   <project path="external/chromium-webview" name="BrokenROM/external_chromium-webview" remote="github" revision="m6.0.1" />
+  <project path="frameworks/av" name="BrokenROM/frameworks_av" remote="github" revision="m6.0.1" />
   <project path="frameworks/base" name="BrokenROM/frameworks_base" remote="github" revision="m6.0.1" />
   <project path="frameworks/native" name="BrokenROM/frameworks_native" remote="github" revision="m6.0.1" />
   <project path="packages/apps/BrokenOTA" name="BrokenROM/packages_apps_BrokenOTA" remote="github" revision="m6.0.1" >
@@ -318,7 +319,6 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="staging/mm6.0" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
