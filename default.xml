@@ -61,6 +61,7 @@
   <project path="frameworks/av" name="BrokenROM/frameworks_av" remote="github" revision="m6.0.1" />
   <project path="frameworks/base" name="BrokenROM/frameworks_base" remote="github" revision="m6.0.1" />
   <project path="frameworks/native" name="BrokenROM/frameworks_native" remote="github" revision="m6.0.1" />
+  <project path="hardware/qcom/media/default" name="BrokenROM/hardware_qcom_media" remote="github" revision="m6.0.1" />
   <project path="packages/apps/BrokenOTA" name="BrokenROM/packages_apps_BrokenOTA" remote="github" revision="m6.0.1" >
 	<copyfile src="ota_conf" dest="ota_conf" />
   </project>
@@ -402,7 +403,6 @@
   <project path="hardware/qcom/fm" name="SlimRoms/hardware_qcom_fm" remote="github" revision="mm6.0" />
   <project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" remote="github" revision="staging/mm6.0" />
   <project path="hardware/qcom/keymaster" name="SlimRoms/hardware_qcom_keymaster" remote="github" revision="staging/mm6.0" />
-  <project path="hardware/qcom/media/default" name="SlimRoms/hardware_qcom_media" remote="github" revision="staging/mm6.0" />
   <project path="hardware/qcom/media-caf/apq8084" name="SlimRoms/hardware_qcom_media" remote="github" revision="mm6.0-caf-8084" />
   <project path="hardware/qcom/media-caf/msm8226" name="SlimRoms/hardware_qcom_media" remote="github" revision="mm6.0-caf-8226" />
   <project path="hardware/qcom/media-caf/msm8610" name="SlimRoms/hardware_qcom_media" remote="github" revision="mm6.0-caf-8610" />
