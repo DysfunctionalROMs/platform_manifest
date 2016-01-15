@@ -53,6 +53,7 @@
            sync-j="4" />
 
   <!-- Broken Repos -->
+  <project path="art" name="BrokenROM/android_art" remote="github" revision="m6.0.1"  />
   <project path="build" name="BrokenROM/android_build" remote="github" revision="m6.0.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -75,7 +76,6 @@
   
   <!-- Everyone else for now -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="SlimRoms/android_art" remote="github" revision="staging/mm6.0"  />
   <project path="bionic" name="SlimRoms/android_bionic" remote="github" revision="staging/mm6.0" />
   <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="staging/mm6.0" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
