@@ -59,6 +59,7 @@
   </project>
   <project path="device/qcom/sepolicy" name="BrokenROM/device_qcom_sepolicy" remote="github" revision="m6.0.1" />
   <project path="external/chromium-webview" name="BrokenROM/external_chromium-webview" remote="github" revision="m6.0.1" />
+  <project path="external/skia" name="BrokenROM/external_skia" remote="github" revision="m6.0.1" />
   <project path="frameworks/av" name="BrokenROM/frameworks_av" remote="github" revision="m6.0.1" />
   <project path="frameworks/base" name="BrokenROM/frameworks_base" remote="github" revision="m6.0.1" />
   <project path="frameworks/native" name="BrokenROM/frameworks_native" remote="github" revision="m6.0.1" />
@@ -301,7 +302,6 @@
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
   <project path="external/sepolicy" name="SlimRoms/android_external_sepolicy" remote="github" revision="staging/mm6.0" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
-  <project path="external/skia" name="SlimRoms/android_external_skia" remote="github" revision="staging/mm6.0" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" />
