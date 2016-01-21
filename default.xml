@@ -80,6 +80,7 @@
   <project path="packages/apps/Messaging" name="BrokenROM/packages_apps_Messaging" remote="github" revision="m6.0.1" />
   <project path="packages/apps/PhoneCommon" name="BrokenROM/packages_apps_PhoneCommon" remote="github" revision="m6.0.1" />
   <project path="packages/apps/Settings" name="BrokenROM/packages_apps_Settings" remote="github" revision="m6.0.1" />
+  <project path="packages/apps/WallpaperPicker" name="BrokenROM/packages_apps_WallpaperPicker" remote="github" revision="m6.0.1" />
   <project path="packages/services/Telecomm" name="BrokenROM/packages_services_Telecomm" remote="github" revision="m6.0.1" />
   <project path="packages/services/Telephony" name="BrokenROM/packages_services_Telephony" remote="github" revision="m6.0.1" />
   <project path="platform_manifest" name="BrokenROM/platform_manifest" remote="github" revision="m6.0.1" />
@@ -182,6 +183,7 @@
   <project path="external/fuse" name="SlimRoms/android_external_fuse" remote="github" revision="mm6.0" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk,qcom_msm8x26" />
   <project path="external/glide" name="platform/external/glide" groups="pdk-fs" />
+  <project path="external/google" name="android_external_google" remote="cm" revision="cm-13.0" />
   <project path="external/google-breakpad" name="platform/external/google-breakpad" groups="dragon" />
   <project path="external/google-fonts/carrois-gothic-sc" name="platform/external/google-fonts/carrois-gothic-sc" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/google-fonts/coming-soon" name="platform/external/google-fonts/coming-soon" groups="pdk-cw-fs,pdk-fs" />
@@ -463,6 +465,7 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
+  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-13.0" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
