@@ -60,6 +60,7 @@
   <project path="device/qcom/sepolicy" name="BrokenROM/device_qcom_sepolicy" remote="github" revision="m6.0.1" />
   <project path="external/chromium-webview" name="BrokenROM/external_chromium-webview" remote="github" revision="m6.0.1" />
   <project path="external/skia" name="BrokenROM/external_skia" remote="github" revision="m6.0.1" />
+  <project path="external/stagefright-plugins" name="BrokenROM/external_stagefright-plugins" remote="github" revision="m6.0.1" />
   <project path="frameworks/av" name="BrokenROM/frameworks_av" remote="github" revision="m6.0.1" />
   <project path="frameworks/base" name="BrokenROM/frameworks_base" remote="github" revision="m6.0.1" />
   <project path="frameworks/native" name="BrokenROM/frameworks_native" remote="github" revision="m6.0.1" />
@@ -588,6 +589,5 @@
 
   <!-- ffmpeg -->
   <project path="external/ffmpeg" name="SlimRoms/android_external_ffmpeg" remote="github" revision="mm6.0" />
-  <project path="external/stagefright-plugins" name="SlimRoms/android_external_stagefright-plugins" remote="github" revision="mm6.0" />
 
 </manifest>
