@@ -59,6 +59,8 @@
   </project>
   <project path="device/qcom/sepolicy" name="BrokenROM/device_qcom_sepolicy" remote="github" revision="m6.0.1" />
   <project path="external/chromium-webview" name="BrokenROM/external_chromium-webview" remote="github" revision="m6.0.1" />
+  <project path="external/libnfc-nci" name="BrokenROM/external_libnfc-nci" remote="github" revision="m6.0.1" />
+  <project path="external/libnfc-nxp" name="BrokenROM/external_libnfc-nxp" remote="github" revision="m6.0.1" />
   <project path="external/sepolicy" name="BrokenROM/external_sepolicy" remote="github" revision="m6.0.1" />
   <project path="external/skia" name="BrokenROM/external_skia" remote="github" revision="m6.0.1" />
   <project path="external/stagefright-plugins" name="BrokenROM/external_stagefright-plugins" remote="github" revision="m6.0.1" />
@@ -82,6 +84,7 @@
   <project path="packages/apps/Dialer" name="BrokenROM/packages_apps_Dialer" remote="github" revision="m6.0.1" />
   <project path="packages/apps/InCallUI" name="BrokenROM/packages_apps_InCallUI" remote="github" revision="m6.0.1" />
   <project path="packages/apps/Messaging" name="BrokenROM/packages_apps_Messaging" remote="github" revision="m6.0.1" />
+  <project path="packages/apps/Nfc" name="BrokenROM/packages_apps_Nfc" remote="github" revision="m6.0.1" />
   <project path="packages/apps/PhoneCommon" name="BrokenROM/packages_apps_PhoneCommon" remote="github" revision="m6.0.1" />
   <project path="packages/apps/Settings" name="BrokenROM/packages_apps_Settings" remote="github" revision="m6.0.1" />
   <project path="packages/apps/WallpaperPicker" name="BrokenROM/packages_apps_WallpaperPicker" remote="github" revision="m6.0.1" />
@@ -238,8 +241,6 @@
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libnfc-nci" name="SlimRoms/android_external_libnfc-nci" remote="github" revision="staging/mm6.0" />
-  <project path="external/libnfc-nxp" name="SlimRoms/android_external_libnfc-nxp" remote="github" revision="staging/mm6.0" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
@@ -472,7 +473,6 @@
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
-  <project path="packages/apps/Nfc" name="SlimRoms/packages_apps_Nfc" remote="github" revision="staging/mm6.0" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
