@@ -58,6 +58,7 @@
   <project path="build" name="BrokenROM/android_build" remote="github" revision="m6.0.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="device/qcom/common" name="BrokenROM/device_qcom_common" remote="github" revision="m6.0.1" />
   <project path="device/qcom/sepolicy" name="BrokenROM/device_qcom_sepolicy" remote="github" revision="m6.0.1" />
   <project path="external/chromium-webview" name="BrokenROM/external_chromium-webview" remote="github" revision="m6.0.1" />
   <project path="external/libnfc-nci" name="BrokenROM/external_libnfc-nci" remote="github" revision="m6.0.1" />
@@ -133,7 +134,6 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs" />
-  <project path="device/qcom/common" name="SlimRoms/device_qcom_common" remote="github" revision="mm6.0" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
