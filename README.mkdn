@@ -1,5 +1,8 @@
 <img src="https://raw.github.com/BrokenROM/platform_manifest/lp5.1/broken.png">
 
+*First things first*
+~ There will be NO SHARING OF UNOFFICIAL BUILDS ON XDA...It will be a place for OFFICIAL BUILDS ONLY... We have an agreement incoming that all unofficial builds of Broken will be removed...ALL UNOFFICIAL BUILDS OF BROKEN NEED TO BE SHARED IN OUR G+ COMMUNITY ON THE UNOFFICIAL BUILDS PAGE TO ALLOW PROPER MODERATION OF INFORMATION ABOUT THE ROM...TOO MUCH MISINFORMATION HAS LED TO THIS DECISION AND XDA IS ON BOARD FOR THIS...THIS IS FINAL ~
+
 Getting Started
 
 To get started with BrokenRoms, you'll need to get familiar with Git and Repo.
