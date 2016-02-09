@@ -94,6 +94,7 @@
   <project path="packages/apps/InCallUI" name="BrokenROM/packages_apps_InCallUI" remote="github" revision="m6.0.1" />
   <project path="packages/apps/Messaging" name="BrokenROM/packages_apps_Messaging" remote="github" revision="m6.0.1" />
   <project path="packages/apps/Nfc" name="BrokenROM/packages_apps_Nfc" remote="github" revision="m6.0.1" />
+  <project path="packages/apps/PackageInstaller" name="BrokenROM/packages_apps_PackageInstaller" remote="github" revision="m6.0.1" />  
   <project path="packages/apps/PhoneCommon" name="BrokenROM/packages_apps_PhoneCommon" remote="github" revision="m6.0.1" />
   <project path="packages/apps/Settings" name="BrokenROM/packages_apps_Settings" remote="github" revision="m6.0.1" />
   <project path="packages/apps/WallpaperPicker" name="BrokenROM/packages_apps_WallpaperPicker" remote="github" revision="m6.0.1" />
@@ -471,7 +472,6 @@
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" groups="pdk-fs" />
