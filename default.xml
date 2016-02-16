@@ -60,9 +60,11 @@
   </project>
   <project path="device/qcom/common" name="BrokenROM/device_qcom_common" remote="github" revision="m6.0.1" />
   <project path="device/qcom/sepolicy" name="BrokenROM/device_qcom_sepolicy" remote="github" revision="m6.0.1" />
+  <project path="external/apache-http" name="BrokenROM/external_apache-http" remote="github" revision="m6.0.1" />
   <project path="external/chromium-webview" name="BrokenROM/external_chromium-webview" remote="github" revision="m6.0.1" />
   <project path="external/libnfc-nci" name="BrokenROM/external_libnfc-nci" remote="github" revision="m6.0.1" />
   <project path="external/libnfc-nxp" name="BrokenROM/external_libnfc-nxp" remote="github" revision="m6.0.1" />
+  <project path="external/okhttp" name="BrokenROM/external_okhttp" remote="github" revision="m6.0.1" />
   <project path="external/sepolicy" name="BrokenROM/external_sepolicy" remote="github" revision="m6.0.1" />
   <project path="external/skia" name="BrokenROM/external_skia" remote="github" revision="m6.0.1" />
   <project path="external/stagefright-plugins" name="BrokenROM/external_stagefright-plugins" remote="github" revision="m6.0.1" />
@@ -110,6 +112,7 @@
   <project path="vendor/broken" name="BrokenROM/vendor_broken" remote="github" revision="m6.0.1" >
 	  <copyfile src="tools/build-broken.sh" dest="build-broken.sh" />
   </project>
+  <project path="vendor/qcom/opensource/dpm" name="BrokenROM/vendor_qcom_opensource_dpm" remote="github" revision="m6.0.1" />
   
   <!-- Everyone else for now -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -152,7 +155,6 @@
   <project path="external/ant-wireless/antradio-library" name="SlimRoms/android_external_ant-wireless_antradio-library" remote="github" revision="mm6.0" />
   <project path="external/apache-commons-math" name="platform/external/apache-commons-math" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/apache-http" name="SlimRoms/android_external_apache-http" remote="github" revision="staging/mm6.0" />
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs,pdk-fs" />
@@ -302,7 +304,6 @@
   <project path="external/ntfs-3g" name="SlimRoms/android_external_ntfs-3g" remote="github" revision="mm6.0" />
   <project path="external/oauth" name="platform/external/oauth" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/okhttp" name="SlimRoms/android_external_okhttp" remote="github" revision="staging/mm6.0" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/openfst" name="platform/external/openfst" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/openssh" name="platform/external/openssh" groups="pdk-cw-fs,pdk-fs" />
@@ -568,7 +569,6 @@
 
   <!-- CAF repos -->
   <project path="vendor/qcom/opensource/display-frameworks" name="SlimRoms/vendor_qcom_opensource_display-frameworks" remote="github" revision="staging/mm6.0" />
-  <project path="vendor/qcom/opensource/dpm" name="SlimRoms/vendor_qcom_opensource_dpm" remote="github" revision="staging/mm6.0" />
 
   <!-- SlimLauncher -->
   <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" remote="github" revision="mm6.0" />
