@@ -72,6 +72,7 @@
   <project path="frameworks/av" name="BrokenROM/frameworks_av" remote="github" revision="m6.0.1" />
   <project path="frameworks/base" name="BrokenROM/frameworks_base" remote="github" revision="m6.0.1" />
   <project path="frameworks/native" name="BrokenROM/frameworks_native" remote="github" revision="m6.0.1" />
+  <project path="frameworks/opt/net/ims" name="BrokenROM/frameworks_opt_net_ims" remote="github" revision="m6.0.1" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/wifi" name="BrokenROM/frameworks_opt_net_wifi" remote="github" revision="m6.0.1" />
   <project path="frameworks/opt/telephony" name="BrokenROM/frameworks_opt_telephony" remote="github" revision="m6.0.1" />
   <project path="frameworks/wilhelm" name="BrokenROM/frameworks_wilhelm" remote="github" revision="m6.0.1" />
@@ -377,7 +378,6 @@
   <project path="frameworks/opt/inputconnectioncommon" name="platform/frameworks/opt/inputconnectioncommon" groups="pdk-fs" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" />
-  <project path="frameworks/opt/net/ims" name="SlimRoms/frameworks_opt_net_ims" remote="github" revision="staging/mm6.0" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
