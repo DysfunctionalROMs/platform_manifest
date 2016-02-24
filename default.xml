@@ -62,6 +62,7 @@
   <project path="device/qcom/sepolicy" name="BrokenROM/device_qcom_sepolicy" remote="github" revision="m6.0.1" />
   <project path="external/apache-http" name="BrokenROM/external_apache-http" remote="github" revision="m6.0.1" />
   <project path="external/chromium-webview" name="BrokenROM/external_chromium-webview" remote="github" revision="m6.0.1" />
+  <project path="external/f2fs-tools" name="BrokenROM/external_f2fs-tools" remote="github" revision="m6.0.1" />
   <project path="external/libnfc-nci" name="BrokenROM/external_libnfc-nci" remote="github" revision="m6.0.1" />
   <project path="external/libnfc-nxp" name="BrokenROM/external_libnfc-nxp" remote="github" revision="m6.0.1" />
   <project path="external/okhttp" name="BrokenROM/external_okhttp" remote="github" revision="m6.0.1" />
@@ -198,7 +199,6 @@
   <project path="external/exfat" name="SlimRoms/android_external_exfat" remote="github" revision="mm6.0" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/f2fs-tools" name="SlimRoms/android_external_f2fs-tools" remote="github" revision="staging/mm6.0" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <project path="external/fio" name="platform/external/fio" groups="pdk-fs" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
