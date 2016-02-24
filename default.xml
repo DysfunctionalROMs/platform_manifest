@@ -64,6 +64,7 @@
   <project path="external/chromium-webview" name="BrokenROM/external_chromium-webview" remote="github" revision="m6.0.1" />
   <project path="external/exfat" name="BrokenROM/external_exfat" remote="github" revision="m6.0.1" />
   <project path="external/f2fs-tools" name="BrokenROM/external_f2fs-tools" remote="github" revision="m6.0.1" />
+  <project path="external/fuse" name="BrokenROM/external_fuse" remote="github" revision="m6.0.1" />
   <project path="external/libnfc-nci" name="BrokenROM/external_libnfc-nci" remote="github" revision="m6.0.1" />
   <project path="external/libnfc-nxp" name="BrokenROM/external_libnfc-nxp" remote="github" revision="m6.0.1" />
   <project path="external/okhttp" name="BrokenROM/external_okhttp" remote="github" revision="m6.0.1" />
@@ -205,7 +206,6 @@
   <project path="external/fonttools" name="platform/external/fonttools" groups="pdk-fs" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/fuse" name="SlimRoms/android_external_fuse" remote="github" revision="mm6.0" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk,qcom_msm8x26" />
   <project path="external/glide" name="platform/external/glide" groups="pdk-fs" />
   <project path="external/google" name="android_external_google" remote="cm" revision="cm-13.0" />
