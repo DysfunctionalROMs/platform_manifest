@@ -59,6 +59,7 @@
   </project>
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="broken" revision="lp5.1" />
   <project path="external/sepolicy" name="external_sepolicy" remote="broken" revision="lp5.1" />
+  <project path="external/skia" name="external_skia" remote="broken" revision="lp5.1" />
   <project path="external/tinyalsa" name="external_tinyalsa" remote="broken" revision="lp5.1" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="broken" revision="lp5.1" />
   <project path="frameworks/av" name="frameworks_av" remote="broken" revision="lp5.1" />
@@ -331,7 +332,6 @@
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" />
-  <project path="external/skia" name="SlimRoms/android_external_skia" remote="github" revision="lp5.1" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
