@@ -119,6 +119,7 @@
   <project path="system/core" name="BrokenROM/system_core" remote="github" revision="m6.0.1" />
   <project path="system/extras" name="BrokenROM/system_extras" remote="github" revision="m6.0.1" />
   <project path="system/media" name="BrokenROM/system_media" remote="github" revision="m6.0.1" />
+  <project path="system/security" name="BrokenROM/system_security" remote="github" revision="m6.0.1" />
   <project path="system/vold" name="BrokenROM/system_vold" remote="github" revision="m6.0.1" />
   <project path="vendor/broken" name="BrokenROM/vendor_broken" remote="github" revision="m6.0.1" >
 	  <copyfile src="tools/build-broken.sh" dest="build-broken.sh" />
@@ -551,7 +552,6 @@
   <project path="system/keymaster" name="SlimRoms/android_system_keymaster" remote="github" revision="staging/mm6.0" />
   <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="staging/mm6.0" />
   <project path="system/qcom" name="SlimRoms/android_system_qcom" remote="github" revision="mm6.0" />
-  <project path="system/security" name="SlimRoms/android_system_security" remote="github" revision="staging/mm6.0" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
