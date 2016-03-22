@@ -111,6 +111,7 @@
   <project path="packages/apps/WallpaperPicker" name="BrokenROM/packages_apps_WallpaperPicker" remote="github" revision="m6.0.1" />
   <project path="packages/inputmethods/LatinIME" name="BrokenROM/packages_inputmethods_LatinIME" remote="github" revision="m6.0.1" />
   <project path="packages/providers/ContactsProvider" name="BrokenROM/packages_providers_ContactsProvider" remote="github" revision="m6.0.1" />
+  <project path="packages/providers/DownloadProvider" name="BrokenROM/packages_providers_DownloadProvider" remote="github" revision="m6.0.1" />
   <project path="packages/providers/MediaProvider" name="BrokenROM/packages_providers_MediaProvider" remote="github" revision="m6.0.1" />
   <project path="packages/providers/TelephonyProvider" name="BrokenROM/packages_providers_TelephonyProvider" remote="github" revision="m6.0.1" />
   <project path="packages/services/Telecomm" name="BrokenROM/packages_services_Telecomm" remote="github" revision="m6.0.1" />
@@ -497,7 +498,6 @@
   <project path="packages/providers/BookmarkProvider" name="platform/packages/providers/BookmarkProvider" groups="pdk-fs" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs" />
   <project path="packages/providers/CallLogProvider" name="platform/packages/providers/CallLogProvider" groups="pdk-fs" />
-  <project path="packages/providers/DownloadProvider" name="SlimRoms/packages_providers_DownloadProvider" remote="github" revision="staging/mm6.0" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
