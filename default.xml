@@ -95,7 +95,6 @@
 	<copyfile src="ota_conf" dest="ota_conf" />
   </project>
   <project path="packages/apps/Bluetooth" name="BrokenROM/packages_apps_Bluetooth" remote="github" revision="m6.0.1" />
-  <project path="packages/apps/BrokenCenter" name="BrokenROM/packages_apps_BrokenCenter" remote="github" revision="m6.0.1" />
   <project path="packages/apps/BrokenWalls" name="BrokenROM/packages_apps_BrokenWalls" remote="github" revision="m6.0.1" />
   <project path="packages/apps/Contacts" name="BrokenROM/packages_apps_Contacts" remote="github" revision="m6.0.1" />
   <project path="packages/apps/ContactsCommon" name="BrokenROM/packages_apps_ContactsCommon" remote="github" revision="m6.0.1" />
@@ -569,9 +568,6 @@
 
   <!-- CAF repos -->
   <project path="vendor/qcom/opensource/display-frameworks" name="SlimRoms/vendor_qcom_opensource_display-frameworks" remote="github" revision="staging/mm6.0" />
-
-  <!-- SlimLauncher -->
-  <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" remote="github" revision="mm6.0" />
 
   <!--Power Hal -->
   <project path="hardware/cm" name="SlimRoms/hardware_cm" remote="github" revision="mm6.0" />
