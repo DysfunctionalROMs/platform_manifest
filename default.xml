@@ -63,6 +63,7 @@
   <project path="device/qcom/sepolicy" name="BrokenROM/device_qcom_sepolicy" remote="github" revision="m6.0.1" />
   <project path="external/apache-http" name="BrokenROM/external_apache-http" remote="github" revision="m6.0.1" />
   <project path="external/chromium-webview" name="BrokenROM/external_chromium-webview" remote="github" revision="m6.0.1" />
+  <project path="external/doclava" name="BrokenROM/external_doclava" remote="github" revision="m6.0.1" />
   <project path="external/exfat" name="BrokenROM/external_exfat" remote="github" revision="m6.0.1" />
   <project path="external/f2fs-tools" name="BrokenROM/external_f2fs-tools" remote="github" revision="m6.0.1" />
   <project path="external/fuse" name="BrokenROM/external_fuse" remote="github" revision="m6.0.1" />
@@ -193,7 +194,6 @@
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/dhcpcd" name="SlimRoms/android_external_dhcpcd" remote="github" revision="mm6.0" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
-  <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/donuts" name="platform/external/donuts" groups="pdk-fs" />
   <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="drm_gralloc" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer" />
