@@ -68,6 +68,7 @@
   <project path="external/f2fs-tools" name="BrokenROM/external_f2fs-tools" remote="github" revision="m6.0.1" />
   <project path="external/fuse" name="BrokenROM/external_fuse" remote="github" revision="m6.0.1" />
   <project path="external/guava" name="BrokenROM/external_guava" remote="github" revision="m6.0.1" />
+  <project path="external/jpeg" name="BrokenROM/external_jpeg" remote="github" revision="m6.0.1" />
   <project path="external/libnfc-nci" name="BrokenROM/external_libnfc-nci" remote="github" revision="m6.0.1" />
   <project path="external/libnfc-nxp" name="BrokenROM/external_libnfc-nxp" remote="github" revision="m6.0.1" />
   <project path="external/okhttp" name="BrokenROM/external_okhttp" remote="github" revision="m6.0.1" />
@@ -246,7 +247,6 @@
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" />
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs,pdk-fs" />
