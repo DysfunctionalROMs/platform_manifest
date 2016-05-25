@@ -93,6 +93,8 @@
   <project path="hardware/qcom/fm" name="BrokenROM/hardware_qcom_fm" remote="github" revision="m6.0.1" />  
   <project path="hardware/qcom/gps" name="BrokenROM/hardware_qcom_gps" remote="github" revision="m6.0.1" />
   <project path="hardware/qcom/media/default" name="BrokenROM/hardware_qcom_media" remote="github" revision="m6.0.1" />
+  <project path="hardware/qcom/wlan" name="BrokenROM/hardware_qcom_wlan" remote="github" revision="m6.0.1" />
+  <project path="hardware/qcom/wlan-caf" name="BrokenROM/hardware_qcom_wlan" remote="github" revision="m6.0.1-caf" />
   <project path="hardware/ril" name="BrokenROM/hardware_ril" remote="github" revision="m6.0.1" />
   <project path="hardware/ril-caf" name="BrokenROM/hardware_ril" remote="github" revision="m6.0.1-caf" />
   <project path="packages/apps/BrokenOTA" name="BrokenROM/packages_apps_BrokenOTA" remote="github" revision="m6.0.1" >
@@ -449,8 +451,6 @@
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
   <project path="hardware/qcom/power" name="SlimRoms/hardware_qcom_power" remote="github" revision="mm6.0" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-  <project path="hardware/qcom/wlan" name="SlimRoms/hardware_qcom_wlan" remote="github" revision="mm6.0" />
-  <project path="hardware/qcom/wlan-caf" name="SlimRoms/hardware_qcom_wlan" remote="github" revision="mm6.0-caf" />
   <project path="hardware/ti/omap3" name="SlimRoms/hardware_ti_omap3" remote="github" revision="mm6.0" />
   <project path="hardware/ti/omap4" name="SlimRoms/hardware_ti_omap4" remote="github" revision="mm6.0" />
   <project path="hardware/ti/omap4xxx" name="SlimRoms/hardware_ti_omap4xxx" remote="github" revision="mm6.0" />
