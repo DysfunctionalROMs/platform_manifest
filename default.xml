@@ -48,7 +48,7 @@
   <remote name="xda"
           fetch=".." />
 
-  <default revision="refs/tags/android-6.0.1_r43"
+  <default revision="refs/tags/android-6.0.1_r46"
            remote="aosp"
            sync-j="4" />
 
@@ -90,7 +90,7 @@
   <project path="hardware/libhardware_legacy" name="BrokenROM/hardware_libhardware_legacy" remote="github" revision="m6.0.1" />
   <project path="hardware/qcom/audio/default" name="BrokenROM/hardware_qcom_audio" remote="github" revision="m6.0.1" />
   <project path="hardware/qcom/display" name="BrokenROM/hardware_qcom_display" remote="github" revision="m6.0.1" />
-  <project path="hardware/qcom/fm" name="BrokenROM/hardware_qcom_fm" remote="github" revision="m6.0.1" />  
+  <project path="hardware/qcom/fm" name="BrokenROM/hardware_qcom_fm" remote="github" revision="m6.0.1" />
   <project path="hardware/qcom/gps" name="BrokenROM/hardware_qcom_gps" remote="github" revision="m6.0.1" />
   <project path="hardware/qcom/media/default" name="BrokenROM/hardware_qcom_media" remote="github" revision="m6.0.1" />
   <project path="hardware/qcom/wlan" name="BrokenROM/hardware_qcom_wlan" remote="github" revision="m6.0.1" />
@@ -113,7 +113,7 @@
   <project path="packages/apps/LockClock" name="BrokenROM/packages_apps_LockClock" remote="github" revision="m6.0.1" />
   <project path="packages/apps/Messaging" name="BrokenROM/packages_apps_Messaging" remote="github" revision="m6.0.1" />
   <project path="packages/apps/Nfc" name="BrokenROM/packages_apps_Nfc" remote="github" revision="m6.0.1" />
-  <project path="packages/apps/PackageInstaller" name="BrokenROM/packages_apps_PackageInstaller" remote="github" revision="m6.0.1" />  
+  <project path="packages/apps/PackageInstaller" name="BrokenROM/packages_apps_PackageInstaller" remote="github" revision="m6.0.1" />
   <project path="packages/apps/PhoneCommon" name="BrokenROM/packages_apps_PhoneCommon" remote="github" revision="m6.0.1" />
   <project path="packages/apps/Settings" name="BrokenROM/packages_apps_Settings" remote="github" revision="m6.0.1" />
   <project path="packages/apps/WallpaperPicker" name="BrokenROM/packages_apps_WallpaperPicker" remote="github" revision="m6.0.1" />
@@ -136,7 +136,7 @@
 	  <copyfile src="tools/build-broken.sh" dest="build-broken.sh" />
   </project>
   <project path="vendor/qcom/opensource/dpm" name="BrokenROM/vendor_qcom_opensource_dpm" remote="github" revision="m6.0.1" />
-  
+
   <!-- Everyone else for now -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
