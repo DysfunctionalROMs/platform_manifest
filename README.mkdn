@@ -47,4 +47,4 @@ Unless otherwise specified, all out assets, including but not limited to images,
 
 You can reach the full legal text at http://creativecommons.org/licenses/by-nc/4.0/
 
-<img src="https://raw.github.com/BrokenROM/platform_manifest/m6.0.1/BrokenBanner.jpg">
+<img src="https://raw.github.com/BrokenROM/platform_manifest/m6.0.1/BrokenBanner.png">
