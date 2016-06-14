@@ -33,6 +33,52 @@ time make broken -jX (x being the amount of cores/threads your build box contain
 
 Example flags can be seen by issuing -h as a flag
 
+## Submitting Patches ##
+
+BrokenOs is open sourced and welcomes new contributors.
+
+To start contributing to BrokenOs, just register at brokencodereview.com
+
+Open up a terminal to create your ssh keys for pushing to gerrit and type in
+
+```bash
+git config --global brokencodereview.com.username <username you registered with>
+
+git config --global brokencodereview.com.email <your email you registered with>
+
+ssh-keygen -t rsa -C "your@email.com"
+```
+
+Go back to our gerrit and click on your avatar on the top right, click on Settings
+
+Click on SSH Public Keys on the left hand side and click on "Add Key ..."
+
+Now on your computer navigate to home/.ssh and open up id_rsa.pub and copy/paste the context to Gerrit under SSH Public Keys
+
+You can send patches to us by using these commands in terminal:
+
+```bash
+cd project i.e cd packages/apps/Settings
+
+Make whatever edits you need to.....
+
+git add -A
+git commit -a
+
+Add commit message that makes sense for others to understand what the commit is for
+
+Ctrl X, then Y to save and Enter
+
+git push ssh://USERNAME@brokencodereview.com:29418/PROJECT HEAD:refs/for/BRANCH
+
+BRANCH - m6.0.1
+PROJECT - i.e packages_apps_Settings
+USERNAME (for gerrit) - i.e CrackerTeg
+```
+
+If you are going to make extra additions, just repeat steps (Don't start a new patch), but instead of git commit -m
+use git commit --amend. Gerrit will recognize it as a new patchset.
+
 ## Using our assets ##
 
 **Code**
