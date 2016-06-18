@@ -66,6 +66,7 @@
   <project path="external/doclava" name="BrokenROM/external_doclava" remote="github" revision="m6.0.1" />
   <project path="external/exfat" name="BrokenROM/external_exfat" remote="github" revision="m6.0.1" />
   <project path="external/f2fs-tools" name="BrokenROM/external_f2fs-tools" remote="github" revision="m6.0.1" />
+  <project path="external/ffmpeg" name="BrokenROM/external_ffmpeg" remote="github" revision="m6.0.1" />
   <project path="external/fuse" name="BrokenROM/external_fuse" remote="github" revision="m6.0.1" />
   <project path="external/guava" name="BrokenROM/external_guava" remote="github" revision="m6.0.1" />
   <project path="external/jpeg" name="BrokenROM/external_jpeg" remote="github" revision="m6.0.1" />
@@ -582,8 +583,5 @@
 
   <!-- qrngd -->
   <project path="external/qrngd" name="SlimRoms/android_external_qrngd" remote="github" revision="mm6.0" />
-
-  <!-- ffmpeg -->
-  <project path="external/ffmpeg" name="SlimRoms/android_external_ffmpeg" remote="github" revision="mm6.0" />
 
 </manifest>
