@@ -99,6 +99,7 @@
   <project path="hardware/qcom/wlan-caf" name="BrokenROM/hardware_qcom_wlan" remote="github" revision="m6.0.1-caf" />
   <project path="hardware/ril" name="BrokenROM/hardware_ril" remote="github" revision="m6.0.1" />
   <project path="hardware/ril-caf" name="BrokenROM/hardware_ril" remote="github" revision="m6.0.1-caf" />
+  <project path="libcore" name="BrokenROM/libcore" remote="github" revision="m6.0.1" />
   <project path="packages/apps/BrokenOTA" name="BrokenROM/packages_apps_BrokenOTA" remote="github" revision="m6.0.1" >
 	<copyfile src="ota_conf" dest="ota_conf" />
   </project>
@@ -460,7 +461,6 @@
   <project path="hardware/ti/omap4xxx" name="SlimRoms/hardware_ti_omap4xxx" remote="github" revision="mm6.0" />
   <project path="hardware/ti/wlan" name="SlimRoms/hardware_ti_wlan" remote="github" revision="mm6.0" />
   <project path="hardware/ti/wpan" name="SlimRoms/hardware_ti_wpan" remote="github" revision="mm6.0" />
-  <project path="libcore" name="SlimRoms/android_libcore" remote="github" revision="mm6.0" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/AudioFX" name="SlimRoms/packages_apps_AudioFX" remote="github" revision="mm6.0" />
