@@ -110,9 +110,11 @@
   <project path="packages/apps/ContactsCommon" name="BrokenROM/packages_apps_ContactsCommon" remote="github" revision="m6.0.1" />
   <project path="packages/apps/DeskClock" name="BrokenROM/packages_apps_DeskClock" remote="github" revision="m6.0.1" />
   <project path="packages/apps/Dialer" name="BrokenROM/packages_apps_Dialer" remote="github" revision="m6.0.1" />
+  <project path="packages/apps/FloatingActionButton" name="BrokenROM/packages_apps_FloatingActionButton" remote="github" revision="m6.0.1" /> 
   <project path="packages/apps/FMRadio" name="BrokenROM/packages_apps_FMRadio" remote="github" revision="m6.0.1" />
   <project path="packages/apps/Gallery2" name="BrokenROM/packages_apps_Gallery2" remote="github" revision="m6.0.1" />
   <project path="packages/apps/InCallUI" name="BrokenROM/packages_apps_InCallUI" remote="github" revision="m6.0.1" />
+  <project path="packages/apps/KernelAdiutor" name="BrokenROM/packages_apps_KernelAdiutor" remote="github"  revision="m6.0.1" />
   <project path="packages/apps/LockClock" name="BrokenROM/packages_apps_LockClock" remote="github" revision="m6.0.1" />
   <project path="packages/apps/Messaging" name="BrokenROM/packages_apps_Messaging" remote="github" revision="m6.0.1" />
   <project path="packages/apps/Nfc" name="BrokenROM/packages_apps_Nfc" remote="github" revision="m6.0.1" />
