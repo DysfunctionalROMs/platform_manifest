@@ -73,6 +73,7 @@
   <project path="external/libnfc-nci" name="BrokenROM/external_libnfc-nci" remote="github" revision="m6.0.1" />
   <project path="external/libnfc-nxp" name="BrokenROM/external_libnfc-nxp" remote="github" revision="m6.0.1" />
   <project path="external/okhttp" name="BrokenROM/external_okhttp" remote="github" revision="m6.0.1" />
+  <project path="external/pdfium" name="BrokenROM/external_pdfium" remote="github" revision="m6.0.1" />
   <project path="external/sepolicy" name="BrokenROM/external_sepolicy" remote="github" revision="m6.0.1" />
   <project path="external/skia" name="BrokenROM/external_skia" remote="github" revision="m6.0.1" />
   <project path="external/stagefright-plugins" name="BrokenROM/external_stagefright-plugins" remote="github" revision="m6.0.1" />
@@ -333,7 +334,6 @@
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk-fs" />
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk-fs" />
   <project path="external/pcre" name="platform/external/pcre" groups="pdk" />
-  <project path="external/pdfium" name="platform/external/pdfium" groups="pdk" />
   <project path="external/ppp" name="platform/external/ppp" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
