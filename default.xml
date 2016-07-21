@@ -108,6 +108,7 @@
   <project path="packages/apps/Bluetooth" name="BrokenROM/packages_apps_Bluetooth" remote="github" revision="m6.0.1" />
   <project path="packages/apps/BrokenCenter" name="BrokenROM/packages_apps_BrokenCenter" remote="github" revision="m6.0.1" />
   <project path="packages/apps/BrokenWalls" name="BrokenROM/packages_apps_BrokenWalls" remote="github" revision="m6.0.1" />
+  <project path="packages/apps/CarrierConfig" name="BrokenROM/packages_apps_CarrierConfig" remote="github" revision="m6.0.1" />
   <project path="packages/apps/Contacts" name="BrokenROM/packages_apps_Contacts" remote="github" revision="m6.0.1" />
   <project path="packages/apps/ContactsCommon" name="BrokenROM/packages_apps_ContactsCommon" remote="github" revision="m6.0.1" />
   <project path="packages/apps/DeskClock" name="BrokenROM/packages_apps_DeskClock" remote="github" revision="m6.0.1" />
@@ -472,7 +473,6 @@
   <project path="packages/apps/Calendar" name="SlimRoms/packages_apps_Calendar" remote="github" revision="mm6.0" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" />
   <project path="packages/apps/Camera2" name="SlimRoms/packages_apps_Camera2" remote="github" revision="mm6.0" />
-  <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="SlimRoms/packages_apps_CellBroadcastReceiver" remote="github" revision="mm6.0" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Email" name="SlimRoms/packages_apps_Email" remote="github" revision="mm6.0" />
