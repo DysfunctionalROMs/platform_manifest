@@ -93,6 +93,7 @@
   <project path="hardware/libhardware" name="BrokenROM/hardware_libhardware" remote="github" revision="m6.0.1" />
   <project path="hardware/libhardware_legacy" name="BrokenROM/hardware_libhardware_legacy" remote="github" revision="m6.0.1" />
   <project path="hardware/qcom/audio/default" name="BrokenROM/hardware_qcom_audio" remote="github" revision="m6.0.1" />
+  <project path="hardware/qcom/camera" name="BrokenROM/hardware_qcom_camera" remote="github" revision="m6.0.1" />
   <project path="hardware/qcom/display" name="BrokenROM/hardware_qcom_display" remote="github" revision="m6.0.1" />
   <project path="hardware/qcom/fm" name="BrokenROM/hardware_qcom_fm" remote="github" revision="m6.0.1" />
   <project path="hardware/qcom/gps" name="BrokenROM/hardware_qcom_gps" remote="github" revision="m6.0.1" />
@@ -435,7 +436,6 @@
   <project path="hardware/qcom/audio-caf/msm8996" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-13.0-caf-8996" />
   <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" remote="github" revision="mm6.0" />
   <project path="hardware/qcom/bt-caf" name="SlimRoms/hardware_qcom_bt" remote="github" revision="mm6.0-caf" />
-  <project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" remote="github" revision="mm6.0" />
   <project path="hardware/qcom/display-caf/apq8084" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-13.0-caf-8084" />
   <project path="hardware/qcom/display-caf/msm8916" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-13.0-caf-8916" />
   <project path="hardware/qcom/display-caf/msm8952" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-13.0-caf-8952" />
