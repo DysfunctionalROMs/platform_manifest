@@ -51,14 +51,19 @@
   <default revision="refs/tags/android-7.0.0_r1"
            remote="aosp"
            sync-j="4" />
-           
-  <!-- Broken Repos -->
-  <project path="platform_manifest" name="BrokenROM/platform_manifest" remote="github" revision="n7.0" />
 
-  <!-- Everyone else -->
-  <project path="build" name="platform/build" groups="pdk,tradefed" >
+  <!-- Broken Repos -->
+  <project path="build" name="BrokenROM/android_build" remote="github" revision="n7.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="frameworks/base" name="BrokenROM/frameworks_base" remote="github" revision="n7.0" />
+  <project path="packages/apps/Settings" name="BrokenROM/packages_apps_Settings" remote="github" revision="n7.0" />
+  <project path="platform_manifest" name="BrokenROM/platform_manifest" remote="github" revision="n7.0" />
+  <project path="vendor/broken" name="BrokenROM/vendor_broken" remote="github" revision="n7.0" >
+	  <copyfile src="tools/build-broken.sh" dest="build-broken.sh" />
+  </project>
+
+  <!-- Everyone else -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
@@ -356,7 +361,6 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -471,7 +475,6 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
