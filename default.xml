@@ -51,7 +51,11 @@
   <default revision="refs/tags/android-7.0.0_r1"
            remote="aosp"
            sync-j="4" />
+           
+  <!-- Broken Repos -->
+  <project path="platform_manifest" name="BrokenROM/platform_manifest" remote="github" revision="n7.0" />
 
+  <!-- Everyone else -->
   <project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
