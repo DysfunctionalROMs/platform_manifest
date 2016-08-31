@@ -58,7 +58,6 @@
   </project>
   <project path="build/kati" name="BrokenROM/build_kati" remote="github" revision="n7.0" />
   <project path="device/qcom/sepolicy" name="BrokenROM/device_qcom_sepolicy" remote="github" revision="n7.0" />
-  <project path="external/sepolicy" name="BrokenROM/external_sepolicy" remote="github" revision="n7.0" />
   <project path="frameworks/base" name="BrokenROM/frameworks_base" remote="github" revision="n7.0" />
   <project path="packages/apps/Settings" name="BrokenROM/packages_apps_Settings" remote="github" revision="n7.0" />
   <project path="platform_manifest" name="BrokenROM/platform_manifest" remote="github" revision="n7.0" />
@@ -581,6 +580,7 @@
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
+  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" />
