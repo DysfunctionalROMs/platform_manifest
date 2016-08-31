@@ -429,7 +429,7 @@
   <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" remote="github" revision="staging/cm-14.0" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="staging/cm-14.0" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="github" revision="staging/cm-14.0" />
-  <project path="hardware/qcom/media/default" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="staging/cm-14.0" />
+  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="staging/cm-14.0" />
   <project path="hardware/qcom/media-caf/apq8084" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="staging/cm-14.0-caf-8084" />
   <project path="hardware/qcom/media-caf/msm8916" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="staging/cm-14.0-caf-8916" />
   <project path="hardware/qcom/media-caf/msm8937" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="staging/cm-14.0-caf-8937" />
