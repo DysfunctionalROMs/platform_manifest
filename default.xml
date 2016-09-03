@@ -57,6 +57,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/kati" name="BrokenROM/build_kati" remote="github" revision="n7.0" />
+  <project path="device/qcom/common" name="BrokenROM/device_qcom_common" remote="github" revision="n7.0" />
   <project path="device/qcom/sepolicy" name="BrokenROM/device_qcom_sepolicy" remote="github" revision="n7.0" />
   <project path="frameworks/base" name="BrokenROM/frameworks_base" remote="github" revision="n7.0" />
   <project path="hardware/libhardware" name="BrokenROM/hardware_libhardware" remote="github" revision="n7.0" />
@@ -103,7 +104,6 @@
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="staging/cm-14.0" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
