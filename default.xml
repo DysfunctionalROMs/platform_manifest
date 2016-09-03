@@ -67,6 +67,7 @@
   <project path="packages/apps/Settings" name="BrokenROM/packages_apps_Settings" remote="github" revision="n7.0" />
   <project path="platform_manifest" name="BrokenROM/platform_manifest" remote="github" revision="n7.0" />
   <project path="system/core" name="BrokenROM/system_core" remote="github" revision="n7.0" />
+  <project path="system/extras" name="BrokenROM/system_extras" remote="github" revision="n7.0" />
   <project path="system/sepolicy" name="BrokenROM/system_sepolicy" remote="github" revision="n7.0" />
   <project path="vendor/broken" name="BrokenROM/vendor_broken" remote="github" revision="n7.0" >
 	  <copyfile src="tools/build-broken.sh" dest="build-broken.sh" />
@@ -572,7 +573,6 @@
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
