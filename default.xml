@@ -1,49 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="#FuckXDA"
-          fetch="www.FuckXDA.com" />
-
-  <remote name="aicp"
-          fetch="https://github.com/AICP/" />
-
   <remote name="aosp"
           fetch="https://android.googlesource.com"
           review="android-review.googlesource.com" />
 
-  <remote name="bb"
-          fetch="https://bitbucket.org/" />
-
-  <remote name="broken"
-          fetch="https://github.com/BrokenROM/"
-          revision="m6.0" />
-
-  <remote name="BrokenTC"
-	      fetch="https://bitbucket.org/BrokenTC" />
-
-  <remote name="cm"
-          fetch="https://github.com/CyanogenMod/" />
-
   <remote name="github"
           fetch="https://github.com/" />
 
-  <remote name="gs"
-          fetch="https://git.sphere.ly" />
+  <remote name="broken"
+          fetch="https://github.com/BrokenROM/"
+          revision="n7.0" />
 
-  <remote name="ls"
-          fetch="https://github.com/LiquidSmooth/" />
-
-  <remote name="omnirom"
-          fetch="https://github.com/omnirom" />
-
-  <remote name="slim"
-          fetch="https://github.com/SlimRoms/" />
-
-  <remote name="tv"
-          fetch="https://github.com/Team-Validus/" />
-
-  <remote name="vanir"
-          fetch="https://github.com/VanirAOSP/" />
+  <remote name="#FuckXDA"
+          fetch="www.FuckXDA.com" />
 
   <remote name="xda"
           fetch=".." />
@@ -54,26 +24,50 @@
 
   <!-- Broken Repos -->
   <project path="bionic" name="BrokenROM/bionic" remote="github" revision="n7.0" />
+  <project path="bootable/recovery" name="BrokenROM/bootable_recovery" remote="github" revision="n7.0" />
   <project path="build" name="BrokenROM/android_build" remote="github" revision="n7.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/kati" name="BrokenROM/build_kati" remote="github" revision="n7.0" />
   <project path="device/qcom/common" name="BrokenROM/device_qcom_common" remote="github" revision="n7.0" />
   <project path="device/qcom/sepolicy" name="BrokenROM/device_qcom_sepolicy" remote="github" revision="n7.0" />
+  <project path="external/boringssl" name="BrokenROM/external_boringssl" remote="github" revision="n7.0" />
+  <project path="external/e2fsprogs" name="BrokenROM/external_e2fsprogs" remote="github" revision="n7.0" />
+  <project path="external/f2fs-tools" name="BrokenROM/external_f2fs-tools" remote="github" revision="n7.0" />
+  <project path="external/libselinux" name="BrokenROM/external_libselinux" remote="github" revision="n7.0" />
+  <project path="external/lzma" name="BrokenROM/external_lzma" remote="github" revision="n7.0" />
+  <project path="external/tinycompress" name="BrokenROM/external_tinycompress" remote="github" revision="n7.0" />
+  <project path="external/valgrind" name="BrokenROM/external_valgrind" remote="github" revision="n7.0" />
+  <project path="external/wpa_supplicant_8" name="BrokenROM/external_wpa_supplicant_8" remote="github" revision="n7.0" />
   <project path="frameworks/av" name="BrokenROM/frameworks_av" remote="github" revision="n7.0" />
   <project path="frameworks/base" name="BrokenROM/frameworks_base" remote="github" revision="n7.0" />
   <project path="frameworks/native" name="BrokenROM/frameworks_native" remote="github" revision="n7.0" />
   <project path="frameworks/opt/net/ims" name="BrokenROM/frameworks_opt_net_ims" remote="github" revision="n7.0" />
+  <project path="frameworks/opt/net/wifi" name="BrokenROM/frameworks_opt_net_wifi" remote="github" revision="n7.0" />
   <project path="frameworks/opt/telephony" name="BrokenROM/frameworks_opt_telephony" remote="github" revision="n7.0" />
   <project path="hardware/libhardware" name="BrokenROM/hardware_libhardware" remote="github" revision="n7.0" />
   <project path="hardware/libhardware_legacy" name="BrokenROM/hardware_libhardware_legacy" remote="github" revision="n7.0" />
+  <project path="hardware/qcom/audio/default" name="BrokenROM/hardware_qcom_audio" remote="github" revision="n7.0" />
   <project path="hardware/qcom/bt" name="BrokenROM/hardware_qcom_bt" remote="github" revision="n7.0" />
   <project path="hardware/qcom/bt-caf" name="BrokenROM/hardware_qcom_bt" remote="github" revision="n7.0-caf" />
+  <project path="hardware/qcom/display" name="BrokenROM/hardware_qcom_display" remote="github" revision="n7.0" />
+  <project path="hardware/qcom/gps" name="BrokenROM/hardware_qcom_gps" remote="github" revision="n7.0" />
   <project path="hardware/qcom/keymaster" name="BrokenROM/hardware_qcom_keymaster" remote="github" revision="n7.0" />
+  <project path="hardware/qcom/media" name="BrokenROM/hardware_qcom_media" remote="github" revision="n7.0" />
+  <project path="hardware/qcom/wlan" name="BrokenROM/hardware_qcom_wlan" remote="github" revision="n7.0" />
+  <project path="hardware/qcom/wlan-caf" name="BrokenROM/hardware_qcom_wlan" remote="github" revision="n7.0-caf" />
+  <project path="hardware/ril" name="BrokenROM/hardware_ril" remote="github" revision="n7.0" />
+  <project path="hardware/ril-caf" name="BrokenROM/hardware_ril" remote="github" revision="n7.0-caf" />
   <project path="packages/apps/Bluetooth" name="BrokenROM/packages_apps_Bluetooth" remote="github" revision="n7.0" />
+  <project path="packages/apps/Contacts" name="BrokenROM/packages_apps_Contacts" remote="github" revision="n7.0" />
+  <project path="packages/apps/ContactsCommon" name="BrokenROM/packages_apps_ContactsCommon" remote="github" revision="n7.0" />
+  <project path="packages/apps/Dialer" name="BrokenROM/packages_apps_Dialer" remote="github" revision="n7.0" />
   <project path="packages/apps/Nfc" name="BrokenROM/packages_apps_Nfc" remote="github" revision="n7.0" />
+  <project path="packages/apps/PhoneCommon" name="BrokenROM/packages_apps_PhoneCommon" remote="github" revision="n7.0" />
   <project path="packages/apps/Settings" name="BrokenROM/packages_apps_Settings" remote="github" revision="n7.0" />
+  <project path="packages/providers/ContactsProvider" name="BrokenROM/packages_providers_ContactsProvider" remote="github" revision="n7.0" />
   <project path="packages/providers/TelephonyProvider" name="BrokenROM/packages_providers_TelephonyProvider" remote="github" revision="n7.0" />
+  <project path="packages/services/Telecomm" name="BrokenROM/packages_services_Telecomm" remote="github" revision="n7.0" />
   <project path="packages/services/Telephony" name="BrokenROM/packages_services_Telephony" remote="github" revision="n7.0" />
   <project path="platform_manifest" name="BrokenROM/platform_manifest" remote="github" revision="n7.0" />
   <project path="system/bt" name="BrokenROM/system_bt" remote="github" revision="n7.0" />
@@ -82,6 +76,7 @@
   <project path="system/keymaster" name="BrokenROM/system_keymaster" remote="github" revision="n7.0" />
   <project path="system/media" name="BrokenROM/system_media" remote="github" revision="n7.0" />
   <project path="system/sepolicy" name="BrokenROM/system_sepolicy" remote="github" revision="n7.0" />
+  <project path="system/vold" name="BrokenROM/system_vold" remote="github" revision="n7.0" />
   <project path="vendor/broken" name="BrokenROM/vendor_broken" remote="github" revision="n7.0" >
 	  <copyfile src="tools/build-broken.sh" dest="build-broken.sh" />
   </project>
@@ -94,7 +89,6 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" />
@@ -141,7 +135,6 @@
   <project path="external/avahi" name="platform/external/avahi" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/boringssl" name="platform/external/boringssl" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
@@ -173,7 +166,6 @@
   <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="drm_gralloc" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs,pdk-fs" />
@@ -183,7 +175,6 @@
   <project path="external/esd" name="platform/external/esd" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <project path="external/fec" name="platform/external/fec" />
   <project path="external/fio" name="platform/external/fio" groups="pdk-fs" />
@@ -262,7 +253,6 @@
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs,pdk-fs" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
-  <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" />
   <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" />
   <project path="external/libusb" name="platform/external/libusb" groups="pdk-cw-fs,pdk-fs" />
@@ -280,7 +270,6 @@
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lz4" name="platform/external/lz4" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/lzma" name="platform/external/lzma" groups="pdk" />
   <project path="external/markdown" name="platform/external/markdown" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" />
   <project path="external/mesa3d" name="platform/external/mesa3d" groups="pdk-cw-fs,pdk-fs" />
@@ -346,7 +335,6 @@
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" />
-  <project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
   <project path="external/tlsdate" name="platform/external/tlsdate" />
@@ -355,14 +343,12 @@
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
   <project path="external/unicode" name="platform/external/unicode" groups="pdk" />
   <project path="external/v8" name="platform/external/v8" groups="pdk" />
-  <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot" />
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
   <project path="external/vogar" name="platform/external/vogar" groups="pdk" />
   <project path="external/vulkan-validation-layers" name="platform/external/vulkan-validation-layers" />
   <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
   <project path="external/xmlrpcpp" name="platform/external/xmlrpcpp" groups="pdk" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs,pdk-fs" />
@@ -387,7 +373,6 @@
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
@@ -419,7 +404,6 @@
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
-  <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="staging/cm-14.0" />
   <project path="hardware/qcom/audio-caf/apq8084" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="staging/cm-14.0-caf-8084" />
   <project path="hardware/qcom/audio-caf/msm8916" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="staging/cm-14.0-caf-8916" />
   <project path="hardware/qcom/audio-caf/msm8937" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="staging/cm-14.0-caf-8937" />
@@ -430,7 +414,6 @@
   <project path="hardware/qcom/audio-caf/msm8996" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="staging/cm-14.0-caf-8996" />
   <project path="hardware/qcom/bootctrl" name="CyanogenMod/android_hardware_qcom_bootctrl" remote="github" revision="staging/cm-14.0" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" remote="github" revision="staging/cm-14.0" />
-  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="staging/cm-14.0" />
   <project path="hardware/qcom/display-caf/apq8084" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="staging/cm-14.0-caf-8084" />
   <project path="hardware/qcom/display-caf/msm8916" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="staging/cm-14.0-caf-8916" />
   <project path="hardware/qcom/display-caf/msm8937" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="staging/cm-14.0-caf-8937" />
@@ -440,8 +423,6 @@
   <project path="hardware/qcom/display-caf/msm8994" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="staging/cm-14.0-caf-8994" />
   <project path="hardware/qcom/display-caf/msm8996" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="staging/cm-14.0-caf-8996" />
   <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" remote="github" revision="staging/cm-14.0" />
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="staging/cm-14.0" />
-  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="staging/cm-14.0" />
   <project path="hardware/qcom/media-caf/apq8084" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="staging/cm-14.0-caf-8084" />
   <project path="hardware/qcom/media-caf/msm8916" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="staging/cm-14.0-caf-8916" />
   <project path="hardware/qcom/media-caf/msm8937" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="staging/cm-14.0-caf-8937" />
@@ -456,10 +437,6 @@
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
-  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="github" revision="staging/cm-14.0" />
-  <project path="hardware/qcom/wlan-caf" name="CyanogenMod/android_hardware_qcom_wlan" remote="github" revision="staging/cm-14.0-caf" />
-  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="github" revision="staging/cm-14.0" />
-  <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" remote="github" revision="staging/cm-14.0-caf" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
@@ -474,11 +451,8 @@
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" groups="pdk-fs" />
-  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" groups="pdk-fs" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" />
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" />
-  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" groups="pdk-fs" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
@@ -496,7 +470,6 @@
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
-  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
@@ -518,7 +491,6 @@
   <project path="packages/providers/BookmarkProvider" name="platform/packages/providers/BookmarkProvider" groups="pdk-fs" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/CallLogProvider" name="platform/packages/providers/CallLogProvider" groups="pdk-fs" />
-  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" />
@@ -529,7 +501,6 @@
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" groups="pdk-fs" />
   <project path="packages/services/Car" name="platform/packages/services/Car" groups="adp8064,pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" groups="pdk-fs" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="platform_testing" name="platform/platform_testing" />
@@ -584,7 +555,6 @@
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="system/weaved" name="platform/system/weaved" />
   <project path="system/webservd" name="platform/system/webservd" />
   <project path="toolchain/binutils" name="toolchain/binutils" />
