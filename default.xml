@@ -32,6 +32,7 @@
   <project path="device/qcom/common" name="BrokenROM/device_qcom_common" remote="github" revision="n7.0" />
   <project path="device/qcom/sepolicy" name="BrokenROM/device_qcom_sepolicy" remote="github" revision="n7.0" />
   <project path="external/boringssl" name="BrokenROM/external_boringssl" remote="github" revision="n7.0" />
+  <project path="external/connectivity" name="BrokenROM/external_connectivity" remote="github" revision="n7.0" />
   <project path="external/e2fsprogs" name="BrokenROM/external_e2fsprogs" remote="github" revision="n7.0" />
   <project path="external/f2fs-tools" name="BrokenROM/external_f2fs-tools" remote="github" revision="n7.0" />
   <project path="external/libselinux" name="BrokenROM/external_libselinux" remote="github" revision="n7.0" />
@@ -78,6 +79,7 @@
   <project path="system/extras" name="BrokenROM/system_extras" remote="github" revision="n7.0" />
   <project path="system/keymaster" name="BrokenROM/system_keymaster" remote="github" revision="n7.0" />
   <project path="system/media" name="BrokenROM/system_media" remote="github" revision="n7.0" />
+  <project path="system/qcom" name="BrokenROM/system_qcom" remote="github" revision="n7.0" />
   <project path="system/sepolicy" name="BrokenROM/system_sepolicy" remote="github" revision="n7.0" />
   <project path="system/vold" name="BrokenROM/system_vold" remote="github" revision="n7.0" />
   <project path="vendor/broken" name="BrokenROM/vendor_broken" remote="github" revision="n7.0" >
