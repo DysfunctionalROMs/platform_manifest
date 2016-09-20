@@ -81,7 +81,7 @@
   <project path="external/tinyalsa" name="BrokenROM/external_tinyalsa" remote="github" revision="m6.0.1" />
   <project path="external/vogar" name="BrokenROM/external_vogar" remote="github" revision="m6.0.1"/>
   <project path="frameworks/av" name="BrokenROM/frameworks_av" remote="github" revision="m6.0.1" />
-  <project path="frameworks/base" name="BrokenROM/frameworks_base" remote="github" revision="m6.0.1" />
+  <project path="frameworks/base" name="BrokenROM/frameworks_base-old" remote="github" revision="m6.0.1" />
   <project path="frameworks/native" name="BrokenROM/frameworks_native" remote="github" revision="m6.0.1" />
   <project path="frameworks/opt/net/ims" name="BrokenROM/frameworks_opt_net_ims" remote="github" revision="m6.0.1" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/wifi" name="BrokenROM/frameworks_opt_net_wifi" remote="github" revision="m6.0.1" />
