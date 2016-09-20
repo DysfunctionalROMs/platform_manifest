@@ -24,6 +24,7 @@
 
   <!-- Broken Repos -->
   <project path="bionic" name="BrokenROM/bionic" remote="github" revision="n7.0" />
+  <project path="bootable/recovery" name="BrokenROM/bootable_recovery" remote="github" revision="n7.0" />
   <project path="build" name="BrokenROM/android_build" remote="github" revision="n7.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -46,7 +47,6 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="SlimRoms/android_art" remote="github" revision="ng7.0" />
-  <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="ng7.0" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" />
