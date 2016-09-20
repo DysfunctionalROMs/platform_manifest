@@ -41,6 +41,7 @@
   <project path="packages/apps/Settings" name="BrokenROM/packages_apps_Settings" remote="github" revision="n7.0" />
   <project path="platform_manifest" name="BrokenROM/platform_manifest" remote="github" revision="n7.0" />
   <project path="system/core" name="BrokenROM/system_core" remote="github" revision="n7.0" />
+  <project path="system/media" name="BrokenROM/system_media" remote="github" revision="n7.0" />
   <project path="system/sepolicy" name="BrokenROM/system_sepolicy" remote="github" revision="n7.0" />
   <project path="vendor/broken" name="BrokenROM/vendor_broken" remote="github" revision="n7.0" >
 	  <copyfile src="tools/build-broken.sh" dest="build-broken.sh" />
@@ -541,7 +542,6 @@
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="SlimRoms/android_system_keymaster" remote="github" revision="ng7.0" />
-  <project path="system/media" name="SlimRoms/android_system_media" remote="github" revision="ng7.0" />
   <project path="system/nativepower" name="platform/system/nativepower" />
   <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="ng7.0" />
   <project path="system/nvram" name="platform/system/nvram" />
