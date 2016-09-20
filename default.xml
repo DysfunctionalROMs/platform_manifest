@@ -27,6 +27,7 @@
   <project path="build" name="BrokenROM/android_build" remote="github" revision="n7.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="build/kati" name="BrokenROM/build_kati" remote="github" revision="n7.0" />
   <project path="frameworks/av" name="BrokenROM/frameworks_av" remote="github" revision="n7.0" />
   <project path="frameworks/base" name="BrokenROM/frameworks_base" remote="github" revision="n7.0" />
   <project path="packages/apps/Settings" name="BrokenROM/packages_apps_Settings" remote="github" revision="n7.0" />
@@ -38,7 +39,6 @@
 
   <!-- Everyone else -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
-  <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
