@@ -29,7 +29,9 @@
   </project>
   <project path="platform_manifest" name="BrokenROM/platform_manifest" remote="github" revision="n7.0" />
   <project path="system/core" name="BrokenROM/system_core" remote="github" revision="n7.0" />
-  <project path="vendor/broken" name="BrokenROM/vendor_broken" remote="github" revision="n7.0" />
+  <project path="vendor/broken" name="BrokenROM/vendor_broken" remote="github" revision="n7.0" >
+	  <copyfile src="tools/build-broken.sh" dest="build-broken.sh" />
+  </project>
 
   <!-- Everyone else -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
