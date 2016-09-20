@@ -33,6 +33,7 @@
   <project path="device/qcom/sepolicy" name="BrokenROM/device_qcom_sepolicy" remote="github" revision="n7.0" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/selinux" name="BrokenROM/external_selinux" remote="github" revision="n7.0" />
+  <project path="external/stagefright-plugins" name="BrokenROM/external_stagefright-plugins" remote="github" revision="n7.0" />
   <project path="frameworks/av" name="BrokenROM/frameworks_av" remote="github" revision="n7.0" />
   <project path="frameworks/base" name="BrokenROM/frameworks_base" remote="github" revision="n7.0" />
   <project path="frameworks/native" name="BrokenROM/frameworks_native" remote="github" revision="n7.0" />
