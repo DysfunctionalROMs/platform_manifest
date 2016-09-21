@@ -38,6 +38,7 @@
   <project path="frameworks/av" name="BrokenROM/frameworks_av" remote="github" revision="n7.0" />
   <project path="frameworks/base" name="BrokenROM/frameworks_base" remote="github" revision="n7.0" />
   <project path="frameworks/native" name="BrokenROM/frameworks_native" remote="github" revision="n7.0" />
+  <project path="hardware/qcom/camera" name="BrokenROM/hardware_qcom_camera" remote="github" revision="n7.0" />
   <project path="packages/apps/Settings" name="BrokenROM/packages_apps_Settings" remote="github" revision="n7.0" />
   <project path="platform_manifest" name="BrokenROM/platform_manifest" remote="github" revision="n7.0" />
   <project path="system/core" name="BrokenROM/system_core" remote="github" revision="n7.0" />
@@ -394,7 +395,6 @@
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
   <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" remote="github" revision="ng7.0" />
   <project path="hardware/qcom/bt-caf" name="SlimRoms/hardware_qcom_bt" remote="github" revision="ng7.0-caf" />
-  <project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" remote="github" revision="ng7.0" />
   <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" remote="github" revision="ng7.0" />
   <project path="hardware/qcom/display-caf/msm8916" name="SlimRoms/hardware_qcom_display" remote="github" revision="ng7.0-caf-8916" />
   <project path="hardware/qcom/display-caf/msm8974" name="SlimRoms/hardware_qcom_display" remote="github" revision="ng7.0-caf-8974" />
