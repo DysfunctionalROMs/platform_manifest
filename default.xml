@@ -32,7 +32,7 @@
   <project path="device/qcom/common" name="BrokenROM/device_qcom_common" remote="github" revision="n7.0" />
   <project path="device/qcom/sepolicy" name="BrokenROM/device_qcom_sepolicy" remote="github" revision="n7.0" />
   <project path="external/ffmpeg" name="BrokenROM/external_ffmpeg" remote="github" revision="n7.0" />
-  <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
+  <project path="external/libselinux" name="BrokenROM/external_libselinux" remote="github" revision="n7.0" />
   <project path="external/selinux" name="BrokenROM/external_selinux" remote="github" revision="n7.0" />
   <project path="external/stagefright-plugins" name="BrokenROM/external_stagefright-plugins" remote="github" revision="n7.0" />
   <project path="frameworks/av" name="BrokenROM/frameworks_av" remote="github" revision="n7.0" />
