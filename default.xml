@@ -32,6 +32,8 @@
   <project path="device/qcom/common" name="BrokenROM/device_qcom_common" remote="github" revision="n7.0" />
   <project path="device/qcom/sepolicy" name="BrokenROM/device_qcom_sepolicy" remote="github" revision="n7.0" />
   <project path="external/ffmpeg" name="BrokenROM/external_ffmpeg" remote="github" revision="n7.0" />
+  <project path="external/libnfc-nci" name="BrokenROM/external_libnfc-nci" remote="github" revision="n7.0" />
+  <project path="external/libnfc-nxp" name="BrokenROM/external_libnfc-nxp" remote="github" revision="n7.0" />
   <project path="external/libselinux" name="BrokenROM/external_libselinux" remote="github" revision="n7.0" />
   <project path="external/selinux" name="BrokenROM/external_selinux" remote="github" revision="n7.0" />
   <project path="external/stagefright-plugins" name="BrokenROM/external_stagefright-plugins" remote="github" revision="n7.0" />
@@ -229,8 +231,6 @@
   <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libnetfilter_conntrack" name="SlimRoms/android_external_libnetfilter_conntrack" remote="github" revision="ng7.0" />
-  <project path="external/libnfc-nci" name="SlimRoms/android_external_libnfc-nci" remote="github" revision="ng7.0" />
-  <project path="external/libnfc-nxp" name="SlimRoms/android_external_libnfc-nxp" remote="github" revision="ng7.0" />
   <project path="external/libnfnetlink" name="SlimRoms/android_external_libnfnetlink" remote="github" revision="ng7.0" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
