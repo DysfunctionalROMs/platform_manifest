@@ -36,6 +36,7 @@
   <project path="external/libnfc-nxp" name="BrokenROM/external_libnfc-nxp" remote="github" revision="n7.0" />
   <project path="external/libselinux" name="BrokenROM/external_libselinux" remote="github" revision="n7.0" />
   <project path="external/selinux" name="BrokenROM/external_selinux" remote="github" revision="n7.0" />
+  <project path="external/skia" name="BrokenROM/external_skia" remote="github" revision="n7.0" />
   <project path="external/stagefright-plugins" name="BrokenROM/external_stagefright-plugins" remote="github" revision="n7.0" />
   <project path="frameworks/av" name="BrokenROM/frameworks_av" remote="github" revision="n7.0" />
   <project path="frameworks/base" name="BrokenROM/frameworks_base" remote="github" revision="n7.0" />
@@ -305,7 +306,6 @@
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/shflags" name="platform/external/shflags" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
-  <project path="external/skia" name="SlimRoms/android_external_skia" remote="github" revision="ng7.0" />
   <project path="external/sl4a" name="platform/external/sl4a" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs,pdk-fs" />
