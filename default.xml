@@ -45,6 +45,7 @@
   <project path="hardware/qcom/camera" name="BrokenROM/hardware_qcom_camera" remote="github" revision="n7.0" />
   <project path="hardware/qcom/display" name="BrokenROM/hardware_qcom_display" remote="github" revision="n7.0" />
   <project path="hardware/qcom/media/default" name="BrokenROM/hardware_qcom_media" remote="github" revision="n7.0" />
+  <project path="packages/apps/Nfc" name="BrokenROM/packages_apps_Nfc" remote="github" revision="n7.0" />
   <project path="packages/apps/Settings" name="BrokenROM/packages_apps_Settings" remote="github" revision="n7.0" />
   <project path="packages/providers/TelephonyProvider" name="BrokenROM/packages_providers_TelephonyProvider" remote="github" revision="n7.0" />
   <project path="packages/services/Telephony" name="BrokenROM/packages_services_Telephony" remote="github" revision="n7.0" />
@@ -467,7 +468,6 @@
   <project path="packages/apps/Messaging" name="SlimRoms/packages_apps_Messaging" remote="github" revision="ng7.0" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
-  <project path="packages/apps/Nfc" name="SlimRoms/packages_apps_Nfc" remote="github" revision="ng7.0" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
