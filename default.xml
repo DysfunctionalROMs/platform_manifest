@@ -51,6 +51,8 @@
   <project path="hardware/qcom/camera" name="BrokenROM/hardware_qcom_camera" remote="github" revision="n7.0" />
   <project path="hardware/qcom/display" name="BrokenROM/hardware_qcom_display" remote="github" revision="n7.0" />
   <project path="hardware/qcom/media/default" name="BrokenROM/hardware_qcom_media" remote="github" revision="n7.0" />
+  <project path="hardware/ril" name="BrokenROM/hardware_ril" remote="github" revision="n7.0" />
+  <project path="hardware/ril-caf" name="BrokenROM/hardware_ril" remote="github" revision="n7.0-caf" />
   <project path="packages/apps/Dialer" name="BrokenROM/packages_apps_Dialer" remote="github" revision="n7.0" />
   <project path="packages/apps/Nfc" name="BrokenROM/packages_apps_Nfc" remote="github" revision="n7.0" />
   <project path="packages/apps/Settings" name="BrokenROM/packages_apps_Settings" remote="github" revision="n7.0" />
@@ -433,8 +435,6 @@
   <project path="hardware/qcom/power" name="SlimRoms/hardware_qcom_power" remote="github" revision="ng7.0" />
   <project path="hardware/qcom/wlan" name="SlimRoms/hardware_qcom_wlan" remote="github" revision="ng7.0" />
   <project path="hardware/qcom/wlan-caf" name="SlimRoms/hardware_qcom_wlan" remote="github" revision="ng7.0-caf" />
-  <project path="hardware/ril" name="SlimRoms/hardware_ril" remote="github" revision="ng7.0" />
-  <project path="hardware/ril-caf" name="SlimRoms/hardware_ril" remote="github" revision="ng7.0-caf" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
