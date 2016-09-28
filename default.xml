@@ -51,6 +51,7 @@
   <project path="hardware/qcom/camera" name="BrokenROM/hardware_qcom_camera" remote="github" revision="n7.0" />
   <project path="hardware/qcom/display" name="BrokenROM/hardware_qcom_display" remote="github" revision="n7.0" />
   <project path="hardware/qcom/media/default" name="BrokenROM/hardware_qcom_media" remote="github" revision="n7.0" />
+  <project path="packages/apps/Dialer" name="BrokenROM/packages_apps_Dialer" remote="github" revision="n7.0" />
   <project path="packages/apps/Nfc" name="BrokenROM/packages_apps_Nfc" remote="github" revision="n7.0" />
   <project path="packages/apps/Settings" name="BrokenROM/packages_apps_Settings" remote="github" revision="n7.0" />
   <project path="packages/providers/TelephonyProvider" name="BrokenROM/packages_providers_TelephonyProvider" remote="github" revision="n7.0" />
@@ -453,7 +454,6 @@
   <project path="packages/apps/ContactsCommon" name="SlimRoms/packages_apps_ContactsCommon" remote="github" revision="ng7.0" />
   <project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" remote="github" revision="ng7.0" />
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" />
-  <project path="packages/apps/Dialer" name="SlimRoms/packages_apps_Dialer" remote="github" revision="ng7.0" />
   <project path="packages/apps/Email" name="SlimRoms/packages_apps_Email" remote="github" revision="ng7.0" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
