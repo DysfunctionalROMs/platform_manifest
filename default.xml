@@ -32,6 +32,7 @@
   <project path="device/qcom/common" name="BrokenROM/device_qcom_common" remote="github" revision="n7.0" />
   <project path="device/qcom/sepolicy" name="BrokenROM/device_qcom_sepolicy" remote="github" revision="n7.0" />
   <project path="external/ffmpeg" name="BrokenROM/external_ffmpeg" remote="github" revision="n7.0" />
+  <project path="external/flac" name="BrokenROM/external_flac" remote="github" revision="n7.0" />
   <project path="external/libnfc-nci" name="BrokenROM/external_libnfc-nci" remote="github" revision="n7.0" />
   <project path="external/libnfc-nxp" name="BrokenROM/external_libnfc-nxp" remote="github" revision="n7.0" />
   <project path="external/libselinux" name="BrokenROM/external_libselinux" remote="github" revision="n7.0" />
@@ -170,7 +171,6 @@
   <project path="external/fuse" name="SlimRoms/android_external_fuse" remote="github" revision="ng7.0" />
   <project path="external/fec" name="platform/external/fec" />
   <project path="external/fio" name="platform/external/fio" groups="pdk-fs" />
-  <project path="external/flac" name="platform/external/flac" groups="pdk" />
   <project path="external/fonttools" name="platform/external/fonttools" groups="pdk-fs" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk-cw-fs,pdk-fs" />
