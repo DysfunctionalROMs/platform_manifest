@@ -54,6 +54,11 @@
   <project path="hardware/qcom/media/default" name="BrokenROM/hardware_qcom_media" remote="github" revision="n7.0" />
   <project path="hardware/ril" name="BrokenROM/hardware_ril" remote="github" revision="n7.0" />
   <project path="hardware/ril-caf" name="BrokenROM/hardware_ril" remote="github" revision="n7.0-caf" />
+  <project path="packages/apps/BrokenCenter" name="BrokenROM/packages_apps_BrokenCenter" remote="github" revision="n7.0" />
+  <project path="packages/apps/BrokenOTA" name="BrokenROM/packages_apps_BrokenOTA" remote="github" revision="n7.0" >
+	<copyfile src="ota_conf" dest="ota_conf" />
+  </project>
+  <project path="packages/apps/BrokenWalls" name="BrokenROM/packages_apps_BrokenWalls" remote="github" revision="n7.0" />
   <project path="packages/apps/Dialer" name="BrokenROM/packages_apps_Dialer" remote="github" revision="n7.0" />
   <project path="packages/apps/Nfc" name="BrokenROM/packages_apps_Nfc" remote="github" revision="n7.0" />
   <project path="packages/apps/Settings" name="BrokenROM/packages_apps_Settings" remote="github" revision="n7.0" />
