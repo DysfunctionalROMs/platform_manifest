@@ -18,7 +18,7 @@
   <remote name="xda"
           fetch=".." />
 
-  <default revision="refs/tags/android-7.0.0_r1"
+  <default revision="refs/tags/android-7.0.0_r14"
            remote="aosp"
            sync-j="4" />
 
