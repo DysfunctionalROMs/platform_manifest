@@ -59,6 +59,7 @@
 	<copyfile src="ota_conf" dest="ota_conf" />
   </project>
   <project path="packages/apps/BrokenWalls" name="BrokenROM/packages_apps_BrokenWalls" remote="github" revision="n7.0" />
+  <project path="packages/apps/Camera2" name="BrokenROM/packages_apps_Camera2" remote="github" revision="n7.0" />
   <project path="packages/apps/Dialer" name="BrokenROM/packages_apps_Dialer" remote="github" revision="n7.0" />
   <project path="packages/apps/Nfc" name="BrokenROM/packages_apps_Nfc" remote="github" revision="n7.0" />
   <project path="packages/apps/Settings" name="BrokenROM/packages_apps_Settings" remote="github" revision="n7.0" />
@@ -446,7 +447,6 @@
   <project path="packages/apps/Browser2" name="SlimRoms/packages_apps_Browser2" remote="github" revision="ng7.0" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="SlimRoms/packages_apps_Calendar" remote="github" revision="ng7.0" />
-  <project path="packages/apps/Camera2" name="SlimRoms/packages_apps_Camera2" remote="github" revision="ng7.0" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="SlimRoms/packages_apps_CellBroadcastReceiver" remote="github" revision="ng7.0" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
