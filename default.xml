@@ -66,6 +66,7 @@
   <project path="packages/services/Telephony" name="BrokenROM/packages_services_Telephony" remote="github" revision="n7.0" />
   <project path="packages/services/Telecomm" name="BrokenROM/packages_services_Telecomm" remote="github" revision="n7.0" />
   <project path="platform_manifest" name="BrokenROM/platform_manifest" remote="github" revision="n7.0" />
+  <project path="system/bt" name="BrokenROM/system_bt" remote="github" revision="n7.0" />
   <project path="system/core" name="BrokenROM/system_core" remote="github" revision="n7.0" />
   <project path="system/media" name="BrokenROM/system_media" remote="github" revision="n7.0" />
   <project path="system/sepolicy" name="BrokenROM/system_sepolicy" remote="github" revision="n7.0" />
@@ -546,7 +547,6 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
-  <project path="system/bt" name="SlimRoms/android_system_bt" remote="github" revision="ng7.0" />
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" />
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
