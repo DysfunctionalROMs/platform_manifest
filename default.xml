@@ -46,6 +46,7 @@
   <project path="frameworks/opt/net/ims" name="BrokenROM/frameworks_opt_net_ims" remote="github" revision="n7.0" />
   <project path="frameworks/opt/net/wifi" name="BrokenROM/frameworks_opt_net_wifi" remote="github" revision="n7.0" />
   <project path="frameworks/opt/telephony" name="BrokenROM/frameworks_opt_telephony" remote="github" revision="n7.0" />
+  <project path="frameworks/support" name="BrokenROM/frameworks_support" remote="github" revision="n7.0" />
   <project path="hardware/libhardware" name="BrokenROM/hardware_libhardware" remote="github" revision="n7.0" />
   <project path="hardware/libhardware_legacy" name="BrokenROM/hardware_libhardware_legacy" remote="github" revision="n7.0" />
   <project path="hardware/qcom/audio/default" name="BrokenROM/hardware_qcom_audio" remote="github" revision="n7.0" />
@@ -385,7 +386,6 @@
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
-  <project path="frameworks/support" name="SlimRoms/frameworks_support" remote="github" revision="ng7.0" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
