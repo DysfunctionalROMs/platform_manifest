@@ -81,6 +81,7 @@
   <project path="vendor/broken" name="BrokenROM/vendor_broken" remote="github" revision="n7.0" >
 	  <copyfile src="tools/build-broken.sh" dest="build-broken.sh" />
   </project>
+  <project path="vendor/qcom/binaries" name="BrokenROM/vendor_qcom_binaries" remote="github" revision="n7.0" />
 
   <!-- Everyone else -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
