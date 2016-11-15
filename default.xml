@@ -80,6 +80,7 @@
   <project path="system/sepolicy" name="BrokenROM/system_sepolicy" remote="github" revision="n7.0" />
   <project path="vendor/broken" name="BrokenROM/vendor_broken" remote="github" revision="n7.0" >
 	  <copyfile src="tools/build-broken.sh" dest="build-broken.sh" />
+  <project path="vendor/qcom/binaries" name="BrokenROM/vendor_qcom_binaries" remote="github" revision="n7.0" />
   </project>
 
   <!-- Everyone else -->
