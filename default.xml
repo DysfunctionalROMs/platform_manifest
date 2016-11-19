@@ -8,80 +8,69 @@
   <remote name="github"
           fetch="https://github.com/" />
 
-  <remote name="broken"
-          fetch="https://github.com/BrokenROM/"
-          revision="n7.0" />
-
-  <remote name="#FuckXDA"
-          fetch="www.FuckXDA.com" />
-
-  <remote name="xda"
-          fetch=".." />
-
-  <default revision="refs/tags/android-7.0.0_r14"
+  <default revision="refs/tags/android-7.1.0_r7"
            remote="aosp"
            sync-j="4" />
 
   <!-- Broken Repos -->
-  <project path="bionic" name="BrokenROM/bionic" remote="github" revision="n7.0" />
-  <project path="bootable/recovery" name="BrokenROM/bootable_recovery" remote="github" revision="n7.0" />
-  <project path="build" name="BrokenROM/android_build" remote="github" revision="n7.0" >
+  <project path="bionic" name="BrokenROM/bionic" remote="github" revision="n7.1" />
+  <project path="bootable/recovery" name="BrokenROM/bootable_recovery" remote="github" revision="n7.1" />
+  <project path="build" name="BrokenROM/android_build" remote="github" revision="n7.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="build/kati" name="BrokenROM/build_kati" remote="github" revision="n7.0" />
-  <project path="device/qcom/common" name="BrokenROM/device_qcom_common" remote="github" revision="n7.0" />
-  <project path="device/qcom/sepolicy" name="BrokenROM/device_qcom_sepolicy" remote="github" revision="n7.0" />
-  <project path="external/ffmpeg" name="BrokenROM/external_ffmpeg" remote="github" revision="n7.0" />
-  <project path="external/flac" name="BrokenROM/external_flac" remote="github" revision="n7.0" />
-  <project path="external/libnfc-nci" name="BrokenROM/external_libnfc-nci" remote="github" revision="n7.0" />
-  <project path="external/libnfc-nxp" name="BrokenROM/external_libnfc-nxp" remote="github" revision="n7.0" />
-  <project path="external/libselinux" name="BrokenROM/external_libselinux" remote="github" revision="n7.0" />
-  <project path="external/pdfium" name="BrokenROM/external_pdfium" remote="github" revision="n7.0" />
-  <project path="external/selinux" name="BrokenROM/external_selinux" remote="github" revision="n7.0" />
-  <project path="external/skia" name="BrokenROM/external_skia" remote="github" revision="n7.0" />
-  <project path="external/stagefright-plugins" name="BrokenROM/external_stagefright-plugins" remote="github" revision="n7.0" />
-  <project path="frameworks/av" name="BrokenROM/frameworks_av" remote="github" revision="n7.0" />
-  <project path="frameworks/base" name="BrokenROM/frameworks_base" remote="github" revision="n7.0" />
-  <project path="frameworks/native" name="BrokenROM/frameworks_native" remote="github" revision="n7.0" />
-  <project path="frameworks/opt/net/ims" name="BrokenROM/frameworks_opt_net_ims" remote="github" revision="n7.0" />
-  <project path="frameworks/opt/net/wifi" name="BrokenROM/frameworks_opt_net_wifi" remote="github" revision="n7.0" />
-  <project path="frameworks/opt/telephony" name="BrokenROM/frameworks_opt_telephony" remote="github" revision="n7.0" />
-  <project path="frameworks/support" name="BrokenROM/frameworks_support" remote="github" revision="n7.0" />
-  <project path="hardware/libhardware" name="BrokenROM/hardware_libhardware" remote="github" revision="n7.0" />
-  <project path="hardware/libhardware_legacy" name="BrokenROM/hardware_libhardware_legacy" remote="github" revision="n7.0" />
-  <project path="hardware/qcom/audio/default" name="BrokenROM/hardware_qcom_audio" remote="github" revision="n7.0" />
-  <project path="hardware/qcom/bt" name="BrokenROM/hardware_qcom_bt" remote="github" revision="n7.0" />
-  <project path="hardware/qcom/bt-caf" name="BrokenROM/hardware_qcom_bt" remote="github" revision="n7.0-caf" />
-  <project path="hardware/qcom/camera" name="BrokenROM/hardware_qcom_camera" remote="github" revision="n7.0" />
-  <project path="hardware/qcom/display" name="BrokenROM/hardware_qcom_display" remote="github" revision="n7.0" />
-  <project path="hardware/qcom/media/default" name="BrokenROM/hardware_qcom_media" remote="github" revision="n7.0" />
-  <project path="hardware/ril" name="BrokenROM/hardware_ril" remote="github" revision="n7.0" />
-  <project path="hardware/ril-caf" name="BrokenROM/hardware_ril" remote="github" revision="n7.0-caf" />
-  <project path="packages/apps/BrokenCenter" name="BrokenROM/packages_apps_BrokenCenter" remote="github" revision="n7.0" />
-  <project path="packages/apps/BrokenOTA" name="BrokenROM/packages_apps_BrokenOTA" remote="github" revision="n7.0" >
+  <project path="build/kati" name="BrokenROM/build_kati" remote="github" revision="n7.1" />
+  <project path="device/qcom/common" name="BrokenROM/device_qcom_common" remote="github" revision="n7.1" />
+  <project path="device/qcom/sepolicy" name="BrokenROM/device_qcom_sepolicy" remote="github" revision="n7.1" />
+  <project path="external/ffmpeg" name="BrokenROM/external_ffmpeg" remote="github" revision="n7.1" />
+  <project path="external/flac" name="BrokenROM/external_flac" remote="github" revision="n7.1" />
+  <project path="external/libnfc-nci" name="BrokenROM/external_libnfc-nci" remote="github" revision="n7.1" />
+  <project path="external/libnfc-nxp" name="BrokenROM/external_libnfc-nxp" remote="github" revision="n7.1" />
+  <project path="external/libselinux" name="BrokenROM/external_libselinux" remote="github" revision="n7.1" />
+  <project path="external/skia" name="BrokenROM/external_skia" remote="github" revision="n7.1" />
+  <project path="external/stagefright-plugins" name="BrokenROM/external_stagefright-plugins" remote="github" revision="n7.1" />
+  <project path="frameworks/av" name="BrokenROM/frameworks_av" remote="github" revision="n7.1" />
+  <project path="frameworks/base" name="BrokenROM/frameworks_base" remote="github" revision="n7.1" />
+  <project path="frameworks/native" name="BrokenROM/frameworks_native" remote="github" revision="n7.1" />
+  <project path="frameworks/opt/net/ims" name="BrokenROM/frameworks_opt_net_ims" remote="github" revision="n7.1" />
+  <project path="frameworks/opt/net/wifi" name="BrokenROM/frameworks_opt_net_wifi" remote="github" revision="n7.1" />
+  <project path="frameworks/opt/telephony" name="BrokenROM/frameworks_opt_telephony" remote="github" revision="n7.1" />
+  <project path="frameworks/support" name="BrokenROM/frameworks_support" remote="github" revision="n7.1" />
+  <project path="hardware/libhardware" name="BrokenROM/hardware_libhardware" remote="github" revision="n7.1" />
+  <project path="hardware/libhardware_legacy" name="BrokenROM/hardware_libhardware_legacy" remote="github" revision="n7.1" />
+  <project path="hardware/qcom/audio/default" name="BrokenROM/hardware_qcom_audio" remote="github" revision="n7.1" />
+  <project path="hardware/qcom/bt" name="BrokenROM/hardware_qcom_bt" remote="github" revision="n7.1" />
+  <project path="hardware/qcom/bt-caf" name="BrokenROM/hardware_qcom_bt" remote="github" revision="n7.1-caf" />
+  <project path="hardware/qcom/camera" name="BrokenROM/hardware_qcom_camera" remote="github" revision="n7.1" />
+  <project path="hardware/qcom/display" name="BrokenROM/hardware_qcom_display" remote="github" revision="n7.1" />
+  <project path="hardware/qcom/media/default" name="BrokenROM/hardware_qcom_media" remote="github" revision="n7.1" />
+  <project path="hardware/ril" name="BrokenROM/hardware_ril" remote="github" revision="n7.1" />
+  <project path="hardware/ril-caf" name="BrokenROM/hardware_ril" remote="github" revision="n7.1-caf" />
+  <project path="packages/apps/BrokenCenter" name="BrokenROM/packages_apps_BrokenCenter" remote="github" revision="n7.1" />
+  <project path="packages/apps/BrokenOTA" name="BrokenROM/packages_apps_BrokenOTA" remote="github" revision="n7.1" >
 	<copyfile src="ota_conf" dest="ota_conf" />
   </project>
-  <project path="packages/apps/BrokenWalls" name="BrokenROM/packages_apps_BrokenWalls" remote="github" revision="n7.0" />
-  <project path="packages/apps/Camera2" name="BrokenROM/packages_apps_Camera2" remote="github" revision="n7.0" />
-  <project path="packages/apps/Contacts" name="BrokenROM/packages_apps_Contacts" remote="github" revision="n7.0" />
-  <project path="packages/apps/ContactsCommon" name="BrokenROM/packages_apps_ContactsCommon" remote="github" revision="n7.0" />
-  <project path="packages/apps/Dialer" name="BrokenROM/packages_apps_Dialer" remote="github" revision="n7.0" />
-  <project path="packages/apps/Gallery2" name="BrokenROM/packages_apps_Gallery2" remote="github" revision="n7.0" />
-  <project path="packages/apps/Nfc" name="BrokenROM/packages_apps_Nfc" remote="github" revision="n7.0" />
-  <project path="packages/apps/PhoneCommon" name="BrokenROM/packages_apps_PhoneCommon" remote="github" revision="n7.0" />
-  <project path="packages/apps/Settings" name="BrokenROM/packages_apps_Settings" remote="github" revision="n7.0" />
-  <project path="packages/providers/TelephonyProvider" name="BrokenROM/packages_providers_TelephonyProvider" remote="github" revision="n7.0" />
-  <project path="packages/services/Telephony" name="BrokenROM/packages_services_Telephony" remote="github" revision="n7.0" />
-  <project path="packages/services/Telecomm" name="BrokenROM/packages_services_Telecomm" remote="github" revision="n7.0" />
-  <project path="platform_manifest" name="BrokenROM/platform_manifest" remote="github" revision="n7.0" />
-  <project path="system/bt" name="BrokenROM/system_bt" remote="github" revision="n7.0" />
-  <project path="system/core" name="BrokenROM/system_core" remote="github" revision="n7.0" />
-  <project path="system/media" name="BrokenROM/system_media" remote="github" revision="n7.0" />
-  <project path="system/sepolicy" name="BrokenROM/system_sepolicy" remote="github" revision="n7.0" />
-  <project path="vendor/broken" name="BrokenROM/vendor_broken" remote="github" revision="n7.0" >
+  <project path="packages/apps/BrokenWalls" name="BrokenROM/packages_apps_BrokenWalls" remote="github" revision="n7.1" />
+  <project path="packages/apps/Browser2" name="BrokenROM/packages_apps_Browser2" remote="github" revision="n7.1" />
+  <project path="packages/apps/Camera2" name="BrokenROM/packages_apps_Camera2" remote="github" revision="n7.1" />
+  <project path="packages/apps/Contacts" name="BrokenROM/packages_apps_Contacts" remote="github" revision="n7.1" />
+  <project path="packages/apps/ContactsCommon" name="BrokenROM/packages_apps_ContactsCommon" remote="github" revision="n7.1" />
+  <project path="packages/apps/Dialer" name="BrokenROM/packages_apps_Dialer" remote="github" revision="n7.1" />
+  <project path="packages/apps/Gallery2" name="BrokenROM/packages_apps_Gallery2" remote="github" revision="n7.1" />
+  <project path="packages/apps/Nfc" name="BrokenROM/packages_apps_Nfc" remote="github" revision="n7.1" />
+  <project path="packages/apps/PhoneCommon" name="BrokenROM/packages_apps_PhoneCommon" remote="github" revision="n7.1" />
+  <project path="packages/apps/Settings" name="BrokenROM/packages_apps_Settings" remote="github" revision="n7.1" />
+  <project path="packages/providers/TelephonyProvider" name="BrokenROM/packages_providers_TelephonyProvider" remote="github" revision="n7.1" />
+  <project path="packages/services/Telephony" name="BrokenROM/packages_services_Telephony" remote="github" revision="n7.1" />
+  <project path="packages/services/Telecomm" name="BrokenROM/packages_services_Telecomm" remote="github" revision="n7.1" />
+  <project path="platform_manifest" name="BrokenROM/platform_manifest" remote="github" revision="n7.1" />
+  <project path="system/bt" name="BrokenROM/system_bt" remote="github" revision="n7.1" />
+  <project path="system/core" name="BrokenROM/system_core" remote="github" revision="n7.1" />
+  <project path="system/media" name="BrokenROM/system_media" remote="github" revision="n7.1" />
+  <project path="system/sepolicy" name="BrokenROM/system_sepolicy" remote="github" revision="n7.1" />
+  <project path="vendor/broken" name="BrokenROM/vendor_broken" remote="github" revision="n7.1" >
 	  <copyfile src="tools/build-broken.sh" dest="build-broken.sh" />
   </project>
-  <project path="vendor/qcom/binaries" name="BrokenROM/vendor_qcom_binaries" remote="github" revision="n7.0" />
+  <project path="vendor/qcom/binaries" name="BrokenROM/vendor_qcom_binaries" remote="github" revision="n7.1" />
 
   <!-- Everyone else -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
@@ -90,7 +79,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="SlimRoms/android_art" remote="github" revision="ng7.0" />
+  <project path="art" name="SlimRoms/android_art" remote="github" revision="ng7.1" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" />
@@ -125,12 +114,12 @@
   <project path="external/androidplot" name="platform/external/androidplot" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" remote="github" revision="cm-14.0" />
-  <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" remote="github" revision="cm-14.0" />
-  <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" remote="github" revision="cm-14.0" />
+  <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" remote="github" revision="cm-14.1" />
+  <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" remote="github" revision="cm-14.1" />
+  <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" remote="github" revision="cm-14.1" />
   <project path="external/apache-commons-math" name="platform/external/apache-commons-math" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/apache-http" name="SlimRoms/android_external_apache-http" remote="github" revision="ng7.0" />
+  <project path="external/apache-http" name="SlimRoms/android_external_apache-http" remote="github" revision="ng7.1" />
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk" />
   <project path="external/archive-patcher" name="platform/external/archive-patcher" groups="pdk" />
   <project path="external/autotest" name="platform/external/autotest" />
@@ -151,7 +140,7 @@
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk-fs" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
-  <project path="external/connectivity" name="SlimRoms/android_external_connectivity" remote="github" revision="ng7.0" />
+  <project path="external/connectivity" name="SlimRoms/android_external_connectivity" remote="github" revision="ng7.1" />
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk-fs" />
   <project path="external/cros/system_api" name="platform/external/cros/system_api" />
@@ -170,7 +159,7 @@
   <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="drm_gralloc" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/e2fsprogs" name="SlimRoms/android_external_e2fsprogs" remote="github" revision="ng7.0" />
+  <project path="external/e2fsprogs" name="SlimRoms/android_external_e2fsprogs" remote="github" revision="ng7.1" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs,pdk-fs" />
@@ -178,12 +167,12 @@
   <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" />
   <project path="external/emma" name="platform/external/emma" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/esd" name="platform/external/esd" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/exfat" name="SlimRoms/android_external_exfat" remote="github" revision="ng7.0" />
+  <project path="external/exfat" name="SlimRoms/android_external_exfat" remote="github" revision="ng7.1" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/f2fs-tools" name="SlimRoms/android_external_f2fs-tools" remote="github" revision="ng7.0" />
+  <project path="external/f2fs-tools" name="SlimRoms/android_external_f2fs-tools" remote="github" revision="ng7.1" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
-  <project path="external/fuse" name="SlimRoms/android_external_fuse" remote="github" revision="ng7.0" />
+  <project path="external/fuse" name="SlimRoms/android_external_fuse" remote="github" revision="ng7.1" />
   <project path="external/fec" name="platform/external/fec" />
   <project path="external/fio" name="platform/external/fio" groups="pdk-fs" />
   <project path="external/fonttools" name="platform/external/fonttools" groups="pdk-fs" />
@@ -209,7 +198,7 @@
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk-fs" />
   <project path="external/icu" name="platform/external/icu" groups="pdk" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
-  <project path="external/ipsec-tools" name="SlimRoms/android_external_ipsec-tools" remote="github" revision="ng7.0"  />
+  <project path="external/ipsec-tools" name="SlimRoms/android_external_ipsec-tools" remote="github" revision="ng7.1"  />
   <project path="external/iptables" name="platform/external/iptables" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/iw" name="platform/external/iw" />
@@ -252,8 +241,8 @@
   <project path="external/libmicrohttpd" name="platform/external/libmicrohttpd" />
   <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libnetfilter_conntrack" name="SlimRoms/android_external_libnetfilter_conntrack" remote="github" revision="ng7.0" />
-  <project path="external/libnfnetlink" name="SlimRoms/android_external_libnfnetlink" remote="github" revision="ng7.0" />
+  <project path="external/libnetfilter_conntrack" name="SlimRoms/android_external_libnetfilter_conntrack" remote="github" revision="ng7.1" />
+  <project path="external/libnfnetlink" name="SlimRoms/android_external_libnfnetlink" remote="github" revision="ng7.1" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
@@ -301,15 +290,16 @@
   <project path="external/nist-pkits" name="platform/external/nist-pkits" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/nist-sip" name="platform/external/nist-sip" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" />
-  <project path="external/ntfs-3g" name="SlimRoms/android_external_ntfs-3g" remote="github" revision="ng7.0" />
+  <project path="external/ntfs-3g" name="SlimRoms/android_external_ntfs-3g" remote="github" revision="ng7.1" />
   <project path="external/oauth" name="platform/external/oauth" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/okhttp" name="SlimRoms/android_external_okhttp" remote="github" revision="ng7.0" />
+  <project path="external/okhttp" name="SlimRoms/android_external_okhttp" remote="github" revision="ng7.1" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/opencv3" name="platform/external/opencv3" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk-fs" />
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk-fs" />
   <project path="external/pcre" name="platform/external/pcre" groups="pdk" />
+  <project path="external/pdfium" name="platform/external/pdfium" groups="pdk" />
   <project path="external/piex" name="platform/external/piex" />
   <project path="external/ppp" name="platform/external/ppp" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk" />
@@ -324,6 +314,7 @@
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/shflags" name="platform/external/shflags" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
+  <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
   <project path="external/sl4a" name="platform/external/sl4a" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs,pdk-fs" />
@@ -340,8 +331,8 @@
   <project path="external/testng" name="platform/external/testng" groups="pdk" />
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/tinyalsa" name="SlimRoms/android_external_tinyalsa" remote="github" revision="ng7.0" />
-  <project path="external/tinycompress" name="SlimRoms/android_external_tinycompress" remote="github" revision="ng7.0" />
+  <project path="external/tinyalsa" name="SlimRoms/android_external_tinyalsa" remote="github" revision="ng7.1" />
+  <project path="external/tinycompress" name="SlimRoms/android_external_tinycompress" remote="github" revision="ng7.1" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
   <project path="external/tlsdate" name="platform/external/tlsdate" />
@@ -357,7 +348,7 @@
   <project path="external/vulkan-validation-layers" name="platform/external/vulkan-validation-layers" />
   <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" remote="github" revision="ng7.0" />
+  <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" remote="github" revision="ng7.1" />
   <project path="external/xmlrpcpp" name="platform/external/xmlrpcpp" groups="pdk" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs,pdk-fs" />
@@ -372,7 +363,7 @@
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
-  <project path="frameworks/opt/bluetooth" name="SlimRoms/frameworks_opt_bluetooth" remote="github" revision="ng7.0" />
+  <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs,pdk-fs" />
@@ -392,8 +383,8 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="SlimRoms/hardware_broadcom_libbt" remote="github" revision="ng7.0" />
-  <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" remote="github" revision="ng7.0" />
+  <project path="hardware/broadcom/libbt" name="SlimRoms/hardware_broadcom_libbt" remote="github" revision="ng7.1" />
+  <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" remote="github" revision="ng7.1" />
   <project path="hardware/bsp/intel" name="platform/hardware/bsp/intel" />
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
@@ -412,52 +403,51 @@
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.0-caf-8916" />
-  <project path="hardware/qcom/audio-caf/msm8937" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.0-caf-8937" />
-  <project path="hardware/qcom/audio-caf/msm8952" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.0-caf-8952" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.0-caf-8960" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.0-caf-8974" />
-  <project path="hardware/qcom/audio-caf/msm8994" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.0-caf-8994" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.0-caf-8996" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.1-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8937" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.1-caf-8937" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.1-caf-8952" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.1-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.1-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.1-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.1-caf-8996" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
-  <project path="hardware/qcom/display-caf/apq8084" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.0-caf-8084" />
-  <project path="hardware/qcom/display-caf/msm8916" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.0-caf-8916" />
-  <project path="hardware/qcom/display-caf/msm8937" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.0-caf-8937" />
-  <project path="hardware/qcom/display-caf/msm8952" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.0-caf-8952" />
-  <project path="hardware/qcom/display-caf/msm8960" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.0-caf-8960" />
-  <project path="hardware/qcom/display-caf/msm8974" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.0-caf-8974" />
-  <project path="hardware/qcom/display-caf/msm8994" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.0-caf-8994" />
-  <project path="hardware/qcom/display-caf/msm8996" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.0-caf-8996" />
-  <project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" remote="github" revision="ng7.0" />
-  <project path="hardware/qcom/keymaster" name="SlimRoms/hardware_qcom_keymaster" remote="github" revision="ng7.0" />
-  <project path="hardware/qcom/media-caf/apq8084" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.0-caf-8084" />
-  <project path="hardware/qcom/media-caf/msm8916" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.0-caf-8916" />
-  <project path="hardware/qcom/media-caf/msm8937" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.0-caf-8937" />
-  <project path="hardware/qcom/media-caf/msm8952" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.0-caf-8952" />
-  <project path="hardware/qcom/media-caf/msm8960" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.0-caf-8960" />
-  <project path="hardware/qcom/media-caf/msm8974" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.0-caf-8974" />
-  <project path="hardware/qcom/media-caf/msm8994" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.0-caf-8994" />
-  <project path="hardware/qcom/media-caf/msm8996" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.0-caf-8996" />
-  <project path="hardware/qcom/power" name="SlimRoms/hardware_qcom_power" remote="github" revision="ng7.0" />
-  <project path="hardware/qcom/wlan" name="SlimRoms/hardware_qcom_wlan" remote="github" revision="ng7.0" />
-  <project path="hardware/qcom/wlan-caf" name="SlimRoms/hardware_qcom_wlan" remote="github" revision="ng7.0-caf" />
+  <project path="hardware/qcom/display-caf/apq8084" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.1-caf-8084" />
+  <project path="hardware/qcom/display-caf/msm8916" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.1-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8937" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.1-caf-8937" />
+  <project path="hardware/qcom/display-caf/msm8952" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.1-caf-8952" />
+  <project path="hardware/qcom/display-caf/msm8960" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.1-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8974" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.1-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.1-caf-8994" />
+  <project path="hardware/qcom/display-caf/msm8996" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.1-caf-8996" />
+  <project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" remote="github" revision="ng7.1" />
+  <project path="hardware/qcom/keymaster" name="SlimRoms/hardware_qcom_keymaster" remote="github" revision="ng7.1" />
+  <project path="hardware/qcom/media-caf/apq8084" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.1-caf-8084" />
+  <project path="hardware/qcom/media-caf/msm8916" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.1-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8937" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.1-caf-8937" />
+  <project path="hardware/qcom/media-caf/msm8952" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.1-caf-8952" />
+  <project path="hardware/qcom/media-caf/msm8960" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.1-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.1-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.1-caf-8994" />
+  <project path="hardware/qcom/media-caf/msm8996" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.1-caf-8996" />
+  <project path="hardware/qcom/power" name="SlimRoms/hardware_qcom_power" remote="github" revision="ng7.1" />
+  <project path="hardware/qcom/wlan" name="SlimRoms/hardware_qcom_wlan" remote="github" revision="ng7.1" />
+  <project path="hardware/qcom/wlan-caf" name="SlimRoms/hardware_qcom_wlan" remote="github" revision="ng7.1-caf" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
-  <project path="libcore" name="SlimRoms/android_libcore" remote="github" revision="ng7.0" />
+  <project path="libcore" name="SlimRoms/android_libcore" remote="github" revision="ng7.1" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
-  <project path="packages/apps/BasicSmsReceiver" name="SlimRoms/packages_apps_BasicSmsReceiver" remote="github" revision="ng7.0" />
-  <project path="packages/apps/Bluetooth" name="SlimRoms/packages_apps_Bluetooth" remote="github" revision="ng7.0" />
-  <project path="packages/apps/Browser2" name="SlimRoms/packages_apps_Browser2" remote="github" revision="ng7.0" />
+  <project path="packages/apps/BasicSmsReceiver" name="SlimRoms/packages_apps_BasicSmsReceiver" remote="github" revision="ng7.1" />
+  <project path="packages/apps/Bluetooth" name="SlimRoms/packages_apps_Bluetooth" remote="github" revision="ng7.1" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
-  <project path="packages/apps/Calendar" name="SlimRoms/packages_apps_Calendar" remote="github" revision="ng7.0" />
+  <project path="packages/apps/Calendar" name="SlimRoms/packages_apps_Calendar" remote="github" revision="ng7.1" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
-  <project path="packages/apps/CellBroadcastReceiver" name="SlimRoms/packages_apps_CellBroadcastReceiver" remote="github" revision="ng7.0" />
+  <project path="packages/apps/CellBroadcastReceiver" name="SlimRoms/packages_apps_CellBroadcastReceiver" remote="github" revision="ng7.1" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" remote="github" revision="ng7.0" />
+  <project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" remote="github" revision="ng7.1" />
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" />
-  <project path="packages/apps/Email" name="SlimRoms/packages_apps_Email" remote="github" revision="ng7.0" />
+  <project path="packages/apps/Email" name="SlimRoms/packages_apps_Email" remote="github" revision="ng7.1" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
@@ -467,7 +457,7 @@
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
-  <project path="packages/apps/Messaging" name="SlimRoms/packages_apps_Messaging" remote="github" revision="ng7.0" />
+  <project path="packages/apps/Messaging" name="SlimRoms/packages_apps_Messaging" remote="github" revision="ng7.1" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
@@ -479,24 +469,24 @@
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
-  <project path="packages/apps/Stk" name="SlimRoms/packages_apps_Stk" remote="github" revision="ng7.0" />
+  <project path="packages/apps/Stk" name="SlimRoms/packages_apps_Stk" remote="github" revision="ng7.1" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" />
   <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" groups="pdk-fs" />
   <project path="packages/apps/Test/connectivity" name="platform/packages/apps/Test/connectivity" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="generic_fs" />
   <project path="packages/apps/TV" name="platform/packages/apps/TV" />
-  <project path="packages/apps/UnifiedEmail" name="SlimRoms/packages_apps_UnifiedEmail" remote="github" revision="ng7.0" />
+  <project path="packages/apps/UnifiedEmail" name="SlimRoms/packages_apps_UnifiedEmail" remote="github" revision="ng7.1" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="SlimRoms/packages_inputmethods_LatinIME" remote="github" revision="ng7.0" />
+  <project path="packages/inputmethods/LatinIME" name="SlimRoms/packages_inputmethods_LatinIME" remote="github" revision="ng7.1" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" groups="pdk-fs" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" groups="pdk-fs" />
   <project path="packages/providers/BlockedNumberProvider" name="platform/packages/providers/BlockedNumberProvider" groups="pdk-fs" />
   <project path="packages/providers/BookmarkProvider" name="platform/packages/providers/BookmarkProvider" groups="pdk-fs" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/CallLogProvider" name="platform/packages/providers/CallLogProvider" groups="pdk-fs" />
-  <project path="packages/providers/ContactsProvider" name="SlimRoms/packages_providers_ContactsProvider" remote="github" revision="ng7.0" />
-  <project path="packages/providers/DownloadProvider" name="SlimRoms/packages_providers_DownloadProvider" remote="github" revision="ng7.0" />
-  <project path="packages/providers/MediaProvider" name="SlimRoms/packages_providers_MediaProvider" remote="github" revision="ng7.0" />
+  <project path="packages/providers/ContactsProvider" name="SlimRoms/packages_providers_ContactsProvider" remote="github" revision="ng7.1" />
+  <project path="packages/providers/DownloadProvider" name="SlimRoms/packages_providers_DownloadProvider" remote="github" revision="ng7.1" />
+  <project path="packages/providers/MediaProvider" name="SlimRoms/packages_providers_MediaProvider" remote="github" revision="ng7.1" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
@@ -504,7 +494,7 @@
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" groups="pdk-fs" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" groups="pdk-fs" />
   <project path="packages/services/Car" name="platform/packages/services/Car" groups="adp8064,pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Mms" name="SlimRoms/packages_services_Mms" remote="github" revision="ng7.0" />
+  <project path="packages/services/Mms" name="SlimRoms/packages_services_Mms" remote="github" revision="ng7.1" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" groups="pdk-fs" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="platform_testing" name="platform/platform_testing" />
@@ -552,19 +542,19 @@
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" />
-  <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="ng7.0" />
+  <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="ng7.1" />
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
-  <project path="system/keymaster" name="SlimRoms/android_system_keymaster" remote="github" revision="ng7.0" />
+  <project path="system/keymaster" name="SlimRoms/android_system_keymaster" remote="github" revision="ng7.1" />
   <project path="system/nativepower" name="platform/system/nativepower" />
-  <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="ng7.0" />
+  <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="ng7.1" />
   <project path="system/nvram" name="platform/system/nvram" />
-  <project path="system/qcom" name="SlimRoms/android_system_qcom" remote="github" revision="ng7.0" />
-  <project path="system/security" name="SlimRoms/android_system_security" remote="github" revision="ng7.0" />
+  <project path="system/qcom" name="SlimRoms/android_system_qcom" remote="github" revision="ng7.1" />
+  <project path="system/security" name="SlimRoms/android_system_security" remote="github" revision="ng7.1" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" />
-  <project path="system/vold" name="SlimRoms/android_system_vold" remote="github" revision="ng7.0" />
+  <project path="system/vold" name="SlimRoms/android_system_vold" remote="github" revision="ng7.1" />
   <project path="system/weaved" name="platform/system/weaved" />
   <project path="system/webservd" name="platform/system/webservd" />
   <project path="toolchain/binutils" name="toolchain/binutils" />
@@ -582,12 +572,11 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- CAF repos -->
-  <project path="vendor/codeaurora/telephony" name="CyanogenMod/android_vendor_codeaurora_telephony" remote="github" revision="cm-14.0" />
-  <project path="vendor/qcom/opensource/bluetooth" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="github" revision="cm-14.0" />
-  <project path="vendor/qcom/opensource/dpm" name="CyanogenMod/android_vendor_qcom_opensource_dpm" remote="github" revision="cm-14.0" />
-  <project path="vendor/qcom/opensource/dataservices" name="CyanogenMod/android_vendor_qcom_opensource_dataservices" remote="github" revision="cm-14.0" />
+  <project path="vendor/codeaurora/telephony" name="CyanogenMod/android_vendor_codeaurora_telephony" remote="github" revision="cm-14.1" />
+  <project path="vendor/qcom/opensource/dpm" name="CyanogenMod/android_vendor_qcom_opensource_dpm" remote="github" revision="cm-14.1" />
+  <project path="vendor/qcom/opensource/dataservices" name="CyanogenMod/android_vendor_qcom_opensource_dataservices" remote="github" revision="cm-14.1" />
 
   <!-- SamsungServiceMode -->
-  <project path="packages/apps/SamsungServiceMode" name="SlimRoms/packages_apps_SamsungServiceMode" remote="github" revision="ng7.0" />
+  <project path="packages/apps/SamsungServiceMode" name="SlimRoms/packages_apps_SamsungServiceMode" remote="github" revision="ng7.1" />
 
 </manifest>

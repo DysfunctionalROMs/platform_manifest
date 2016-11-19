@@ -1,4 +1,4 @@
-<img src="https://raw.github.com/BrokenROM/platform_manifest/m6.0.1/broken.png">
+<img src="https://raw.github.com/BrokenROM/platform_manifest/n7.1/broken.png">
 
 ### First things first ###
 ~ There will be NO SHARING OF BUILDS ON XDA...Cant have nothing nice...THIS IS FINAL** ~
@@ -9,7 +9,7 @@ To get started with BrokenRoms, you'll need to get familiar with Git and Repo.
 
 **To initialize your local repository using the AOSP/CAF based BrokenRoms source, use this command:**
 
-repo init -u git://github.com/BrokenROM/platform_manifest.git -b n7.0
+repo init -u git://github.com/BrokenROM/platform_manifest.git -b n7.1
 
 **Sync up with this command:**
 
