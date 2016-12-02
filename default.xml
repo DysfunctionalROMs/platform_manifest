@@ -59,6 +59,7 @@
   <project path="packages/apps/Nfc" name="BrokenROM/packages_apps_Nfc" remote="github" revision="n7.1" />
   <project path="packages/apps/PhoneCommon" name="BrokenROM/packages_apps_PhoneCommon" remote="github" revision="n7.1" />
   <project path="packages/apps/Settings" name="BrokenROM/packages_apps_Settings" remote="github" revision="n7.1" />
+  <project path="packages/providers/MediaProvider" name="BrokenROM/packages_providers_MediaProvider" remote="github" revision="n7.1" />
   <project path="packages/providers/TelephonyProvider" name="BrokenROM/packages_providers_TelephonyProvider" remote="github" revision="n7.1" />
   <project path="packages/services/Telephony" name="BrokenROM/packages_services_Telephony" remote="github" revision="n7.1" />
   <project path="packages/services/Telecomm" name="BrokenROM/packages_services_Telecomm" remote="github" revision="n7.1" />
@@ -486,7 +487,6 @@
   <project path="packages/providers/CallLogProvider" name="platform/packages/providers/CallLogProvider" groups="pdk-fs" />
   <project path="packages/providers/ContactsProvider" name="SlimRoms/packages_providers_ContactsProvider" remote="github" revision="ng7.1" />
   <project path="packages/providers/DownloadProvider" name="SlimRoms/packages_providers_DownloadProvider" remote="github" revision="ng7.1" />
-  <project path="packages/providers/MediaProvider" name="SlimRoms/packages_providers_MediaProvider" remote="github" revision="ng7.1" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
