@@ -67,7 +67,7 @@
   <project path="hardware/qcom/wlan-caf" name="BrokenROM/hardware_qcom_wlan" remote="github" revision="n7.1-caf" />      
   <project path="hardware/ril" name="BrokenROM/hardware_ril" remote="github" revision="n7.1" />
   <project path="hardware/ril-caf" name="BrokenROM/hardware_ril" remote="github" revision="n7.1-caf" />
-  <project path="libcore" name="BrokenROM/android_libcore" remote="github" revision="n7.1" />  
+  <project path="libcore" name="BrokenROM/libcore" remote="github" revision="n7.1" />  
   <project path="packages/apps/BrokenCenter" name="BrokenROM/packages_apps_BrokenCenter" remote="github" revision="n7.1" />
   <project path="packages/apps/BrokenOTA" name="BrokenROM/packages_apps_BrokenOTA" remote="github" revision="n7.1" >
 	<copyfile src="ota_conf" dest="ota_conf" />
@@ -90,7 +90,7 @@
   <project path="platform_manifest" name="BrokenROM/platform_manifest" remote="github" revision="n7.1" />
   <project path="system/bt" name="BrokenROM/system_bt" remote="github" revision="n7.1" />
   <project path="system/core" name="BrokenROM/system_core" remote="github" revision="n7.1" />
-  <project path="system/extras" name="BrokenROM/android_system_extras" remote="github" revision="n7.1" />
+  <project path="system/extras" name="BrokenROM/system_extras" remote="github" revision="n7.1" />
   <project path="system/keymaster" name="BrokenROM/system_keymaster" remote="github" revision="n7.1" />    
   <project path="system/media" name="BrokenROM/system_media" remote="github" revision="n7.1" />
   <project path="system/netd" name="BrokenROM/system_netd" remote="github" revision="n7.1" />  
