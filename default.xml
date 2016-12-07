@@ -75,6 +75,7 @@
   <project path="packages/apps/BrokenWalls" name="BrokenROM/packages_apps_BrokenWalls" remote="github" revision="n7.1" />
   <project path="packages/apps/Browser2" name="BrokenROM/packages_apps_Browser2" remote="github" revision="n7.1" />
   <project path="packages/apps/Camera2" name="BrokenROM/packages_apps_Camera2" remote="github" revision="n7.1" />
+  <project path="packages/apps/CellBroadcastReceiver" name="BrokenROM/packages_apps_CellBroadcastReceiver" remote="github" revision="n7.1" />  
   <project path="packages/apps/Contacts" name="BrokenROM/packages_apps_Contacts" remote="github" revision="n7.1" />
   <project path="packages/apps/ContactsCommon" name="BrokenROM/packages_apps_ContactsCommon" remote="github" revision="n7.1" />
   <project path="packages/apps/Dialer" name="BrokenROM/packages_apps_Dialer" remote="github" revision="n7.1" />
@@ -451,7 +452,6 @@
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="SlimRoms/packages_apps_Calendar" remote="github" revision="ng7.1" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
-  <project path="packages/apps/CellBroadcastReceiver" name="SlimRoms/packages_apps_CellBroadcastReceiver" remote="github" revision="ng7.1" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" remote="github" revision="ng7.1" />
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" />
