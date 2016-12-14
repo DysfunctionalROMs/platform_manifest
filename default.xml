@@ -13,7 +13,7 @@
            sync-j="4" />
 
   <!-- Broken Repos -->
-  <project path="art" name="BrokenROM/android_art" remote="github" revision="n7.1" />  
+  <project path="art" name="BrokenROM/android_art" remote="github" revision="n7.1" />
   <project path="bionic" name="BrokenROM/bionic" remote="github" revision="n7.1" />
   <project path="bootable/recovery" name="BrokenROM/bootable_recovery" remote="github" revision="n7.1" />
   <project path="build" name="BrokenROM/android_build" remote="github" revision="n7.1" >
@@ -23,13 +23,14 @@
   <project path="device/qcom/common" name="BrokenROM/device_qcom_common" remote="github" revision="n7.1" />
   <project path="device/qcom/sepolicy" name="BrokenROM/device_qcom_sepolicy" remote="github" revision="n7.1" />
   <project path="external/apache-http" name="BrokenROM/external_apache-http" remote="github" revision="n7.1" />
-  <project path="external/connectivity" name="BrokenROM/android_external_connectivity" remote="github" revision="n7.1" />
+  <project path="external/chromium-webview" name="BrokenROM/external_chromium-webview" remote="github" revision="n7.1" />
+  <project path="external/connectivity" name="BrokenROM/external_connectivity" remote="github" revision="n7.1" />
   <project path="external/e2fsprogs" name="BrokenROM/external_e2fsprogs" remote="github" revision="n7.1" />
   <project path="external/exfat" name="BrokenROM/external_exfat" remote="github" revision="n7.1" />
-  <project path="external/f2fs-tools" name="BrokenROM/external_f2fs-tools" remote="github" revision="n7.1" />      
+  <project path="external/f2fs-tools" name="BrokenROM/external_f2fs-tools" remote="github" revision="n7.1" />
   <project path="external/ffmpeg" name="BrokenROM/external_ffmpeg" remote="github" revision="n7.1" />
   <project path="external/flac" name="BrokenROM/external_flac" remote="github" revision="n7.1" />
-  <project path="external/fuse" name="BrokenROM/external_fuse" remote="github" revision="n7.1" />  
+  <project path="external/fuse" name="BrokenROM/external_fuse" remote="github" revision="n7.1" />
   <project path="external/libnfc-nci" name="BrokenROM/external_libnfc-nci" remote="github" revision="n7.1" />
   <project path="external/libnfc-nxp" name="BrokenROM/external_libnfc-nxp" remote="github" revision="n7.1" />
   <project path="external/libselinux" name="BrokenROM/external_libselinux" remote="github" revision="n7.1" />
@@ -37,12 +38,12 @@
   <project path="external/libnetfilter_conntrack" name="BrokenROM/external_libnetfilter_conntrack" remote="github" revision="n7.1" />
   <project path="external/libnfnetlink" name="BrokenROM/external_libnfnetlink" remote="github" revision="n7.1" />
   <project path="external/ntfs-3g" name="BrokenROM/external_ntfs-3g" remote="github" revision="n7.1" />
-  <project path="external/okhttp" name="BrokenROM/external_okhttp" remote="github" revision="n7.1" />          
+  <project path="external/okhttp" name="BrokenROM/external_okhttp" remote="github" revision="n7.1" />
   <project path="external/skia" name="BrokenROM/external_skia" remote="github" revision="n7.1" />
   <project path="external/stagefright-plugins" name="BrokenROM/external_stagefright-plugins" remote="github" revision="n7.1" />
   <project path="external/tinyalsa" name="BrokenROM/external_tinyalsa" remote="github" revision="n7.1" />
   <project path="external/tinycompress" name="BrokenROM/external_tinycompress" remote="github" revision="n7.1" />
-  <project path="external/wpa_supplicant_8" name="BrokenROM/external_wpa_supplicant_8" remote="github" revision="n7.1" />      
+  <project path="external/wpa_supplicant_8" name="BrokenROM/external_wpa_supplicant_8" remote="github" revision="n7.1" />
   <project path="frameworks/av" name="BrokenROM/frameworks_av" remote="github" revision="n7.1" />
   <project path="frameworks/base" name="BrokenROM/frameworks_base" remote="github" revision="n7.1" />
   <project path="frameworks/native" name="BrokenROM/frameworks_native" remote="github" revision="n7.1" />
@@ -51,7 +52,7 @@
   <project path="frameworks/opt/telephony" name="BrokenROM/frameworks_opt_telephony" remote="github" revision="n7.1" />
   <project path="frameworks/support" name="BrokenROM/frameworks_support" remote="github" revision="n7.1" />
   <project path="hardware/broadcom/libbt" name="BrokenROM/hardware_broadcom_libbt" remote="github" revision="n7.1" />
-  <project path="hardware/broadcom/wlan" name="BrokenROM/hardware_broadcom_wlan" remote="github" revision="n7.1" />    
+  <project path="hardware/broadcom/wlan" name="BrokenROM/hardware_broadcom_wlan" remote="github" revision="n7.1" />
   <project path="hardware/libhardware" name="BrokenROM/hardware_libhardware" remote="github" revision="n7.1" />
   <project path="hardware/libhardware_legacy" name="BrokenROM/hardware_libhardware_legacy" remote="github" revision="n7.1" />
   <project path="hardware/qcom/audio/default" name="BrokenROM/hardware_qcom_audio" remote="github" revision="n7.1" />
@@ -60,14 +61,14 @@
   <project path="hardware/qcom/camera" name="BrokenROM/hardware_qcom_camera" remote="github" revision="n7.1" />
   <project path="hardware/qcom/display" name="BrokenROM/hardware_qcom_display" remote="github" revision="n7.1" />
   <project path="hardware/qcom/gps" name="BrokenROM/hardware_qcom_gps" remote="github" revision="n7.1" />
-  <project path="hardware/qcom/keymaster" name="BrokenROM/hardware_qcom_keymaster" remote="github" revision="n7.1" />    
+  <project path="hardware/qcom/keymaster" name="BrokenROM/hardware_qcom_keymaster" remote="github" revision="n7.1" />
   <project path="hardware/qcom/media/default" name="BrokenROM/hardware_qcom_media" remote="github" revision="n7.1" />
   <project path="hardware/qcom/power" name="BrokenROM/hardware_qcom_power" remote="github" revision="n7.1" />
   <project path="hardware/qcom/wlan" name="BrokenROM/hardware_qcom_wlan" remote="github" revision="n7.1" />
-  <project path="hardware/qcom/wlan-caf" name="BrokenROM/hardware_qcom_wlan" remote="github" revision="n7.1-caf" />      
+  <project path="hardware/qcom/wlan-caf" name="BrokenROM/hardware_qcom_wlan" remote="github" revision="n7.1-caf" />
   <project path="hardware/ril" name="BrokenROM/hardware_ril" remote="github" revision="n7.1" />
   <project path="hardware/ril-caf" name="BrokenROM/hardware_ril" remote="github" revision="n7.1-caf" />
-  <project path="libcore" name="BrokenROM/libcore" remote="github" revision="n7.1" />  
+  <project path="libcore" name="BrokenROM/libcore" remote="github" revision="n7.1" />
   <project path="packages/apps/BrokenCenter" name="BrokenROM/packages_apps_BrokenCenter" remote="github" revision="n7.1" />
   <project path="packages/apps/BrokenOTA" name="BrokenROM/packages_apps_BrokenOTA" remote="github" revision="n7.1" >
 	<copyfile src="ota_conf" dest="ota_conf" />
@@ -75,7 +76,7 @@
   <project path="packages/apps/BrokenWalls" name="BrokenROM/packages_apps_BrokenWalls" remote="github" revision="n7.1" />
   <project path="packages/apps/Browser2" name="BrokenROM/packages_apps_Browser2" remote="github" revision="n7.1" />
   <project path="packages/apps/Camera2" name="BrokenROM/packages_apps_Camera2" remote="github" revision="n7.1" />
-  <project path="packages/apps/CellBroadcastReceiver" name="BrokenROM/packages_apps_CellBroadcastReceiver" remote="github" revision="n7.1" />  
+  <project path="packages/apps/CellBroadcastReceiver" name="BrokenROM/packages_apps_CellBroadcastReceiver" remote="github" revision="n7.1" />
   <project path="packages/apps/Contacts" name="BrokenROM/packages_apps_Contacts" remote="github" revision="n7.1" />
   <project path="packages/apps/ContactsCommon" name="BrokenROM/packages_apps_ContactsCommon" remote="github" revision="n7.1" />
   <project path="packages/apps/Dialer" name="BrokenROM/packages_apps_Dialer" remote="github" revision="n7.1" />
@@ -84,7 +85,7 @@
   <project path="packages/apps/Nfc" name="BrokenROM/packages_apps_Nfc" remote="github" revision="n7.1" />
   <project path="packages/apps/PhoneCommon" name="BrokenROM/packages_apps_PhoneCommon" remote="github" revision="n7.1" />
   <project path="packages/apps/Settings" name="BrokenROM/packages_apps_Settings" remote="github" revision="n7.1" />
-  <project path="packages/apps/Stk" name="BrokenROM/packages_apps_Stk" remote="github" revision="n7.1" />  
+  <project path="packages/apps/Stk" name="BrokenROM/packages_apps_Stk" remote="github" revision="n7.1" />
   <project path="packages/providers/MediaProvider" name="BrokenROM/packages_providers_MediaProvider" remote="github" revision="n7.1" />
   <project path="packages/providers/TelephonyProvider" name="BrokenROM/packages_providers_TelephonyProvider" remote="github" revision="n7.1" />
   <project path="packages/services/Telephony" name="BrokenROM/packages_services_Telephony" remote="github" revision="n7.1" />
@@ -93,13 +94,13 @@
   <project path="system/bt" name="BrokenROM/system_bt" remote="github" revision="n7.1" />
   <project path="system/core" name="BrokenROM/system_core" remote="github" revision="n7.1" />
   <project path="system/extras" name="BrokenROM/system_extras" remote="github" revision="n7.1" />
-  <project path="system/keymaster" name="BrokenROM/system_keymaster" remote="github" revision="n7.1" />    
+  <project path="system/keymaster" name="BrokenROM/system_keymaster" remote="github" revision="n7.1" />
   <project path="system/media" name="BrokenROM/system_media" remote="github" revision="n7.1" />
-  <project path="system/netd" name="BrokenROM/system_netd" remote="github" revision="n7.1" />  
+  <project path="system/netd" name="BrokenROM/system_netd" remote="github" revision="n7.1" />
   <project path="system/qcom" name="BrokenROM/system_qcom" remote="github" revision="n7.1" />
-  <project path="system/security" name="BrokenROM/system_security" remote="github" revision="n7.1" />    
+  <project path="system/security" name="BrokenROM/system_security" remote="github" revision="n7.1" />
   <project path="system/sepolicy" name="BrokenROM/system_sepolicy" remote="github" revision="n7.1" />
-  <project path="system/vold" name="BrokenROM/system_vold" remote="github" revision="n7.1" />  
+  <project path="system/vold" name="BrokenROM/system_vold" remote="github" revision="n7.1" />
   <project path="vendor/broken" name="BrokenROM/vendor_broken" remote="github" revision="n7.1" >
 	  <copyfile src="tools/build-broken.sh" dest="build-broken.sh" />
   </project>
@@ -167,7 +168,6 @@
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk-fs" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
