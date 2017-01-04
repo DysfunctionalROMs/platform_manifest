@@ -72,6 +72,7 @@
   <project path="packages/apps/BrokenOTA" name="BrokenROM/packages_apps_BrokenOTA" remote="github" revision="n7.1" >
 	<copyfile src="ota_conf" dest="ota_conf" />
   </project>
+  <project path="packages/apps/BrokenPieces" name="BrokenROM/packages_apps_BrokenPieces" remote="github" revision="n7.1" />
   <project path="packages/apps/BrokenWalls" name="BrokenROM/packages_apps_BrokenWalls" remote="github" revision="n7.1" />
   <project path="packages/apps/Browser2" name="BrokenROM/packages_apps_Browser2" remote="github" revision="n7.1" />
   <project path="packages/apps/Camera2" name="BrokenROM/packages_apps_Camera2" remote="github" revision="n7.1" />
