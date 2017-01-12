@@ -22,7 +22,7 @@
 	      fetch="https://bitbucket.org/BrokenTC" />
 
   <remote name="cm"
-          fetch="https://github.com/CyanogenMod/" />
+          fetch="https://github.com/lineageos/" />
 
   <remote name="github"
           fetch="https://github.com/" />
@@ -48,7 +48,7 @@
   <remote name="xda"
           fetch=".." />
 
-  <default revision="refs/tags/android-6.0.1_r61"
+  <default revision="refs/tags/android-6.0.1_r77"
            remote="aosp"
            sync-j="4" />
 
@@ -181,9 +181,9 @@
   <project path="external/android-visualizer" name="SlimRoms/android_external_android-visualizer" remote="github" revision="mm6.0" />
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" remote="github" revision="cm-13.0" />
-  <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" remote="github" revision="cm-13.0" />
-  <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" remote="github" revision="cm-13.0" />
+  <project path="external/ant-wireless/ant_native" name="lineageos/android_external_ant-wireless_ant_native" remote="github" revision="cm-13.0" />
+  <project path="external/ant-wireless/ant_service" name="lineageos/android_external_ant-wireless_ant_service" remote="github" revision="cm-13.0" />
+  <project path="external/ant-wireless/antradio-library" name="lineageos/android_external_ant-wireless_antradio-library" remote="github" revision="cm-13.0" />
   <project path="external/apache-commons-math" name="platform/external/apache-commons-math" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk" />
@@ -413,44 +413,44 @@
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
-  <project path="hardware/intel/common/libmix" name="CyanogenMod/android_hardware_intel_common_libmix" groups="intel" remote="github" revision="cm-13.0" />
+  <project path="hardware/intel/common/libmix" name="lineageos/android_hardware_intel_common_libmix" groups="intel" remote="github" revision="cm-13.0" />
   <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel" />
-  <project path="hardware/intel/common/libva" name="CyanogenMod/android_hardware_intel_common_libva" groups="intel" remote="github" revision="cm-13.0" />
-  <project path="hardware/intel/common/libwsbm" name="CyanogenMod/android_hardware_intel_common_libwsbm" groups="intel" remote="github" revision="cm-13.0" />
-  <project path="hardware/intel/common/omx-components" name="CyanogenMod/android_hardware_intel_common_omx-components" groups="intel" remote="github" revision="cm-13.0" />
+  <project path="hardware/intel/common/libva" name="lineageos/android_hardware_intel_common_libva" groups="intel" remote="github" revision="cm-13.0" />
+  <project path="hardware/intel/common/libwsbm" name="lineageos/android_hardware_intel_common_libwsbm" groups="intel" remote="github" revision="cm-13.0" />
+  <project path="hardware/intel/common/omx-components" name="lineageos/android_hardware_intel_common_omx-components" groups="intel" remote="github" revision="cm-13.0" />
   <project path="hardware/intel/common/utils" name="platform/hardware/intel/common/utils" groups="intel" />
   <project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" groups="intel" />
-  <project path="hardware/intel/img/hwcomposer" name="CyanogenMod/android_hardware_intel_img_hwcomposer" groups="intel" remote="github" revision="cm-13.0" />
-  <project path="hardware/intel/img/psb_headers" name="CyanogenMod/android_hardware_intel_img_psb_headers" groups="intel" remote="github" revision="cm-13.0" />
-  <project path="hardware/intel/img/psb_video" name="CyanogenMod/android_hardware_intel_img_psb_video" groups="intel" remote="github" revision="cm-13.0" />
+  <project path="hardware/intel/img/hwcomposer" name="lineageos/android_hardware_intel_img_hwcomposer" groups="intel" remote="github" revision="cm-13.0" />
+  <project path="hardware/intel/img/psb_headers" name="lineageos/android_hardware_intel_img_psb_headers" groups="intel" remote="github" revision="cm-13.0" />
+  <project path="hardware/intel/img/psb_video" name="lineageos/android_hardware_intel_img_psb_video" groups="intel" remote="github" revision="cm-13.0" />
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
   <project path="hardware/mediatek" name="platform/hardware/mediatek" groups="mediatek,mediatek_wear" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
-  <project path="hardware/qcom/audio-caf/apq8084" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-13.0-caf-8084" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-13.0-caf-8916" />
-  <project path="hardware/qcom/audio-caf/msm8952" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-13.0-caf-8952" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-13.0-caf-8960" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-13.0-caf-8974" />
-  <project path="hardware/qcom/audio-caf/msm8994" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-13.0-caf-8994" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-13.0-caf-8996" />
+  <project path="hardware/qcom/audio-caf/apq8084" name="lineageos/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-13.0-caf-8084" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="lineageos/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-13.0-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="lineageos/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-13.0-caf-8952" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="lineageos/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-13.0-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="lineageos/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-13.0-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="lineageos/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-13.0-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="lineageos/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-13.0-caf-8996" />
   <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" remote="github" revision="mm6.0" />
   <project path="hardware/qcom/bt-caf" name="SlimRoms/hardware_qcom_bt" remote="github" revision="mm6.0-caf" />
-  <project path="hardware/qcom/display-caf/apq8084" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-13.0-caf-8084" />
-  <project path="hardware/qcom/display-caf/msm8916" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-13.0-caf-8916" />
-  <project path="hardware/qcom/display-caf/msm8952" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-13.0-caf-8952" />
-  <project path="hardware/qcom/display-caf/msm8960" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-13.0-caf-8960" />
-  <project path="hardware/qcom/display-caf/msm8974" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-13.0-caf-8974" />
-  <project path="hardware/qcom/display-caf/msm8994" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-13.0-caf-8994" />
-  <project path="hardware/qcom/display-caf/msm8996" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-13.0-caf-8996" />
+  <project path="hardware/qcom/display-caf/apq8084" name="lineageos/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-13.0-caf-8084" />
+  <project path="hardware/qcom/display-caf/msm8916" name="lineageos/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-13.0-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8952" name="lineageos/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-13.0-caf-8952" />
+  <project path="hardware/qcom/display-caf/msm8960" name="lineageos/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-13.0-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8974" name="lineageos/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-13.0-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="lineageos/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-13.0-caf-8994" />
+  <project path="hardware/qcom/display-caf/msm8996" name="lineageos/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-13.0-caf-8996" />
   <project path="hardware/qcom/keymaster" name="SlimRoms/hardware_qcom_keymaster" remote="github" revision="mm6.0" />
-  <project path="hardware/qcom/media-caf/apq8084" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-13.0-caf-8084" />
-  <project path="hardware/qcom/media-caf/msm8916" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-13.0-caf-8916" />
-  <project path="hardware/qcom/media-caf/msm8952" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-13.0-caf-8952" />
-  <project path="hardware/qcom/media-caf/msm8960" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-13.0-caf-8960" />
-  <project path="hardware/qcom/media-caf/msm8974" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-13.0-caf-8974" />
-  <project path="hardware/qcom/media-caf/msm8994" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-13.0-caf-8994" />
-  <project path="hardware/qcom/media-caf/msm8996" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-13.0-caf-8996" />
+  <project path="hardware/qcom/media-caf/apq8084" name="lineageos/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-13.0-caf-8084" />
+  <project path="hardware/qcom/media-caf/msm8916" name="lineageos/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-13.0-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8952" name="lineageos/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-13.0-caf-8952" />
+  <project path="hardware/qcom/media-caf/msm8960" name="lineageos/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-13.0-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="lineageos/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-13.0-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="lineageos/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-13.0-caf-8994" />
+  <project path="hardware/qcom/media-caf/msm8996" name="lineageos/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-13.0-caf-8996" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
