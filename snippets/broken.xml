@@ -5,6 +5,10 @@
           fetch="https://github.com/BrokenROM/"
           revision="noog7.1" />
           
+  <project path="build" remote="broken" name="build" groups="pdk,tradefed" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="platform_manifest" remote="broken" name="platform_manifest" />
+  <project path="vendor/broken" remote="broken" name="vendor_broken" />
           
 </manifest>

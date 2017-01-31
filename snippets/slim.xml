@@ -9,9 +9,6 @@
   <project path="art" remote="slim" name="android_art" />
   <project path="bionic" remote="slim" name="android_bionic" />
   <project path="bootable/recovery" remote="slim" name="bootable_recovery" />
-  <project path="build" remote="slim" name="android_build" groups="pdk,tradefed" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="external/aac" remote="slim" name="android_external_aac" />
   <project path="external/apache-http" remote="slim" name="android_external_apache-http" />
   <project path="external/e2fsprogs" remote="slim" name="android_external_e2fsprogs" />
@@ -133,9 +130,6 @@
   <project path="external/stagefright-plugins" remote="slim" name="android_external_stagefright-plugins" />
   <project path="external/ntfs-3g" remote="slim" name="android_external_ntfs-3g" />
   <project path="frameworks/opt/cards" remote="slim" name="frameworks_opt_cards" />
-  <project path="packages/apps/SlimLauncher" remote="slim" name="packages_apps_SlimLauncher" />
-  <project path="packages/apps/SlimWallpapers" remote="slim" name="packages_apps_SlimWallpapers" />
-  <project path="vendor/slim" remote="slim" name="vendor_slim" />
   <project path="frameworks/opt/slim" remote="slim" name="frameworks_opt_slim" />
   <project path="packages/apps/SamsungServiceMode" remote="slim" name="packages_apps_SamsungServiceMode" />
 
