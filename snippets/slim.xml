@@ -135,7 +135,6 @@
   <project path="frameworks/opt/cards" remote="slim" name="frameworks_opt_cards" />
   <project path="packages/apps/SlimLauncher" remote="slim" name="packages_apps_SlimLauncher" />
   <project path="packages/apps/SlimWallpapers" remote="slim" name="packages_apps_SlimWallpapers" />
-  <project path="platform_manifest" remote="slim" name="platform_manifest" />
   <project path="vendor/slim" remote="slim" name="vendor_slim" />
   <project path="frameworks/opt/slim" remote="slim" name="frameworks_opt_slim" />
   <project path="packages/apps/SamsungServiceMode" remote="slim" name="packages_apps_SamsungServiceMode" />

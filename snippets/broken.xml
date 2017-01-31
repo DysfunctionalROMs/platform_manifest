@@ -5,4 +5,6 @@
           fetch="https://github.com/BrokenROM/"
           revision="noog7.1" />
           
+  <project path="platform_manifest" remote="broken" name="platform_manifest" />
+          
 </manifest>
