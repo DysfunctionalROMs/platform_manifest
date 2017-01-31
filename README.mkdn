@@ -9,7 +9,7 @@ To get started with BrokenRoms, you'll need to get familiar with Git and Repo.
 
 **To initialize your local repository using the AOSP/CAF based BrokenRoms source, use this command:**
 
-repo init -u git://github.com/BrokenROM/platform_manifest.git -b n7.1
+repo init -u git://github.com/BrokenROM/platform_manifest.git -b noog7.1
 
 **Sync up with this command:**
 
