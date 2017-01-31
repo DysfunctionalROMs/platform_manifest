@@ -8,6 +8,7 @@
   <project path="build" remote="broken" name="build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="build/kati" remote="broken" name="build_kati" />
   <project path="platform_manifest" remote="broken" name="platform_manifest" />
   <project path="vendor/broken" remote="broken" name="vendor_broken" />
           
