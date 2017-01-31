@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	
+  <remote name="broken"
+          fetch="https://github.com/BrokenROM/"
+          revision="noog7.1" />
+          
+</manifest>
