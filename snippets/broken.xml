@@ -9,6 +9,8 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/kati" remote="broken" name="build_kati" />
+  <project path="frameworks/base" remote="broken" name="frameworks_base" />
+  <project path="packages/apps/Settings" remote="broken" name="packages_apps_Settings" />
   <project path="platform_manifest" remote="broken" name="platform_manifest" />
   <project path="vendor/broken" remote="broken" name="vendor_broken"  >
 	  <copyfile src="tools/build-broken.sh" dest="build-broken.sh" />

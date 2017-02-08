@@ -25,7 +25,6 @@
   <project path="external/tinyxml2" remote="slim" name="android_external_tinyxml2" />
   <project path="external/wpa_supplicant_8" remote="slim" name="android_external_wpa_supplicant_8" />
   <project path="frameworks/av" remote="slim" name="frameworks_av" />
-  <project path="frameworks/base" remote="slim" name="frameworks_base" />
   <project path="frameworks/native" remote="slim" name="frameworks_native" />
   <project path="frameworks/opt/net/ims" remote="slim" name="frameworks_opt_net_ims" />
   <project path="frameworks/opt/net/wifi" remote="slim" name="frameworks_opt_net_wifi" />
@@ -58,7 +57,6 @@
   <project path="packages/apps/Messaging" remote="slim" name="packages_apps_Messaging" />
   <project path="packages/apps/Nfc" remote="slim" name="packages_apps_Nfc" />
   <project path="packages/apps/PhoneCommon" remote="slim" name="packages_apps_PhoneCommon" />
-  <project path="packages/apps/Settings" remote="slim" name="packages_apps_Settings" />
   <project path="packages/apps/Snap" remote="slim" name="packages_apps_Snap" />
   <project path="packages/apps/Stk" remote="slim" name="packages_apps_Stk" />
   <project path="packages/apps/UnifiedEmail" remote="slim" name="packages_apps_UnifiedEmail" />
