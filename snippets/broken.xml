@@ -11,6 +11,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/kati" remote="broken" name="build_kati" />
+  <project path="device/qcom/common" remote="broken" name="device_qcom_common" />
   <project path="frameworks/base" remote="broken" name="frameworks_base" />
   <project path="packages/apps/BrokenOTA" remote="broken" name="packages_apps_BrokenOTA" />
   <project path="packages/apps/BrokenWalls" remote="broken" name="packages_apps_BrokenWalls" />

@@ -85,7 +85,6 @@
   <project path="external/connectivity" remote="slim" name="android_external_connectivity" />
   <project path="external/libnetfilter_conntrack" remote="slim" name="android_external_libnetfilter_conntrack" />
   <project path="external/libnfnetlink" remote="slim" name="android_external_libnfnetlink" />
-  <project path="device/qcom/common" remote="slim" name="device_qcom_common" />
   <project path="device/qcom/sepolicy" remote="slim" name="device_qcom_sepolicy" />
   <project path="hardware/qcom/audio-caf/msm8916" remote="slim" name="hardware_qcom_audio" revision="ng7.1-caf-8916" />
   <project path="hardware/qcom/audio-caf/msm8937" remote="slim" name="hardware_qcom_audio" revision="ng7.1-caf-8937" />
