@@ -6,8 +6,6 @@
           revision="ng7.1" />
 
   <!-- Aosp Forks -->
-  <project path="art" remote="slim" name="android_art" />
-  <project path="bionic" remote="slim" name="android_bionic" />
   <project path="bootable/recovery" remote="slim" name="bootable_recovery" />
   <project path="external/aac" remote="slim" name="android_external_aac" />
   <project path="external/apache-http" remote="slim" name="android_external_apache-http" />
