@@ -23,7 +23,6 @@
   <project path="external/tinyxml2" remote="slim" name="android_external_tinyxml2" />
   <project path="external/wpa_supplicant_8" remote="slim" name="android_external_wpa_supplicant_8" />
   <project path="frameworks/av" remote="slim" name="frameworks_av" />
-  <project path="frameworks/native" remote="slim" name="frameworks_native" />
   <project path="frameworks/opt/net/ims" remote="slim" name="frameworks_opt_net_ims" />
   <project path="frameworks/opt/net/wifi" remote="slim" name="frameworks_opt_net_wifi" />
   <project path="frameworks/opt/telephony" remote="slim" name="frameworks_opt_telephony" />
@@ -69,7 +68,6 @@
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" remote="slim" name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="slim" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
   <project path="system/bt" remote="slim" name="android_system_bt" />
-  <project path="system/core" remote="slim" name="android_system_core" />
   <project path="system/extras" remote="slim" name="android_system_extras" />
   <project path="system/keymaster" remote="slim" name="android_system_keymaster" />
   <project path="system/media" remote="slim" name="android_system_media" />
