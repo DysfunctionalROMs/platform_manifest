@@ -22,7 +22,6 @@
   <project path="external/tinycompress" remote="slim" name="android_external_tinycompress" />
   <project path="external/tinyxml2" remote="slim" name="android_external_tinyxml2" />
   <project path="external/wpa_supplicant_8" remote="slim" name="android_external_wpa_supplicant_8" />
-  <project path="frameworks/av" remote="slim" name="frameworks_av" />
   <project path="frameworks/opt/net/ims" remote="slim" name="frameworks_opt_net_ims" />
   <project path="frameworks/opt/net/wifi" remote="slim" name="frameworks_opt_net_wifi" />
   <project path="frameworks/opt/telephony" remote="slim" name="frameworks_opt_telephony" />

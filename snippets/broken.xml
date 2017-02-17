@@ -12,6 +12,7 @@
   </project>
   <project path="build/kati" remote="broken" name="build_kati" />
   <project path="device/qcom/common" remote="broken" name="device_qcom_common" />
+  <project path="frameworks/av" remote="broken" name="frameworks_av" />
   <project path="frameworks/base" remote="broken" name="frameworks_base" />
   <project path="frameworks/native" remote="broken" name="frameworks_native" />
   <project path="packages/apps/BrokenOTA" remote="broken" name="packages_apps_BrokenOTA" />
