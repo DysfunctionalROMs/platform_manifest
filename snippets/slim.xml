@@ -114,6 +114,7 @@
   <project path="vendor/qcom/opensource/dpm" remote="slim" name="vendor_qcom_opensource_dpm" />
   <project path="vendor/qcom/opensource/dataservices" remote="slim" name="vendor_qcom_opensource_dataservices" />
   <project path="vendor/qcom/opensource/time-services" remote="slim" name="vendor_qcom_opensource_time-services" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="SlimRoms/vendor_qcom_opensource_cryptfs_hw" />
 
   <!-- Slim Additions -->
   <project path="external/exfat" remote="slim" name="android_external_exfat" />
