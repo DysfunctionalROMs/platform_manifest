@@ -118,7 +118,6 @@
   <project path="external/stagefright-plugins" remote="slim" name="android_external_stagefright-plugins" />
   <project path="external/ntfs-3g" remote="slim" name="android_external_ntfs-3g" />
   <project path="frameworks/opt/cards" remote="slim" name="frameworks_opt_cards" />
-  <project path="frameworks/opt/slim" remote="slim" name="frameworks_opt_slim" />
   <project path="packages/apps/SamsungServiceMode" remote="slim" name="packages_apps_SamsungServiceMode" />
 
 </manifest>

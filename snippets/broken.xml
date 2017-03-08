@@ -18,6 +18,7 @@
   <project path="frameworks/base" remote="broken" name="frameworks_base" />
   <project path="frameworks/native" remote="broken" name="frameworks_native" />
   <project path="frameworks/opt/net/wifi" remote="broken" name="frameworks_opt_net_wifi" />
+  <project path="frameworks/opt/slim" remote="broken" name="frameworks_opt_slim" />
   <project path="packages/apps/BrokenOTA" remote="broken" name="packages_apps_BrokenOTA" >
     <copyfile src="ota_conf" dest="ota_conf" />
   </project>
