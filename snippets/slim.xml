@@ -54,7 +54,6 @@
   <project path="packages/apps/UnifiedEmail" remote="slim" name="packages_apps_UnifiedEmail" />
   <project path="packages/inputmethods/LatinIME" remote="slim" name="packages_inputmethods_LatinIME" />
   <project path="packages/providers/ContactsProvider" remote="slim" name="packages_providers_ContactsProvider" />
-  <project path="packages/providers/DownloadProvider" remote="slim" name="packages_providers_DownloadProvider" />
   <project path="packages/providers/MediaProvider" remote="slim" name="packages_providers_MediaProvider" />
   <project path="packages/providers/TelephonyProvider" remote="slim" name="packages_providers_TelephonyProvider" />
   <project path="packages/services/Mms" remote="slim" name="packages_services_Mms" />

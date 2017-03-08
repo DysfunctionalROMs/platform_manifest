@@ -26,6 +26,7 @@
   <project path="packages/apps/Messaging" remote="broken" name="packages_apps_Messaging" />
   <project path="packages/apps/PackageInstaller" remote="broken" name="packages_apps_PackageInstaller" />
   <project path="packages/apps/Settings" remote="broken" name="packages_apps_Settings" />
+  <project path="packages/providers/DownloadProvider" remote="broken" name="packages_providers_DownloadProvider" />
   <project path="platform_manifest" remote="broken" name="platform_manifest" />
   <project path="system/core" remote="broken" name="system_core" />
   <project path="system/sepolicy" remote="broken" name="system_sepolicy" />
