@@ -68,7 +68,6 @@
   <project path="system/media" remote="slim" name="android_system_media" />
   <project path="system/netd" remote="slim" name="android_system_netd" />
   <project path="system/security" remote="slim" name="android_system_security" />
-  <project path="system/sepolicy" remote="slim" name="android_system_sepolicy" />
   <project path="system/vold" remote="slim" name="android_system_vold" />
 
   <!-- CodeAurora Additions -->
