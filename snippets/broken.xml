@@ -6,17 +6,21 @@
           revision="noog7.1" />
   
   <project path="art" remote="broken" name="art" />
-  <project path="bionic" remote="broken" name="bionic" />        
+  <project path="bionic" remote="broken" name="bionic" />
+  <project path="bootable/recovery" remote="broken" name="bootable_recovery" />        
   <project path="build" remote="broken" name="build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/kati" remote="broken" name="build_kati" />
   <project path="device/qcom/common" remote="broken" name="device_qcom_common" />
+  <project path="external/libnfc-nci" remote="broken" name="external_libnfc-nci" />
   <project path="frameworks/av" remote="broken" name="frameworks_av" />
   <project path="frameworks/base" remote="broken" name="frameworks_base" />
   <project path="frameworks/native" remote="broken" name="frameworks_native" />
+  <project path="frameworks/opt/net/wifi" remote="broken" name="frameworks_opt_net_wifi" />
   <project path="packages/apps/BrokenOTA" remote="broken" name="packages_apps_BrokenOTA" />
   <project path="packages/apps/BrokenWalls" remote="broken" name="packages_apps_BrokenWalls" />
+  <project path="packages/apps/Messaging" remote="broken" name="packages_apps_Messaging" />
   <project path="packages/apps/Settings" remote="broken" name="packages_apps_Settings" />
   <project path="platform_manifest" remote="broken" name="platform_manifest" />
   <project path="system/core" remote="broken" name="system_core" />

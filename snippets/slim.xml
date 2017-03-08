@@ -6,7 +6,6 @@
           revision="ng7.1" />
 
   <!-- Aosp Forks -->
-  <project path="bootable/recovery" remote="slim" name="bootable_recovery" />
   <project path="external/aac" remote="slim" name="android_external_aac" />
   <project path="external/apache-http" remote="slim" name="android_external_apache-http" />
   <project path="external/e2fsprogs" remote="slim" name="android_external_e2fsprogs" />
@@ -14,7 +13,6 @@
   <project path="external/flac" remote="slim" name="android_external_flac" />
   <project path="external/icu" remote="slim" name="android_external_icu" />
   <project path="external/ipsec-tools" remote="slim" name="android_external_ipsec-tools"  />
-  <project path="external/libnfc-nci" remote="slim" name="android_external_libnfc-nci" />
   <project path="external/libnfc-nxp" remote="slim" name="android_external_libnfc-nxp" />
   <project path="external/okhttp" remote="slim" name="android_external_okhttp" />
   <project path="external/skia" remote="slim" name="android_external_skia" />
@@ -23,7 +21,6 @@
   <project path="external/tinyxml2" remote="slim" name="android_external_tinyxml2" />
   <project path="external/wpa_supplicant_8" remote="slim" name="android_external_wpa_supplicant_8" />
   <project path="frameworks/opt/net/ims" remote="slim" name="frameworks_opt_net_ims" />
-  <project path="frameworks/opt/net/wifi" remote="slim" name="frameworks_opt_net_wifi" />
   <project path="frameworks/opt/telephony" remote="slim" name="frameworks_opt_telephony" />
   <project path="frameworks/support" remote="slim" name="frameworks_support" />
   <project path="hardware/broadcom/libbt" remote="slim" name="hardware_broadcom_libbt" />
@@ -50,7 +47,6 @@
   <project path="packages/apps/DeskClock" remote="slim" name="packages_apps_DeskClock" />
   <project path="packages/apps/Dialer" remote="slim" name="packages_apps_Dialer" />
   <project path="packages/apps/Gallery2" remote="slim" name="packages_apps_Gallery2" />
-  <project path="packages/apps/Messaging" remote="slim" name="packages_apps_Messaging" />
   <project path="packages/apps/Nfc" remote="slim" name="packages_apps_Nfc" />
   <project path="packages/apps/PhoneCommon" remote="slim" name="packages_apps_PhoneCommon" />
   <project path="packages/apps/Snap" remote="slim" name="packages_apps_Snap" />
