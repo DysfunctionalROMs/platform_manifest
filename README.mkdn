@@ -1,15 +1,15 @@
-<img src="https://raw.github.com/BrokenROM/platform_manifest/noog7.1/broken.png">
+<img src="https://raw.github.com/DysfunctionalROMs/platform_manifest/noog7.1/broken.png">
 
 ### First things first ###
 ~ There will be NO SHARING OF BUILDS ON XDA...Cant have nothing nice...THIS IS FINAL** ~
 
 **Getting Started**
 
-To get started with BrokenRoms, you'll need to get familiar with Git and Repo.
+To get started with DysfunctionalROMs, you'll need to get familiar with Git and Repo.
 
-**To initialize your local repository using the AOSP/CAF based BrokenRoms source, use this command:**
+**To initialize your local repository using the AOSP/CAF based DysfunctionalROMs source, use this command:**
 
-repo init -u git://github.com/BrokenROM/platform_manifest.git -b noog7.1
+repo init -u git://github.com/DysfunctionalROMs/platform_manifest.git -b noog7.1
 
 **Sync up with this command:**
 
@@ -93,4 +93,4 @@ Unless otherwise specified, all out assets, including but not limited to images,
 
 You can reach the full legal text at http://creativecommons.org/licenses/by-nc/4.0/
 
-<img src="https://raw.github.com/BrokenROM/platform_manifest/noog7.1/BrokenBanner.png">
+<img src="https://raw.github.com/DysfunctionalROMs/platform_manifest/noog7.1/BrokenBanner.png">
