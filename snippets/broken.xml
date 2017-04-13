@@ -2,7 +2,7 @@
 <manifest>
 	
   <remote name="broken"
-          fetch="https://github.com/BrokenROM/"
+          fetch="https://github.com/DysfunctionalROMs/"
           revision="noog7.1" />
   
   <project path="art" remote="broken" name="art" />
