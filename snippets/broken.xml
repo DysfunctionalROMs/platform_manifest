@@ -3,7 +3,7 @@
 	
   <remote name="broken"
           fetch="https://github.com/DysfunctionalROMs/"
-          revision="noog7.1" />
+          revision="o8.0" />
   
   <project path="art" remote="broken" name="art" />
   <project path="bionic" remote="broken" name="bionic" />
