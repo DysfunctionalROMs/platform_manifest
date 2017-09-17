@@ -4,34 +4,19 @@
   <remote name="broken"
           fetch="https://github.com/DysfunctionalROMs/"
           revision="o8.0" />
-  
-  <project path="art" remote="broken" name="art" />
-  <project path="bionic" remote="broken" name="bionic" />
-  <project path="bootable/recovery" remote="broken" name="bootable_recovery" />        
+      
   <project path="build" remote="broken" name="build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="build/kati" remote="broken" name="build_kati" />
-  <project path="device/qcom/common" remote="broken" name="device_qcom_common" />
-  <project path="external/libnfc-nci" remote="broken" name="external_libnfc-nci" />
   <project path="external/google" remote="broken" name="external_google" />
-  <project path="frameworks/av" remote="broken" name="frameworks_av" />
   <project path="frameworks/base" remote="broken" name="frameworks_base" />
-  <project path="frameworks/native" remote="broken" name="frameworks_native" />
-  <project path="frameworks/opt/net/wifi" remote="broken" name="frameworks_opt_net_wifi" />
-  <project path="frameworks/opt/slim" remote="broken" name="frameworks_opt_slim" />
   <project path="packages/apps/BrokenOTA" remote="broken" name="packages_apps_BrokenOTA" >
     <copyfile src="ota_conf" dest="ota_conf" />
   </project>
   <project path="packages/apps/BrokenWalls" remote="broken" name="packages_apps_BrokenWalls" />
   <project path="packages/apps/LockClock" remote="broken" name="packages_apps_LockClock" />
-  <project path="packages/apps/Messaging" remote="broken" name="packages_apps_Messaging" />
-  <project path="packages/apps/PackageInstaller" remote="broken" name="packages_apps_PackageInstaller" />
   <project path="packages/apps/Settings" remote="broken" name="packages_apps_Settings" />
-  <project path="packages/providers/DownloadProvider" remote="broken" name="packages_providers_DownloadProvider" />
   <project path="platform_manifest" remote="broken" name="platform_manifest" />
-  <project path="system/core" remote="broken" name="system_core" />
-  <project path="system/sepolicy" remote="broken" name="system_sepolicy" />
   <project path="vendor/broken" remote="broken" name="vendor_broken"  >
 	<copyfile src="tools/build-broken.sh" dest="build-broken.sh" />
   </project>
