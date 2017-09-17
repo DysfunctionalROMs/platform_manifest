@@ -6,15 +6,15 @@
           revision="or8.0" />
 
   <!-- Aosp Forks -->
-  <project path="frameworks/av" name="SlimRoms/frameworks_av" />
-  <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" />
-  <project path="hardware/qcom/audio/default" name="SlimRoms/hardware_qcom_audio" />
-  <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" />
-  <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" />
-  <project path="hardware/qcom/media" name="SlimRoms/hardware_qcom_media" />
-  <project path="hardware/qcom/wlan" name="SlimRoms/hardware_qcom_wlan" />
-  <project path="system/bt" name="SlimRoms/android_system_bt" />
-  <project path="system/media" name="SlimRoms/android_system_media" />
+  <project path="frameworks/av" name="SlimRoms/frameworks_av" revision="or8.0" />
+  <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" revision="or8.0" />
+  <project path="hardware/qcom/audio/default" name="SlimRoms/hardware_qcom_audio" revision="or8.0" />
+  <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" revision="or8.0" />
+  <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" revision="or8.0" />
+  <project path="hardware/qcom/media" name="SlimRoms/hardware_qcom_media" revision="or8.0" />
+  <project path="hardware/qcom/wlan" name="SlimRoms/hardware_qcom_wlan" revision="or8.0" />
+  <project path="system/bt" name="SlimRoms/android_system_bt" revision="or8.0" />
+  <project path="system/media" name="SlimRoms/android_system_media" revision="or8.0" />
 
   <!-- Codeaurora Additions -->
   <project path="device/qcom/common" name="SlimRoms/device_qcom_common" />
@@ -37,6 +37,6 @@
   <project path="hardware/qcom/wlan-caf" name="SlimRoms/hardware_qcom_wlan" revision="or8.0-caf" />
 
   <!-- Slim Additions -->
-  <project path="device/slim/sepolicy" name="SlimRoms/device_slim_sepolicy" />
+  <project path="device/slim/sepolicy" name="SlimRoms/device_slim_sepolicy" revision="or8.0" />
 
 </manifest>
