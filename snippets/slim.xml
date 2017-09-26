@@ -38,4 +38,5 @@
 
   <!-- Slim Additions -->
   <project path="device/slim/sepolicy" name="SlimRoms/device_slim_sepolicy" revision="or8.0" />
+  <project path="frameworks/slim" name="SlimRoms/frameworks_slim" revision="ng7.1" />
 </manifest>
