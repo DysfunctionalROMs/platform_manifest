@@ -16,7 +16,6 @@
   <project path="external/selinux" name="SlimRoms/android_external_selinux" />
   <project path="external/tinycompress" name="SlimRoms/android_external_tinycompress" />
   <project path="frameworks/av" name="SlimRoms/frameworks_av" />
-  <project path="frameworks/base" name="SlimRoms/frameworks_base" />
   <project path="frameworks/native" name="SlimRoms/frameworks_native" />
   <project path="hardware/broadcom/libbt" name="SlimRoms/hardware_broadcom_libbt" />
   <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" />
@@ -39,7 +38,6 @@
   <project path="packages/apps/Dialer" name="SlimRoms/packages_apps_Dialer" />
   <project path="packages/apps/Nfc" name="SlimRoms/packages_apps_Nfc" />
   <project path="packages/apps/PhoneCommon" name="SlimRoms/packages_apps_PhoneCommon" />
-  <project path="packages/apps/Settings" name="SlimRoms/packages_apps_Settings" />
   <project path="packages/apps/Stk" name="SlimRoms/packages_apps_Stk" />
   <project path="packages/inputmethods/LatinIME" name="SlimRoms/packages_inputmethods_LatinIME" />
   <project path="packages/providers/ContactsProvider" name="SlimRoms/packages_providers_ContactsProvider" />
@@ -108,7 +106,4 @@
   <project path="hardware/slim/interfaces" name="SlimRoms/hardware_slim_interfaces" >
     <copyfile dest="hardware/slim/Android.bp" src="Android.bp"/>
   </project>
-  <project path="platform_manifest" name="SlimRoms/platform_manifest" />
-  <project path="vendor/slim" name="SlimRoms/vendor_slim" />
-
 </manifest>
