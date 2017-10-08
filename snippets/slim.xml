@@ -60,6 +60,7 @@
   <project path="external/libnfnetlink" name="android_external_libnfnetlink" remote="slim" />
   <project path="device/qcom/common" name="device_qcom_common" remote="slim" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="slim" />
+<!--
   <project path="hardware/qcom/audio-caf/msm8916" name="SlimRoms/hardware_qcom_audio" revision="or8.0-caf-8916" />
   <project path="hardware/qcom/audio-caf/msm8960" name="SlimRoms/hardware_qcom_audio" revision="or8.0-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8974" name="SlimRoms/hardware_qcom_audio" revision="or8.0-caf-8974" />
@@ -80,7 +81,7 @@
   <project path="hardware/qcom/media-caf/msm8996" name="SlimRoms/hardware_qcom_media" revision="or8.0-caf-8996" />
   <project path="hardware/qcom/media-caf/msm8998" name="SlimRoms/hardware_qcom_media" revision="or8.0-caf-8998" />
   <project path="hardware/qcom/wlan-caf" name="SlimRoms/hardware_qcom_wlan" revision="or8.0-caf" />
-  <project path="hardware/ril-caf" name="SlimRoms/hardware_ril" revision="or8.0-caf" />
+  <project path="hardware/ril-caf" name="SlimRoms/hardware_ril" revision="or8.0-caf" /> -->
   <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="slim" />
   <project path="vendor/qcom/opensource/dpm" name="vendor_qcom_opensource_dpm" remote="slim" />
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="slim" />
