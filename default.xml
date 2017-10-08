@@ -12,6 +12,10 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-8.0.0_r4" />
 
+  <remote name="slim"
+          fetch="https://github.com/SlimRoms/"
+          revision="or8.0" />
+
   <default revision="refs/heads/o8.0"
            remote="github"
            sync-c="true"
