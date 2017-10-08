@@ -6,7 +6,6 @@
           revision="or8.0" />
 
   <!-- Aosp Forks -->
-  <project path="bionic" name="SlimRoms/android_bionic" revision="or8.0" />
   <project path="bootable/recovery" name="SlimRoms/bootable_recovery" revision="or8.0" />
   <project path="build/soong" name="SlimRoms/android_build_soong" revision="or8.0" />
     <linkfile src="root.bp" dest="Android.bp" revision="or8.0" />

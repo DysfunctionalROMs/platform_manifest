@@ -14,6 +14,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />-->
   </project>
+  <project path="bionic" name="android_bionic" />
   <project path="external/google" remote="broken" name="external_google" />
   <project path="frameworks/base" remote="broken" name="frameworks_base" />
   <project path="packages/apps/BrokenOTA" remote="broken" name="packages_apps_BrokenOTA" >
