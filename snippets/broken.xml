@@ -18,6 +18,7 @@
   <project path="bionic" remote="broken" name="bionic" />
   <project path="external/google" remote="broken" name="external_google" />
   <project path="frameworks/base" remote="broken" name="frameworks_base" />
+  <project path="hardware/qcom/display" name="hardware_qcom_display" />
   <project path="packages/apps/BrokenOTA" remote="broken" name="packages_apps_BrokenOTA" >
     <copyfile src="ota_conf" dest="ota_conf" />
   </project>
