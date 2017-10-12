@@ -14,7 +14,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />-->
   </project>
-  <project path="build/soong" remote="broken" name="android_build_soong" />
+  <project path="build/soong" remote="broken" name="build_soong" />
   <project path="bionic" remote="broken" name="bionic" />
   <project path="external/google" remote="broken" name="external_google" />
   <project path="frameworks/base" remote="broken" name="frameworks_base" />
