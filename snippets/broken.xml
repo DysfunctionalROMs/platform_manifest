@@ -4,7 +4,10 @@
   <remote name="broken"
           fetch="https://github.com/DysfunctionalROMs/"
           revision="o8.0" />
-      
+
+  <project path="bootable/recovery" name="bootable_recovery" remote="broken" />
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />      
   <project path="build" remote="broken" name="build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <!--<linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
