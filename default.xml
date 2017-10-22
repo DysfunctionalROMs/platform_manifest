@@ -21,6 +21,9 @@
            sync-c="true"
            sync-j="4" />
 
+  <project path="build" remote="broken" name="DysfunctionalROMs/build" groups="pdk,tradefed" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="art" name="platform/art" groups="pdk" remote="aosp" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />

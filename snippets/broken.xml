@@ -6,9 +6,6 @@
           revision="o8.0" />
 
   <project path="bootable/recovery" name="bootable_recovery" remote="broken" />
-  <project path="build" remote="broken" name="build" groups="pdk,tradefed" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="build/soong" remote="broken" name="build_soong" />
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
