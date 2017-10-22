@@ -5,7 +5,7 @@
           fetch="https://github.com/DysfunctionalROMs/"
           revision="o8.0" />
 
-  <project path="bootable/recovery" name="bootable_recovery" remote="broken" />     
+  <project path="bootable/recovery" name="bootable_recovery" remote="broken" />
   <project path="build" remote="broken" name="build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
