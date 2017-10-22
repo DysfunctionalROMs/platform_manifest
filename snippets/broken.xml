@@ -17,7 +17,8 @@
   </project>
   <project path="build/soong" remote="broken" name="build_soong" />
     <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" /> 
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
   <project path="bionic" remote="broken" name="bionic" />
   <project path="external/google" remote="broken" name="external_google" />
   <project path="frameworks/base" remote="broken" name="frameworks_base" />
