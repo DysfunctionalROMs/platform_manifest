@@ -5,11 +5,11 @@
           fetch="https://github.com/DysfunctionalROMs/"
           revision="o8.0" />
 
-  <project path="bootable/recovery" name="bootable_recovery" remote="broken" />
-  <project path="build/soong" remote="broken" name="build_soong" />
+  <project path="bootable/recovery" name="bootable_recovery" name="broken" />
+  <project path="build/soong" name="android_build_soong" name="broken" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
+</project>
   <project path="bionic" remote="broken" name="bionic" />
   <project path="external/google" remote="broken" name="external_google" />
   <project path="frameworks/base" remote="broken" name="frameworks_base" />
