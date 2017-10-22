@@ -8,12 +8,6 @@
   <project path="bootable/recovery" name="bootable_recovery" remote="broken" />     
   <project path="build" remote="broken" name="build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
-    <!--<linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />-->
   <project path="build/soong" remote="broken" name="build_soong" />
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
