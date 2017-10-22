@@ -5,7 +5,7 @@
           fetch="https://github.com/DysfunctionalROMs/"
           revision="o8.0" />
 
-  <project path="bootable/recovery" name="bootable_recovery" remote="broken" />>      
+  <project path="bootable/recovery" name="bootable_recovery" remote="broken" />     
   <project path="build" remote="broken" name="build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <!--<linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -17,7 +17,7 @@
   </project>
   <project path="build/soong" remote="broken" name="build_soong" />
     <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" /
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" /> 
   <project path="bionic" remote="broken" name="bionic" />
   <project path="external/google" remote="broken" name="external_google" />
   <project path="frameworks/base" remote="broken" name="frameworks_base" />
