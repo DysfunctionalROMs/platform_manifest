@@ -5,8 +5,8 @@
           fetch="https://github.com/DysfunctionalROMs/"
           revision="o8.0" />
 
-  <project path="bootable/recovery" name="bootable_recovery" name="broken" />
-  <project path="build/soong" name="android_build_soong" name="broken" >
+  <project path="bootable/recovery" name="bootable_recovery" remote="broken" />
+  <project path="build/soong" name="android_build_soong" remote="broken" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
 </project>
