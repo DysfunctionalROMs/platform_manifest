@@ -7,6 +7,7 @@
   <project path="external/tinycompress" name="android_external_tinycompress" remote="slim" />
   <project path="frameworks/av" name="frameworks_av" remote="slim" />
   <project path="frameworks/native" name="frameworks_native" remote="slim" />
+  <project path="frameworks/support" name="SlimRoms/frameworks_support" />
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="slim" />
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="slim" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="slim" />
@@ -14,10 +15,13 @@
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="slim" />
   <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" remote="slim" />
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="slim" />
+  <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="slim" />
+  <project path="hardware/qcom/keymaster" name="SlimRoms/hardware_qcom_keymaster" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="slim" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="slim" />
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="slim" />
+  <project path="hardware/ril" name="SlimRoms/hardware_ril" />
   <project path="packages/apps/BasicSmsReceiver" name="packages_apps_BasicSmsReceiver" remote="slim" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="slim" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="slim" />
@@ -88,7 +92,6 @@
   <project path="external/fuse" name="android_external_fuse" remote="slim" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="slim" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="slim" />
-  <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="slim" />
   <project path="frameworks/opt/color-picker" name="frameworks_opt_color-picker" remote="slim" />
   <project path="frameworks/slim" name="frameworks_slim" remote="slim" />
   <project path="hardware/slim/interfaces" name="hardware_slim_interfaces" remote="slim" />
