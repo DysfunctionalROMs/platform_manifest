@@ -23,7 +23,6 @@
 
   <project path="build" name="DysfunctionalROMs/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
     <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
     <linkfile src="target" dest="build/target" />
