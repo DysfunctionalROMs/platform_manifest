@@ -5,6 +5,7 @@
           fetch="https://github.com/DysfunctionalROMs/"
           revision="o8.0" />
 
+  <project path="bionic" name="bionic" remote="broken" />
   <project path="bootable/recovery" name="bootable_recovery" remote="broken" />
   <project path="build/soong" name="build_soong" remote="broken" >
     <linkfile src="root.bp" dest="Android.bp" />
