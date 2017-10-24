@@ -2,6 +2,7 @@
 <manifest>
 
   <!-- Aosp Forks -->
+  <project path="bootable/recovery" name="bootable_recovery" remote="slim" />
   <project path="build/kati" name="android_build_kati" remote="slim" />
   <project path="external/selinux" name="android_external_selinux" remote="slim" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="slim" />
