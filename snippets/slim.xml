@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- Aosp Forks -->
-  <project path="bionic" name="SlimRoms/android_bionic" remote="slim" />
+  <project path="bionic" name="android_bionic" remote="slim" />
   <project path="build/kati" name="android_build_kati" remote="slim" />
   <project path="external/selinux" name="android_external_selinux" remote="slim" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="slim" />
