@@ -59,27 +59,27 @@
   <project path="external/libnfnetlink" name="android_external_libnfnetlink" remote="slim" />
   <project path="device/qcom/common" name="device_qcom_common" remote="slim" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="slim" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="hardware_qcom_audio" revision="or8.0-caf-8916" remote="slim" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="hardware_qcom_audio" revision="or8.0-caf-8960" remote="slim" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" revision="or8.0-caf-8974" remote="slim" />
-  <project path="hardware/qcom/audio-caf/msm8994" name="hardware_qcom_audio" revision="or8.0-caf-8994" remote="slim" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="hardware_qcom_audio" revision="or8.0-caf-8996" remote="slim" />
-  <project path="hardware/qcom/audio-caf/msm8998" name="hardware_qcom_audio" revision="or8.0-caf-8998" remote="slim" />
-  <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" revision="or8.0-caf" remote="slim" />
-  <project path="hardware/qcom/display-caf/msm8916" name="hardware_qcom_display" revision="or8.0-caf-8916" remote="slim" />
-  <project path="hardware/qcom/display-caf/msm8960" name="hardware_qcom_display" revision="or8.0-caf-8960" remote="slim" />
-  <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display" revision="or8.0-caf-8974" remote="slim" />
-  <project path="hardware/qcom/display-caf/msm8994" name="hardware_qcom_display" revision="or8.0-caf-8994" remote="slim" />
-  <project path="hardware/qcom/display-caf/msm8996" name="hardware_qcom_display" revision="or8.0-caf-8996" remote="slim" />
-  <project path="hardware/qcom/display-caf/msm8998" name="hardware_qcom_display" revision="or8.0-caf-8998" remote="slim" />
-  <project path="hardware/qcom/media-caf/msm8916" name="hardware_qcom_media" revision="or8.0-caf-8916" remote="slim" />
-  <project path="hardware/qcom/media-caf/msm8960" name="hardware_qcom_media" revision="or8.0-caf-8960" remote="slim" />
-  <project path="hardware/qcom/media-caf/msm8974" name="hardware_qcom_media" revision="or8.0-caf-8974" remote="slim" />
-  <project path="hardware/qcom/media-caf/msm8994" name="hardware_qcom_media" revision="or8.0-caf-8994" remote="slim" />
-  <project path="hardware/qcom/media-caf/msm8996" name="hardware_qcom_media" revision="or8.0-caf-8996" remote="slim" />
-  <project path="hardware/qcom/media-caf/msm8998" name="hardware_qcom_media" revision="or8.0-caf-8998" remote="slim" />
-  <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" revision="or8.0-caf" remote="slim" />
-  <project path="hardware/ril-caf" name="hardware_ril" revision="or8.0-caf" remote="slim" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="hardware_qcom_audio" revision="or8.1-caf-8916" remote="slim" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="hardware_qcom_audio" revision="or8.1-caf-8960" remote="slim" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" revision="or8.1-caf-8974" remote="slim" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="hardware_qcom_audio" revision="or8.1-caf-8994" remote="slim" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="hardware_qcom_audio" revision="or8.1-caf-8996" remote="slim" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="hardware_qcom_audio" revision="or8.1-caf-8998" remote="slim" />
+  <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" revision="or8.1-caf" remote="slim" />
+  <project path="hardware/qcom/display-caf/msm8916" name="hardware_qcom_display" revision="or8.1-caf-8916" remote="slim" />
+  <project path="hardware/qcom/display-caf/msm8960" name="hardware_qcom_display" revision="or8.1-caf-8960" remote="slim" />
+  <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display" revision="or8.1-caf-8974" remote="slim" />
+  <project path="hardware/qcom/display-caf/msm8994" name="hardware_qcom_display" revision="or8.1-caf-8994" remote="slim" />
+  <project path="hardware/qcom/display-caf/msm8996" name="hardware_qcom_display" revision="or8.1-caf-8996" remote="slim" />
+  <project path="hardware/qcom/display-caf/msm8998" name="hardware_qcom_display" revision="or8.1-caf-8998" remote="slim" />
+  <project path="hardware/qcom/media-caf/msm8916" name="hardware_qcom_media" revision="or8.1-caf-8916" remote="slim" />
+  <project path="hardware/qcom/media-caf/msm8960" name="hardware_qcom_media" revision="or8.1-caf-8960" remote="slim" />
+  <project path="hardware/qcom/media-caf/msm8974" name="hardware_qcom_media" revision="or8.1-caf-8974" remote="slim" />
+  <project path="hardware/qcom/media-caf/msm8994" name="hardware_qcom_media" revision="or8.1-caf-8994" remote="slim" />
+  <project path="hardware/qcom/media-caf/msm8996" name="hardware_qcom_media" revision="or8.1-caf-8996" remote="slim" />
+  <project path="hardware/qcom/media-caf/msm8998" name="hardware_qcom_media" revision="or8.1-caf-8998" remote="slim" />
+  <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" revision="or8.1-caf" remote="slim" />
+  <project path="hardware/ril-caf" name="hardware_ril" revision="or8.1-caf" remote="slim" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="slim" />
   <project path="vendor/qcom/opensource/dpm" name="vendor_qcom_opensource_dpm" remote="slim" />
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="slim" />
