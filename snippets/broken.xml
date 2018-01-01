@@ -3,7 +3,7 @@
 	
   <remote name="broken"
           fetch="https://github.com/DysfunctionalROMs/"
-          revision="o8.0" />
+          revision="8.1" />
 
   <project path="bionic" name="bionic" remote="broken" />
   <project path="build/soong" name="build_soong" remote="broken" >

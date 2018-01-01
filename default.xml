@@ -14,14 +14,14 @@
 
   <remote name="slim"
           fetch="https://github.com/SlimRoms/"
-          revision="or8.0" />
+          revision="or8.1" />
 
-  <default revision="refs/heads/8.1"
+  <default revision="refs/heads/o8.1"
            remote="github"
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="DysfunctionalROMs/build" groups="pdk,tradefed" >
+  <project path="build" name="DysfunctionalROMs/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
