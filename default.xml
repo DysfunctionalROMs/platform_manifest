@@ -16,7 +16,7 @@
           fetch="https://github.com/SlimRoms/"
           revision="or8.1" />
 
-  <default revision="refs/heads/o8.1"
+  <default revision="refs/heads/8.1"
            remote="github"
            sync-c="true"
            sync-j="4" />
