@@ -1,28 +1,96 @@
-<img src="https://raw.githubusercontent.com/Cardinal-AOSP/manifest/n7/crd.png">
+<img src="https://raw.github.com/DysfunctionalROMs/platform_manifest/o8.1/broken.png">
 
-Cardinal-AOSP
-===================
+### First things first ###
+~ There will be NO SHARING OF BUILDS ON XDA...Cant have nothing nice...THIS IS FINAL** ~
 
+**Getting Started**
 
-Getting Started
----------------
+To get started with DysfunctionalROMs, you'll need to get familiar with Git and Repo.
 
-To get started with Cardinal-AOSP, you'll need to get familiar with
-[Git and Repo](http://source.android.com/download/using-repo).
+**To initialize your local repository using the AOSP/CAF based DysfunctionalROMs source, use this command:**
 
+repo init -u git://github.com/DysfunctionalROMs/platform_manifest.git -b o8.1
 
-To initialize your local repository, use this command:
+**Sync up with this command:**
 
+repo sync -f -jX (-f being for force and replace the X in -jX with the number of cpus/threads your box contains (WARNING: Going too high can severely drag performance)
 
-	repo init -u git://github.com/Cardinal-AOSP/manifest.git -b oreo-mr1 -m crd.xml
+**Initiate the build with:**
 
+. build/envsetup.sh
 
-Time to sync the source! [I love this part]:
+**Prepare your device with:**
 
-	repo sync -c -f -j8 --force-sync --no-clone-bundle --no-tags
+lunch (pick your devices number from the list)
 
-Compiling the source!
----------------------
-	. build/envsetup.sh
-	lunch cardinal_$device-userdebug
-	mka bacon -j#
+**Then fire it off with:**
+
+time make broken -jX (x being the amount of cores/threads your build box contains...Adjust accordingly, but going too high for your box can cause complications..Be warned)
+
+**Alternatively you can use our custom build script that will handle everything for you when building official devices by using the format:**
+
+./build-broken.sh (flags) (device)
+
+Example flags can be seen by issuing -h as a flag
+
+## Submitting Patches ##
+
+BrokenOs is open sourced and welcomes new contributors.
+
+To start contributing to BrokenOs, just register at brokencodereview.com
+
+Open up a terminal to create your ssh keys for pushing to gerrit and type in
+
+```bash
+git config --global brokencodereview.com.username <username you registered with>
+
+git config --global brokencodereview.com.email <your email you registered with>
+
+ssh-keygen -t rsa -C "your@email.com"
+```
+
+Go back to our gerrit and click on your avatar on the top right, click on Settings
+
+Click on SSH Public Keys on the left hand side and click on "Add Key ..."
+
+Now on your computer navigate to home/.ssh and open up id_rsa.pub and copy/paste the context to Gerrit under SSH Public Keys
+
+You can send patches to us by using these commands in terminal:
+
+```bash
+cd project i.e cd packages/apps/Settings
+
+Make whatever edits you need to.....
+
+git add -A
+git commit -a
+
+Add commit message that makes sense for others to understand what the commit is for
+
+Ctrl X, then Y to save and Enter
+
+git push ssh://USERNAME@brokencodereview.com:29418/PROJECT HEAD:refs/for/BRANCH
+
+BRANCH - m6.0.1
+PROJECT - i.e packages_apps_Settings
+USERNAME (for gerrit) - i.e CrackerTeg
+```
+
+If you are going to make extra additions, just repeat steps (Don't start a new patch), but instead of git commit -m
+use git commit --amend. Gerrit will recognize it as a new patchset.
+
+## Using our assets ##
+
+**Code**
+
+Our codebase is licensed under Apache License, Version 2.0 unless otherwise specified. Apache License 2.0 allows a variety of actions on the content as long as licensing and copyright notices are retained and included with the code and your changes to the codebase are stated.
+
+You can read the full license text at http://www.apache.org/licenses/LICENSE-2.0
+
+**Images & other assets**
+
+Unless otherwise specified, all out assets, including but not limited to images, are licensed under Creative Commons Attribution-NonCommercial 4.0 International, or CC BY-NC 4.0 for short. This means that you are allowed to modify the aforementioned assets in any way you want and you are free to share the originals and/or the modified work. However, you are not allowed to use the assets for commercial purposes and you must provide attribution at all times which means you have to include a short note about the license used (CC BY-NC 4.0), the original author/authors (Dysfunctional ROMs or BrokenOS) and inform about any changes that have been made. A link to the website ( www.dysfunctionalroms.net ) should usually be included as well.
+
+You can reach the full legal text at http://creativecommons.org/licenses/by-nc/4.0/
+
+<img src="https://raw.github.com/DysfunctionalROMs/platform_manifest/o8.1/BrokenBanner.png">
