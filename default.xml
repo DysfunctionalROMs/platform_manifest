@@ -3,7 +3,7 @@
 
   <remote  name="github"
            fetch=".."
-           review="review.slimroms.org" />
+           review="review.dysfuntcionalroms.org" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -613,6 +613,7 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+  <include name="snippets/broken.xml" />
   <include name="snippets/slim.xml" />
 
 </manifest>

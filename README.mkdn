@@ -1,17 +1,17 @@
-Welcome to SlimRoms
+Welcome to DysfunctionalROMs
 ===================
 
 
 Getting Started
 ---------------
 
-To get started with Slim8, you'll need to get familiar with
+To get started with Broken8, you'll need to get familiar with
 [Git and Repo](https://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the Slim 9.0 trees, use this command:
+To initialize your local repository using the Broken 9.0 trees, use this command:
 
 
-	repo init -u git://github.com/SlimRoms/platform_manifest.git -b 9.0
+	repo init -u git://github.com/DysfunctionalROMs/platform_manifest.git -b 9.0
 
 
 Then sync up with this command:
@@ -28,17 +28,17 @@ To do this, you will need an account setup with our gerrit server and a changeid
 To add changeid hook, use the following commands:
 
 	cd <project>
-	scp -p -P 29418 <username>@review.slimroms.org:hooks/commit-msg .git/hooks/
+	scp -p -P 29418 <username>@review.DysfunctionalROMs.org:hooks/commit-msg .git/hooks/
 
 You can send patches by using these commands:
 
     cd <project>
     git add .
     git commit
-    git push ssh://<username>@review.slimroms.org:29418/SlimRoms/<project> HEAD:refs/for/<branch>
+    git push ssh://<username>@review.DysfunctionalROMs.org:29418/DysfunctionalROMs/<project> HEAD:refs/for/<branch>
     OR
     cd <workspace>
-    repo upload SlimRoms/<project>
+    repo upload DysfunctionalROMs/<project>
 
 This will commit your changes into a single commit.
 Make sure your git has the changeid hooks added.
@@ -52,4 +52,4 @@ use
 
 Gerrit will recognize it as a new patchset.
 
-To view the status of your and others patches, visit [SlimRoms Code Review](http://review.slimroms.org)
+To view the status of your and others patches, visit [DysfunctionalROMs Code Review](http://review.DysfunctionalROMs.org)

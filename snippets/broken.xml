@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Aosp Forks -->
+    <project path="art" name="DysfunctionalROMs/art" />
+    <project path="build/make" name="DysfunctionalROMs/build" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="bionic" name="DysfunctionalROMs/bionic" />
+  <project path="bootable/recovery" name="DysfunctionalROMs/bootable_recovery" />
+  <project path="build/soong" name="DysfunctionalROMs/build_soong" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="frameworks/av" name="DysfunctionalROMs/frameworks_av" />
+  <project path="frameworks/base" name="DysfunctionalROMs/frameworks_base" />
+  <project path="frameworks/native" name="DysfunctionalROMs/frameworks_native" />
+  <project path="frameworks/support" name="DysfunctionalROMs/frameworks_support" />
+  <project path="hardware/interfaces" name="DysfunctionalROMs/hardware_interfaces" />
+  <project path="hardware/qcom/power" name="DysfunctionalROMs/hardware_qcom_power" />
+  <project path="system/core" name="DysfunctionalROMs/system_core" />
+  <project path="system/vold" name="DysfunctionalROMs/system_vold" />
+
+  <!-- Codeaurora Additions -->
+
+  <project path="device/qcom/common" name="DysfunctionalROMs/device_qcom_common" />
+  <project path="device/qcom/sepolicy" name="DysfunctionalROMs/device_qcom_sepolicy" />
+
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="DysfunctionalROMs/vendor_qcom_opensource_cryptfs_hw" />
+
+  <!-- Broken Additions -->
+  <project path="device/broken/sepolicy" name="DysfunctionalROMs/device_broken_sepolicy" />
+  <project path="frameworks/broken" name="DysfunctionalROMs/frameworks_broken" />
+  <project path="hardware/broken/interfaces" name="DysfunctionalROMs/hardware_broken_interfaces" />
+  <project path="platform_manifest" name="DysfunctionalROMs/platform_manifest" />
+  <project path="vendor/broken" name="DysfunctionalROMs/vendor_broken" />
+
+</manifest>
